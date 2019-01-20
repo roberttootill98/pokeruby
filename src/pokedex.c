@@ -17,7 +17,6 @@
 #include "random.h"
 #include "overworld.h"
 #include "constants/songs.h"
-#include "songs.h"
 #include "sound.h"
 #include "constants/species.h"
 #include "string_util.h"
@@ -3032,7 +3031,7 @@ static void Task_PageScreenProcessInput(u8 taskId)
             break;
         case AREA_SCREEN:
             BeginNormalPaletteFade(0xFFFFFFEB, 0, 0, 16, RGB(0, 0, 0));
-            gTasks[taskId].func = ltistep;
+            gTasks[taskId].func = Task_InitAreaScreenMultistep;
             PlaySE(SE_PIN);
             break;
         case CRY_SCREEN:
@@ -3087,8 +3086,6 @@ static void Task_ClosePageScreen(u8 taskId)
         DestroyTask(taskId);
 }
 
-extern bool8 gPokedexAreaScreenFlag;
-extern bool8 IsMonInLocalArea(u16 species);
 static void Task_InitAreaScreenMultistep(u8 taskId)
 {
     switch (gMain.state)
@@ -3113,7 +3110,6 @@ static void Task_InitAreaScreenMultistep(u8 taskId)
         gMain.state++;
         break;
     case 2:
-        gPokedexAreaScreenFlag = TRUE;
         ShowPokedexAreaScreen(NationalPokedexNumToSpecies(gUnknown_0202FFBC->dexNum), &gPokedexView->unk64F);
         SetVBlankCallback(gUnknown_03005CEC);
         gPokedexView->unk64F = 0;
@@ -3127,13 +3123,6 @@ static void Task_AreaScreenProcessInput(u8 taskId)
 {
     if (gPokedexView->unk64F != 0)
         gTasks[taskId].func = sub_808FA00;
-    if(gPokedexAreaScreenFlag == TRUE)
-    {
-        if(IsMonInLocalArea(NationalPokedexNumToSpecies(gUnknown_0202FFBC->dexNum)) == TRUE)
-        PlaySE(SE_C_PIKON);
-
-        gPokedexAreaScreenFlag = FALSE;
-    }
 }
 
 static void sub_808FA00(u8 taskId)
