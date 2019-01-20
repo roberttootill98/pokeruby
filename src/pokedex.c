@@ -3032,7 +3032,7 @@ static void Task_PageScreenProcessInput(u8 taskId)
             break;
         case AREA_SCREEN:
             BeginNormalPaletteFade(0xFFFFFFEB, 0, 0, 16, RGB(0, 0, 0));
-            gTasks[taskId].func = ltistep;
+            gTasks[taskId].func = Task_InitAreaScreenMultistep;
             PlaySE(SE_PIN);
             break;
         case CRY_SCREEN:
