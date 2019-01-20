@@ -17,7 +17,7 @@
 #include "random.h"
 #include "overworld.h"
 #include "constants/songs.h"
-//#include "songs.h"
+#include "songs.h"
 #include "sound.h"
 #include "constants/species.h"
 #include "string_util.h"
