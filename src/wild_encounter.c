@@ -4396,3 +4396,55 @@ static void ApplyCleanseTagEncounterRateMod(u32 *encRate)
     if (GetMonData(&gPlayerParty[0], MON_DATA_HELD_ITEM) == 0xBE)
         *encRate = *encRate * 2 / 3;
 }
+
+#define NUM_GRASS_SLOTS 12
+#define NUM_WATER_SLOTS 5
+#define NUM_ROCK_SLOTS 5
+#define NUM_FISHING_SLOTS 10
+
+bool8 IsMonInLocalArea(u16 species)
+{
+    u8 i;
+    u16 headerNum = GetCurrentMapWildMonHeader();
+    struct WildPokemonInfo *landMonsInfo = gWildMonHeaders[headerNum].landMonsInfo;
+    struct WildPokemonInfo *waterMonsInfo = gWildMonHeaders[headerNum].waterMonsInfo;
+    struct WildPokemonInfo *rockSmashMonsInfo = gWildMonHeaders[headerNum].rockSmashMonsInfo;
+    struct WildPokemonInfo *fishingMonsInfo = gWildMonHeaders[headerNum].fishingMonsInfo;
+
+    if(headerNum == 0xFFFF)
+        return FALSE;
+
+    // do grass check.
+    if(landMonsInfo != NULL)
+    {
+        for(i = 0; i < NUM_GRASS_SLOTS; i++)
+            if(landMonsInfo->wildPokemon[i].species == species)
+                return TRUE;
+    }
+
+    // do water check.
+    if(waterMonsInfo != NULL)
+    {
+        for(i = 0; i < NUM_WATER_SLOTS; i++)
+            if(waterMonsInfo->wildPokemon[i].species == species)
+                return TRUE;
+    }
+
+    // do rock smash check.
+    if(rockSmashMonsInfo != NULL)
+    {
+        for(i = 0; i < NUM_ROCK_SLOTS; i++)
+            if(rockSmashMonsInfo->wildPokemon[i].species == species)
+                return TRUE;
+    }
+
+    // do fishing check.
+    if(fishingMonsInfo != NULL)
+    {
+        for(i = 0; i < NUM_FISHING_SLOTS; i++)
+            if(fishingMonsInfo->wildPokemon[i].species == species)
+                return TRUE;
+    }
+
+    return FALSE;
+}
