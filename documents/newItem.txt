@@ -1,0 +1,8 @@
+/src/data/pokemon/item_effects.h
+-> new entry
+
+/src/data/...
+---item_descriptions_(de.h, en.h)
+-> new entry
+---items_(de.h, en.h)
+-> new entry

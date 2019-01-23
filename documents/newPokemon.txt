@@ -10,7 +10,24 @@
 -> new entry
 ---egg_moves.h
 -> new entry
+---evolution.h
+-> new entry (not necessary)
+---level_up_learnset_pointers.h
+-> new entry
+---level_up_learnset.h
+-> new entry
+---tmhm_learnsets.h
+-> new entry
 
+/src/data/text/...
+---species_names_(de.h, en.h)
+-> new entry
+
+/src/data/...
+---pokedex_entries_(de.h, en.h)
+-> new entry
+---pokedex_orders.h
+-> new entry
 
 ================================================================
                             graphics
@@ -33,3 +50,6 @@
 ---icon.png
 ---normal.pal
 ---shiny.pal
+
+/src/data/pokemon_gfx.h
+-> new entry
