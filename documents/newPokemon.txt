@@ -3,6 +3,10 @@
 -> national dex order
 -> hoenn dex order
 
+/src/data/battle/...
+---battle_1.c
+-> gEnemyMonElevation[] - new entry
+
 /src/data/pokemon/...
 ---base_stats.h
 -> new entry
