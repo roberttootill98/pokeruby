@@ -1,0 +1,35 @@
+/include/constants/species.h -> add new entry (#define)
+-> new species
+-> national dex order
+-> hoenn dex order
+
+/src/data/pokemon/...
+---base_stats.h
+-> new entry
+---cry_ids.h
+-> new entry
+---egg_moves.h
+-> new entry
+
+
+================================================================
+                            graphics
+================================================================
+
+/data/graphics/pokemon/...
+---back_pic_table.inc:
+-> new entry
+---front_pic_table.inc
+-> new entry
+---palette_table.inc
+-> new entry
+---shiny_palette_table.inc
+-> new entry
+
+/graphics/pokemon/_name/...
+---back.png
+---footprint.png
+---front.png
+---icon.png
+---normal.pal
+---shiny.pal

@@ -1,0 +1,17 @@
+/constants/type_constants.inc
+-> add to end of list
+
+/include/constants/
+---battle_amin.h
+-> ...
+---battle_constants.h
+-> ...
+---battle_move_effects.h
+-> ...
+
+================================================================
+                            graphics
+================================================================
+
+graphics/types/_newIcon.png
+-> new icon, eg. with text and background
