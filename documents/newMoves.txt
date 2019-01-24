@@ -1,13 +1,19 @@
 /include/constants/moves.h -> increase total move counter by one, add new move entry (#define)
 
-/src/data/text/...
----move_descriptions_(de.h, en.h)
--> new entry
----move_names_(de.h, en.h)
--> new entry
-
 /src/data/...
 ---battle_moves.c
 -> new entry
 ---contest_moves.h
+-> new entry
+
+/include/constants/...
+---battle_move_effects
+-> new entry
+---moves.h
+-> new entry
+
+/src/data/text/...
+---move_descriptions_(de.h, en.h)
+-> new entry
+---move_names_(de.h, en.h)
 -> new entry
