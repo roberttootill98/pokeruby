@@ -1,6 +1,9 @@
 /constants/type_constants.inc
 -> add to end of list
 
+/data/type_effectiveness.inc
+-> new entries
+
 /include/constants/
 ---battle_amin.h
 -> ...
