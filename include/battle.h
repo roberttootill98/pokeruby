@@ -47,6 +47,10 @@
 #define TYPE_IS_PHYSICAL(type) ((type) < TYPE_MYSTERY)
 #define TYPE_IS_SPECIAL(type) ((type) > TYPE_MYSTERY)
 
+// physical/special moves
+#define MOVE_IS_PHYSICAL(move) (gBattleMoves[move].isPhysical == 1)
+#define MOVE_IS_SPECIAL(move) (gBattleMoves[move].isPhysical == 0)
+
 enum
 {
     BATTLE_TERRAIN_GRASS,
