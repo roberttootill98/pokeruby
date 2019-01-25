@@ -5,6 +5,7 @@ LittlerootTown_EventObjects::
 	object_event 4, EVENT_OBJ_GFX_MOM, 0, 5, 8, 3, MOVEMENT_TYPE_FACE_UP, 0, 0, 0, 0, LittlerootTown_EventScript_14DCE2, FLAG_HIDE_MOM_LITTLEROOT
 	object_event 5, EVENT_OBJ_GFX_TRUCK, 0, 2, 10, 4, MOVEMENT_TYPE_FACE_RIGHT, 0, 0, 0, 0, 0x0, FLAG_HIDE_MOVING_TRUCK_BRENDAN
 	object_event 6, EVENT_OBJ_GFX_TRUCK, 0, 11, 10, 4, MOVEMENT_TYPE_FACE_RIGHT, 0, 0, 0, 0, 0x0, FLAG_HIDE_MOVING_TRUCK_MAY
+	object_event 7, EVENT_OBJ_GFX_BOY_1, 0, 8, 6, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, 0, 0, LittlerootTown_EventScript_500000, 0
 
 LittlerootTown_MapWarps::
 	warp_def 14, 8, 0, 1, MAP_LITTLEROOT_TOWN_MAYS_HOUSE_1F
