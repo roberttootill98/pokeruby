@@ -6,3 +6,13 @@
 
 /include/pokemon.h
 -> edit struct - BattleMove, isPhysical
+
+/include/battle.h
+-> new funcs
+---> MOVE_IS_PHYSICAL
+---> MOVE_IS_SPECIAL
+---> eg...
+
+// physical/special moves
+#define MOVE_IS_PHYSICAL(move) (gBattleMoves[move].isPhysical == 1)
+#define MOVE_IS_SPECIAL(move) (gBattleMoves[move].isPhysical == 0)
