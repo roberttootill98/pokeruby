@@ -1,0 +1,10 @@
+/data/maps/_mapName/...
+---events.inc
+-> add meta data about script to _mapName_EventObjects, should be done by porymap
+---scripts.inc
+-> add actual script in XSE hybrid format
+-> data location (pointer) unknown how to set properly
+---text.inc
+-> any text dump, pointed to in main script
+-> unknown overflow error, seems to be todo with next town text
+---> eg. overflow for last bit of text in littleroot is from oldale 
