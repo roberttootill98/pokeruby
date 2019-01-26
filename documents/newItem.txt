@@ -1,8 +1,25 @@
-/src/data/pokemon/item_effects.h
--> new entry
-
 /src/data/...
 ---item_descriptions_(de.h, en.h)
 -> new entry
 ---items_(de.h, en.h)
 -> new entry
+
+/include/constants/items.h
+-> new entry, (#define)
+
+==================================> held item
+
+==================================> consumable item
+/src/data/pokemon.item_effects.h
+-> new entry
+
+==================================> tm/hm
+
+==================================> key item
+-> behavior of use...
+
+==================================> berry
+/src/data/pokemon.item_effects.h
+-> new entry
+
+==================================> pokeball

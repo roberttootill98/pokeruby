@@ -7,4 +7,7 @@
 ---text.inc
 -> any text dump, pointed to in main script
 -> unknown overflow error, seems to be todo with next town text
----> eg. overflow for last bit of text in littleroot is from oldale 
+---> eg. overflow for last bit of text in littleroot is from oldale
+
+=====================> specials
+/data/specials.inc
