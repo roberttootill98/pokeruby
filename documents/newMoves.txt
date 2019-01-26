@@ -1,19 +1,46 @@
 /include/constants/moves.h -> increase total move counter by one, add new move entry (#define)
 
+/include/constants/...
+---battle_move_effects
+-> new entry, for new type of move
+---moves.h
+-> new entry
+-> increment NUM_MOVES
+
 /src/data/...
 ---battle_moves.c
 -> new entry
 ---contest_moves.h
 -> new entry
+---/text/...
+------move_descriptions_(de.h, en.h)
+----> new static descrpition
+----> new pointer
+------move_names_(de.h, en.h)
+----> new entry
 
-/include/constants/...
----battle_move_effects
--> new entry
----moves.h
+# TODO find pointer for "_(pokemon) used move!" text
+
+================================================================
+                            graphics
+================================================================
+
+/data/...
+---battle_anim_scripts.s
+-> new entry for pointer
+-> new func for animation
+-> data location (pointer) unknown how to set properly
+
+/src/data/...
+---bard_music_(de.h, en.h)
 -> new entry
 
-/src/data/text/...
----move_descriptions_(de.h, en.h)
+================================================================
+                              misc
+================================================================
+
+/src/data/text/easychat/...
+---/groups/move_(1,2)/words.h
 -> new entry
----move_names_(de.h, en.h)
+---/words_by_letter_(de.h, en.h)
 -> new entry

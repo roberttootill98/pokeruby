@@ -1,10 +1,12 @@
 DONE-----------------------------------------------
 physical/special split
+new moves
 
 TODO-----------------------------------------------
 read time off system clock
 fairy type
-updated -> moves/types/stats/abilities
+new types
+updated stats/abilities
 hidden abilities
 trading (and from boxes)
 new pokeballs
