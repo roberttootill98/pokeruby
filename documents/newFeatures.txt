@@ -1,7 +1,15 @@
-sync clock with system time
-trading
-vs seeker
-new pokemon
-new moves
+DONE-----------------------------------------------
+physical/special split
+
+TODO-----------------------------------------------
+read time off system clock
 fairy type
-updated pokemon, moves, abilities, types, stats
+updated -> moves/types/stats/abilities
+hidden abilities
+trading (and from boxes)
+new pokeballs
+forms
+run inside
+bigger pokedex
+vs seeker
+following pokemon
