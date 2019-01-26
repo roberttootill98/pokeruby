@@ -1,0 +1,9 @@
+/constants/pokemon_data_constants.inc
+-> new evo type entry
+
+/include/pokemon.h
+-> new evo type define entry
+
+/src/pokemon_3.c
+-> new behavior
+---> new case
