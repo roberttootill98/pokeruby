@@ -1,1 +1,4 @@
 /data/tilsets/(primary, secondary)
+
+Use porymap feature
+-> no import palette :(((
