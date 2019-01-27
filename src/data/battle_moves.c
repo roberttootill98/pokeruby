@@ -1087,7 +1087,7 @@ const struct BattleMove gBattleMoves[] = {
         .target = TARGET_SELECTED_POKEMON,
         .priority = 0,
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT,
-        .isPhysical = 2,
+        .isPhysical = 0,
     },
 
     [MOVE_FIRE_SPIN] = {
@@ -1334,7 +1334,7 @@ const struct BattleMove gBattleMoves[] = {
         .target = TARGET_SELECTED_POKEMON,
         .priority = 0,
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT,
-        .isPhysical = 2,
+        .isPhysical = 0,
     },
 
     [MOVE_MIMIC] = {
@@ -1542,7 +1542,7 @@ const struct BattleMove gBattleMoves[] = {
         .target = TARGET_USER,
         .priority = 0,
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT,
-        .isPhysical = 2,
+        .isPhysical = 1,
     },
 
     [MOVE_METRONOME] = {
@@ -2270,7 +2270,7 @@ const struct BattleMove gBattleMoves[] = {
         .target = TARGET_SELECTED_POKEMON,
         .priority = 0,
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT,
-        .isPhysical = 2,
+        .isPhysical = 0,
     },
 
     [MOVE_CURSE] = {
@@ -2777,7 +2777,7 @@ const struct BattleMove gBattleMoves[] = {
         .target = TARGET_SELECTED_POKEMON,
         .priority = 0,
         .flags = F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_MAGIC_COAT | F_AFFECTED_BY_PROTECT,
-        .isPhysical = 1,
+        .isPhysical = 2,
     },
 
     [MOVE_ATTRACT] = {
@@ -3193,7 +3193,7 @@ const struct BattleMove gBattleMoves[] = {
         .target = TARGET_SELECTED_POKEMON,
         .priority = 0,
         .flags = F_AFFECTED_BY_SNATCH,
-        .isPhysical = 1,
+        .isPhysical = 2,
     },
 
     [MOVE_EXTREME_SPEED] = {
@@ -3336,7 +3336,7 @@ const struct BattleMove gBattleMoves[] = {
         .target = TARGET_SELECTED_POKEMON,
         .priority = 0,
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_AFFECTED_BY_PROTECT,
-        .isPhysical = 1,
+        .isPhysical = 0,
     },
 
     [MOVE_SWALLOW] = {
@@ -3986,7 +3986,7 @@ const struct BattleMove gBattleMoves[] = {
         .target = TARGET_SELECTED_POKEMON,
         .priority = 0,
         .flags = F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT,
-        .isPhysical = 2,
+        .isPhysical = 1,
     },
 
     [MOVE_CRUSH_CLAW] = {
@@ -4051,7 +4051,7 @@ const struct BattleMove gBattleMoves[] = {
         .target = TARGET_SELECTED_POKEMON,
         .priority = 0,
         .flags = F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT,
-        .isPhysical = 0,
+        .isPhysical = 1,
     },
 
     [MOVE_WEATHER_BALL] = {
