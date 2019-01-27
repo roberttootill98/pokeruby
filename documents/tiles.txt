@@ -1,4 +1,7 @@
-/data/tilsets/(primary, secondary)
+/data/tilesets/(primary, secondary)/general/tiles.png
 
 Use porymap feature
 -> no import palette :(((
+
+=========================> animations
+/data/tilesets/(primary, secondary)/general/anim/(i)
