@@ -1,6 +1,8 @@
 DONE-----------------------------------------------
 physical/special split
 new moves
+run inside
+egg hatch at lvl 1
 
 TODO-----------------------------------------------
 read time off system clock
@@ -11,7 +13,6 @@ hidden abilities
 trading (and from boxes)
 new pokeballs
 forms
-run inside
 bigger pokedex
 vs seeker
 following pokemon
