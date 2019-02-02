@@ -1,4 +1,4 @@
-PacifidlogTown:: @ 83055EC
+PacifidlogTown::
 	.4byte PacifidlogTown_Layout
 	.4byte PacifidlogTown_MapEvents
 	.4byte PacifidlogTown_MapScripts

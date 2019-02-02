@@ -1,4 +1,4 @@
-Route131:: @ 8305950
+Route131::
 	.4byte Route131_Layout
 	.4byte Route131_MapEvents
 	.4byte Route131_MapScripts

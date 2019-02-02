@@ -1,7 +1,7 @@
-PacifidlogTown_MapConnectionsList:: @ 83086C4
+PacifidlogTown_MapConnectionsList::
 	connection left, 0, MAP_ROUTE132
 	connection right, 0, MAP_ROUTE131
 
-PacifidlogTown_MapConnections:: @ 83086DC
-	.4byte 0x2
+PacifidlogTown_MapConnections::
+	.4byte 2
 	.4byte PacifidlogTown_MapConnectionsList
