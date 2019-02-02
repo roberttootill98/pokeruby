@@ -16,3 +16,4 @@ forms
 bigger pokedex
 vs seeker
 following pokemon
+seasons
