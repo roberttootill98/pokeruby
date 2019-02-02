@@ -5,6 +5,8 @@ run inside
 egg hatch at lvl 1
 
 TODO-----------------------------------------------
+expanded tilesets and palettes
+region map, edit - if not more detailed
 read time off system clock
 fairy type
 new types

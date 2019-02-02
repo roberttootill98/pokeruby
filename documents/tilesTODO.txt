@@ -1,0 +1,67 @@
+=================================> general set
+-> ledge (jump)
+-> tall grass
+-> scrubs and rocks
+-> fences (rural, city)
+-> pokemon center
+-> gym (may go with unique gyms)
+-> cave entrance
+-> water stuff
+---> water (with animation, still - with depth?)
+---> still water foliage
+---> water rocks
+---> water edges
+---> waterfall
+-> sand path (with metatile behaviour)
+-> more paths
+-> bridge (overground, on water)
+-> macro bike bridge
+-> snow stuff (may move to unique set)
+---> snowy trees
+---> snowy grass (long too)
+-> swamp stuff (may move to unique set)
+---> mud
+---> murky water
+================================> set pieces
+-> large bridge
+-> castle
+-> blooming trees, coloured
+-> skyscraper
+-> colosseum
+-> tournament arenas (for league)
+-> dock
+---> large boat
+---> loading equipment
+---> boxes
+-> sewer gate (with animated version)
+-> manhole
+-> aqueduct (animated)
+-> water wheel (animated)
+-> wind monitors (flag type)
+-> market stand
+-> beach chair and parasol
+-> firepit
+-> unique plants (eg. cactus, tropical, swamp)
+-> street lamps (animated)
+---> bunting
+-> metro
+-> billboard
+-> bench
+-> temple
+-> volcano
+-> gates (small and large)
+-> ruins
+-> hot spring
+-> farm/ranch stuff
+---> crops
+---> equipment
+-> pokemon statues
+-> windmill (animated)
+-> fountain (animated)
+-> diamond shard cave (animated shine)
+-> white cliffs
+-> mall/shopping center
+-> mine stuff
+---> support columns
+---> minecarts
+---> equipment
