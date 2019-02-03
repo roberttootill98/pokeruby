@@ -9,3 +9,9 @@ save as png and import
 
 =========================> animations
 /data/tilesets/(primary, secondary)/general/anim/(i)
+
+/src/tileset_anim.c
+-> new entry
+
+/include/tileset_anim.h
+-> if no entry for tileset, new entry
