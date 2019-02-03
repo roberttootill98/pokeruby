@@ -5,7 +5,8 @@ run inside
 egg hatch at lvl 1
 
 TODO-----------------------------------------------
-expanded tilesets and palettes
+expanded tilesets and palettes for tiles
+expanded palettes for sprites
 region map, edit - if not more detailed
 read time off system clock
 fairy type
