@@ -1,0 +1,56 @@
+===
+https://github.com/pret/pokeemerald/wiki/Adding-new-overworlds#1-formatting-your-image
+===
+
+/src/data/field_event_obj/event_object_graphics.h
+-> new image label
+-> eg. const u32 gEventObjectPic_Example[] = INCBIN_U32(“graphics/event_objects/pic/people/example.4bpp”);
+-> use indexed png, with colour depth = 16
+-> new palette label
+-> eg. const u16 gEventObjectPalette_Example[] = INCBIN_U16(“graphics/event_objects/pic/people/example.gbapal”);
+-> no need for .pal file, can be generated from png
+
+/spritesheet_rules.mk
+-> new entry for build instructions for sprite
+-> eg. $(EVENTOBJGFXDIR)/people/example.4bpp: %.4bpp: %.png
+	       $(GFX) $< $@ -mwidth 4 -mheight 4
+
+/src/data/field_event_obj/event_obj_pic_tables.h
+-> new pic table
+
+/src/data/field_event_obj/event_object_graphics_info.h
+-> new entry, eg.
+
+const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Example = {
+    .tileTag = 0xFFFF,
+    .paletteTag1 = EVENT_OBJ_PAL_EXAMPLE,
+    .paletteTag2 = EVENT_OBJ_PAL_TAG_NONE,
+    .size = 512,
+    .width = 32,
+    .height = 32,
+    .paletteSlot = 0,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .disableReflectionPaletteLoad = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gEventObjectBaseOam_32x32,
+    .subspriteTables = gEventObjectSpriteOamTables_32x32,
+    .anims = gEventObjectImageAnimTable_Standard,
+    .images = gEventObjectPicTable_Example,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+-> more details on field info on github
+-> new declaration, const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Example;
+-> add new entry to EventObjectGraphicsInfo
+
+/include/constants/event_objects.h
+-> new define, so raw number doesn't have to be used
+
+/include/event_object_movement.h
+-> update limit for overworlds
+-> increment NUM_OBJECT_GRAPHICS_INFO, SPRITE_VARs
+
+=============================================> adding a new palette
+/src/event_object_movement.c
+-> pointer to new palette, new define & new struct byte
