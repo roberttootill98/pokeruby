@@ -876,7 +876,7 @@ LittlerootTown_EventScript_14DD38:: @ 814DD38
 	delay 30
 	return
 
-LittlerootTown_EventScript_500000:: @ 9000000
-	msgbox LittlerootTown_Text_500010, 2
+LittlerootTown_EventScript_Event0:: @ LittlerootTown_Location0
+	msgbox LittlerootTown_Text_Text0, 2
 	givemon SPECIES_TYPHLOSION, 100, 0x0, 0x0, 0x0, 0
 	end

@@ -15,3 +15,7 @@ save as png and import
 
 /include/tileset_anim.h
 -> if no entry for tileset, new entry
+
+========================> door animations
+/src/field_door.c
+-> new set of pointers
