@@ -5,6 +5,7 @@ run inside
 egg hatch at lvl 1
 
 TODO-----------------------------------------------
+bw repel system
 expanded tilesets and palettes for tiles
 expanded palettes for sprites
 region map, edit - if not more detailed

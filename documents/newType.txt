@@ -1,20 +1,36 @@
+===> https://www.pokecommunity.com/showthread.php?t=414225
+
+TODO==>
+Find string pointer for text on type icon
+===
+
 /constants/type_constants.inc
 -> add to end of list
 
-/data/type_effectiveness.inc
--> new entries
+/include/...
+---pokemon.h
+-> new define
+-> increment NUMBER_OF_MON_TYPES
 
-/include/constants/
----battle_amin.h
--> ...
----battle_constants.h
--> ...
----battle_move_effects.h
--> ...
+/src/...
+---pokemon_summary_screen.c
+-> new union item, AnimCmd sSpriteAnim_Type__
+---/data/...
+----/battle_strings_(de.h, en.h)
+-> new entry
+
+/data/...
+---/text/type_names.inc
+-> new entry
+---type_effectiveness.inc
+-> new entries
 
 ================================================================
                             graphics
 ================================================================
+
+/misc.mk
+-> new build info for type
 
 graphics/types/_newIcon.png
 -> new icon, eg. with text and background
