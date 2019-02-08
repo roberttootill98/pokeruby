@@ -3,15 +3,14 @@ physical/special split
 new moves
 run inside
 egg hatch at lvl 1
+fairy type -> with todo
 
 TODO-----------------------------------------------
 bw repel system
 expanded tilesets and palettes for tiles
 expanded palettes for sprites
-region map, edit - if not more detailed
+region map, edit - if not more detailed -> eg. https://sites.psu.edu/ist446/files/2016/01/pokemon_glazed_world_map__by_redriders180-d5qwhae.png
 read time off system clock
-fairy type
-new types
 updated stats/abilities
 hidden abilities
 trading (and from boxes)
