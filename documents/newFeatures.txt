@@ -6,7 +6,9 @@ egg hatch at lvl 1
 fairy type -> with todo
 
 TODO-----------------------------------------------
+new bag pockets -> item_data_constants.inc
 bw repel system
+animated sprites
 expanded tilesets and palettes for tiles
 expanded palettes for sprites
 region map, edit - if not more detailed -> eg. https://sites.psu.edu/ist446/files/2016/01/pokemon_glazed_world_map__by_redriders180-d5qwhae.png

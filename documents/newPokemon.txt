@@ -6,6 +6,7 @@
 /src/data/battle/...
 ---battle_1.c
 -> gEnemyMonElevation[] - new entry
+-> elevation in enemy scene
 
 /src/data/pokemon/...
 ---base_stats.h
@@ -30,15 +31,19 @@
 /src/data/...
 ---pokedex_entries_(de.h, en.h)
 -> new entry
+-> include actual text dump and pointer struct
 ---pokedex_orders.h
 -> new entry
 
 ================================================================
                             graphics
 ================================================================
-
 /data/graphics/pokemon/...
----back_pic_table.inc:
+---back_pic_coords.inc
+-> new entry
+---back_pic_table.inc
+-> new entry
+---front_pic_coords.inc
 -> new entry
 ---front_pic_table.inc
 -> new entry
@@ -46,6 +51,9 @@
 -> new entry
 ---shiny_palette_table.inc
 -> new entry
+
+/include/graphics.h
+-> new extern (x6), related to pics and palettes
 
 /graphics/pokemon/_name/...
 ---back.png
@@ -55,5 +63,14 @@
 ---normal.pal
 ---shiny.pal
 
+/graphics/pokemon_icon_palettes
+-> icon palettes (party sprite)
+
 /src/data/pokemon_gfx.h
 -> new entry
+
+/sound/voice_groups.inc
+-> new cry entry
+
+/src/data/bard_music_(de.h, en.h)
+-> new entry - not sure what purpose is

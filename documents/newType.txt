@@ -1,9 +1,5 @@
 ===> https://www.pokecommunity.com/showthread.php?t=414225
 
-TODO==>
-Find string pointer for text on type icon
-===
-
 /constants/type_constants.inc
 -> add to end of list
 
