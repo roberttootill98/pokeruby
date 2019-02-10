@@ -437,7 +437,8 @@ const u16 gSpeciesToHoennPokedexNum[] = // Assigns all species to the Hoenn Dex 
 	HOENN_DEX_LATIOS,          	// SPECIES_LATIOS
 	HOENN_DEX_JIRACHI,         	// SPECIES_JIRACHI
 	HOENN_DEX_DEOXYS,          	// SPECIES_DEOXYS
-	HOENN_DEX_CHIMECHO         	// SPECIES_CHIMECHO
+	HOENN_DEX_CHIMECHO,       	// SPECIES_CHIMECHO
+	HOENN_DEX_SLEETH     		// SPECIES_SLEETH
 };
 
 const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the National Dex Index (Summary No. for National Dex)
@@ -853,7 +854,8 @@ const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the Nationa
 	NATIONAL_DEX_LATIOS,          	// SPECIES_LATIOS
 	NATIONAL_DEX_JIRACHI,         	// SPECIES_JIRACHI
 	NATIONAL_DEX_DEOXYS,          	// SPECIES_DEOXYS
-	NATIONAL_DEX_CHIMECHO         	// SPECIES_CHIMECHO
+	NATIONAL_DEX_CHIMECHO,         	// SPECIES_CHIMECHO
+	NATIONAL_DEX_SLEETH       			// SPECIES_SLEETH
 };
 
 const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using National Dex Index)
@@ -867,7 +869,7 @@ const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using Nationa
 	NATIONAL_DEX_BLAZIKEN,  	// HOENN_DEX_BLAZIKEN
 	NATIONAL_DEX_MUDKIP,    	// HOENN_DEX_MUDKIP
 	NATIONAL_DEX_MARSHTOMP, 	// HOENN_DEX_MARSHTOMP
-	NATIONAL_DEX_SWAMPERT,  	// HOENN_DEX_SWAMPERT	
+	NATIONAL_DEX_SWAMPERT,  	// HOENN_DEX_SWAMPERT
 	NATIONAL_DEX_POOCHYENA, 	// HOENN_DEX_POOCHYENA
 	NATIONAL_DEX_MIGHTYENA, 	// HOENN_DEX_MIGHTYENA
 	NATIONAL_DEX_ZIGZAGOON, 	// HOENN_DEX_ZIGZAGOON
@@ -1245,6 +1247,7 @@ const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using Nationa
 	NATIONAL_DEX_LUGIA,      	// HOENN_DEX_LUGIA
 	NATIONAL_DEX_HO_OH,      	// HOENN_DEX_HO-OH
 	NATIONAL_DEX_CELEBI,     	// HOENN_DEX_CELEBI
+	NATIONAL_DEX_SLEETH,      // HOENN_DEX_SLEETH
 	NATIONAL_DEX_OLD_UNOWN_B,  	// HOENN_DEX_OLD_UNOWN_B
 	NATIONAL_DEX_OLD_UNOWN_C,  	// HOENN_DEX_OLD_UNOWN_C
 	NATIONAL_DEX_OLD_UNOWN_D,  	// HOENN_DEX_OLD_UNOWN_D

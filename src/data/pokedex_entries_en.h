@@ -5389,6 +5389,24 @@ static const u8 DexDescription_Deoxys_2[] = _(
   "chest appears to be its brain.");
 #endif
 
+#ifdef SAPPHIRE
+static const u8 DexDescription_Sleeth_1[] = _(
+  "DEOXYS emerged from a virus that came\n"
+  "from space. It is highly intelligent and\n"
+  "wields psychokinetic powers.");
+static const u8 DexDescription_Sleeth_2[] = _(
+  "This POKéMON shoots lasers from the\n"
+  "crystalline organ on its chest.");
+#else
+static const u8 DexDescription_Sleeth_1[] = _(
+  "The DNA of a space virus underwent a\n"
+  "sudden mutation upon exposure to a\n"
+  "laser beam and resulted in DEOXYS.");
+static const u8 DexDescription_Sleeth_2[] = _(
+  "The crystalline organ on this POKéMON's\n"
+  "chest appears to be its brain.");
+#endif
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -9647,5 +9665,17 @@ const struct PokedexEntry gPokedexEntries[] =
         .pokemonOffset = 0,
         .trainerScale = 290,
         .trainerOffset = 2,
+    },
+    {
+      // Sleeth
+      .categoryName = _("SLOTH"),
+      .height = 17,
+      .weight = 608,
+      .descriptionPage1 = DexDescription_Sleeth_1,
+      .descriptionPage2 = DexDescription_Sleeth_2,
+      .pokemonScale = 256,
+      .pokemonOffset = 0,
+      .trainerScale = 290,
+      .trainerOffset = 2,
     },
 };

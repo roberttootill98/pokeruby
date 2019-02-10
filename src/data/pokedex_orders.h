@@ -329,6 +329,7 @@ static const u16 gPokedexOrder_Alphabetical[] =
     NATIONAL_DEX_SKITTY,
     NATIONAL_DEX_SLAKING,
     NATIONAL_DEX_SLAKOTH,
+    NATIONAL_DEX_SLEETH,
     NATIONAL_DEX_SLOWBRO,
     NATIONAL_DEX_SLOWKING,
     NATIONAL_DEX_SLOWPOKE,
@@ -826,6 +827,7 @@ static const u16 gPokedexOrder_Alphabetical[] = {
     NATIONAL_DEX_ZUBAT, // Zubat
     NATIONAL_DEX_DUSCLOPS, // Zwirrklop
     NATIONAL_DEX_DUSKULL, // Zwirrlicht
+    NATIONAL_DEX_SLEETH, // Zwirrlicht
 };
 #endif
 
@@ -1217,6 +1219,7 @@ static const u16 gPokedexOrder_Weight[] =
     NATIONAL_DEX_SNORLAX,
     NATIONAL_DEX_METAGROSS,
     NATIONAL_DEX_GROUDON,
+    NATIONAL_DEX_SLEETH,
 };
 static const u16 gPokedexOrder_Height[] =
 {
@@ -1606,4 +1609,5 @@ static const u16 gPokedexOrder_Height[] =
     NATIONAL_DEX_ONIX,
     NATIONAL_DEX_STEELIX,
     NATIONAL_DEX_WAILORD,
+    NATIONAL_DEX_SLEETH,
 };

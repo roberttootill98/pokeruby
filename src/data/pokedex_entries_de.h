@@ -6337,6 +6337,26 @@ static const u8 DexDescription_Deoxys_2[] = _(
     "dieses POKéMON ist sein Gehirn.");
 #endif
 
+#ifdef SAPPHIRE
+static const u8 DexDescription_Sleeth_1[] = _(
+    "DEOXYS ging aus einem Virus aus dem\n"
+    "Weltraum hervor. Es ist sehr intelligent\n"
+    "und nutzt psychokinetische Energie.");
+static const u8 DexDescription_Sleeth_2[] = _(
+    "Dieses POKéMON verschießt\n"
+    "Laserstrahlen aus einem kristallartigen\n"
+    "Organ auf seinem Brustkorb.");
+#else
+static const u8 DexDescription_Sleeth_1[] = _(
+    "Die DNS eines Weltraumvirus hat eine\n"
+    "spontane Mutation erfahren, da sie\n"
+    "einem Laserstrahl ausgesetzt wurde.");
+static const u8 DexDescription_Sleeth_2[] = _(
+    "Daraus entstand DEOXYS. \n"
+    "Das kristallartige Organ auf der Brust\n"
+    "dieses POKéMON ist sein Gehirn.");
+#endif
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {
@@ -10983,4 +11003,17 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 290,
         .trainerOffset = 2,
     },
+    {
+      // Sleeth
+      .categoryName = _("SLEETH"),
+      .height = 17,
+      .weight = 608,
+      .descriptionPage1 = DexDescription_Sleeth_1,
+      .descriptionPage2 = DexDescription_Sleeth_2,
+      .pokemonScale = 256,
+      .pokemonOffset = 0,
+      .trainerScale = 290,
+      .trainerOffset = 2,
+    },
+
 };

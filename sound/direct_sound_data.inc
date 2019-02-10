@@ -1815,6 +1815,10 @@ Cry_Chimecho:: @ 8638E88
 	.incbin "sound/direct_sound_samples/cries/cry_chimecho.bin"
 
 	.align 2
+Cry_Sleeth:: @ 8638E88
+	.incbin "sound/direct_sound_samples/cries/cry_sleeth.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 
