@@ -75,7 +75,7 @@
 ---normal.pal
 ---shiny.pal
 
-/graphics/pokemon_icon_palettes
+/graphics/pokemon_icon_palettes/(0.pal, 1.pal, 2.pal)
 -> icon palettes (party sprite)
 
 /src/data/pokemon_gfx.h
