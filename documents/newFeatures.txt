@@ -6,7 +6,7 @@ egg hatch at lvl 1
 fairy type -> with todo
 
 TODO-----------------------------------------------
-smarter ai, includes physical/special 
+smarter ai, includes physical/special
 new bag pockets -> item_data_constants.inc
 bw repel system
 animated sprites
@@ -23,3 +23,4 @@ bigger pokedex
 vs seeker
 following pokemon
 seasons
+gender differences
