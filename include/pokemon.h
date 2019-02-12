@@ -499,6 +499,9 @@ enum {
 #define EVO_LEVEL_NINJASK    0x000d // Pokémon reaches the specified level (special value for Ninjask)
 #define EVO_LEVEL_SHEDINJA   0x000e // Pokémon reaches the specified level (special value for Shedinja)
 #define EVO_BEAUTY           0x000f // Pokémon levels up with beauty ≥ specified value
+#define EVO_MOVE             0x0010 // Pokémon levels up with specified move
+#define EVO_ITEM_DAY         0x0011 // Pokémon levels up with item at day
+#define EVO_ITEM_NIGHT       0x0012 // Pokémon levels up with item at night
 
 struct Evolution
 {
