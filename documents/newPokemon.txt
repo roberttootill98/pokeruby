@@ -1,7 +1,6 @@
-/include/constants/species.h -> add new entry (#define)
-
 TODO===> Fix sprite, name and footprint in pokedex
 
+/include/constants/species.h -> add new entry (#define)
 -> new species ==> must be before unown and egg
 -> national dex order
 -> hoenn dex order
