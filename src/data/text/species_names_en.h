@@ -411,5 +411,10 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_JIRACHI] = _("JIRACHI"),
     [SPECIES_DEOXYS] = _("DEOXYS"),
     [SPECIES_CHIMECHO] = _("CHIMECHO"),
+    // later gens
+    [SPECIES_BUIZEL] = _("BUIZEL"),
+    [SPECIES_FLOATZEL] = _("FLOATZEL"),
+    [SPECIES_GLISCOR] = _("GLISCOR"),
+    // fakemon
     [SPECIES_SLEETH] = _("SLEETH"),
 };

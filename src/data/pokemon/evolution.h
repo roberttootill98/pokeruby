@@ -188,6 +188,9 @@ struct Evolution gEvolutionTable[NUM_SPECIES][5] =
     [SPECIES_SHELGON]    = {{EVO_LEVEL, 50, SPECIES_SALAMENCE}},
     [SPECIES_BELDUM]     = {{EVO_LEVEL, 20, SPECIES_METANG}},
     [SPECIES_METANG]     = {{EVO_LEVEL, 45, SPECIES_METAGROSS}},
+    // later gens
+    [SPECIES_BUIZEL]     = {{EVO_LEVEL, 26, SPECIES_FLOATZEL}},
+    // fakemon
 };
 
 #endif //POKERUBY_EVOLUTION_H

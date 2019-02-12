@@ -2318,12 +2318,33 @@ const u8 gMonBackPic_Chimecho[] = INCBIN_U8("graphics/pokemon/chimecho/back.4bpp
 const u8 gMonShinyPalette_Chimecho[] = INCBIN_U8("graphics/pokemon/chimecho/shiny.gbapal.lz");
 const u8 gMonIcon_Chimecho[] = INCBIN_U8("graphics/pokemon/chimecho/icon.4bpp");
 const u8 gMonFootprint_Chimecho[] = INCBIN_U8("graphics/pokemon/chimecho/footprint.1bpp");
+// later gens
+const u8 gMonFrontPic_Buizel[] = INCBIN_U8("graphics/pokemon/buizel/front.4bpp.lz");
+const u8 gMonPalette_Buizel[] = INCBIN_U8("graphics/pokemon/buizel/normal.gbapal.lz");
+const u8 gMonBackPic_Buizel[] = INCBIN_U8("graphics/pokemon/buizel/back.4bpp.lz");
+const u8 gMonShinyPalette_Buizel[] = INCBIN_U8("graphics/pokemon/buizel/shiny.gbapal.lz");
+const u8 gMonIcon_Buizel[] = INCBIN_U8("graphics/pokemon/buizel/icon.4bpp");
+const u8 gMonFootprint_Buizel[] = INCBIN_U8("graphics/pokemon/buizel/footprint.1bpp");
+const u8 gMonFrontPic_Floatzel[] = INCBIN_U8("graphics/pokemon/floatzel/front.4bpp.lz");
+const u8 gMonPalette_Floatzel[] = INCBIN_U8("graphics/pokemon/floatzel/normal.gbapal.lz");
+const u8 gMonBackPic_Floatzel[] = INCBIN_U8("graphics/pokemon/floatzel/back.4bpp.lz");
+const u8 gMonShinyPalette_Floatzel[] = INCBIN_U8("graphics/pokemon/floatzel/shiny.gbapal.lz");
+const u8 gMonIcon_Floatzel[] = INCBIN_U8("graphics/pokemon/floatzel/icon.4bpp");
+const u8 gMonFootprint_Floatzel[] = INCBIN_U8("graphics/pokemon/floatzel/footprint.1bpp");
+const u8 gMonFrontPic_Gliscor[] = INCBIN_U8("graphics/pokemon/gliscor/front.4bpp.lz");
+const u8 gMonPalette_Gliscor[] = INCBIN_U8("graphics/pokemon/gliscor/normal.gbapal.lz");
+const u8 gMonBackPic_Gliscor[] = INCBIN_U8("graphics/pokemon/gliscor/back.4bpp.lz");
+const u8 gMonShinyPalette_Gliscor[] = INCBIN_U8("graphics/pokemon/gliscor/shiny.gbapal.lz");
+const u8 gMonIcon_Gliscor[] = INCBIN_U8("graphics/pokemon/gliscor/icon.4bpp");
+const u8 gMonFootprint_Gliscor[] = INCBIN_U8("graphics/pokemon/gliscor/footprint.1bpp");
+// fakemon
 const u8 gMonFrontPic_Sleeth[] = INCBIN_U8("graphics/pokemon/sleeth/front.4bpp.lz");
 const u8 gMonPalette_Sleeth[] = INCBIN_U8("graphics/pokemon/sleeth/normal.gbapal.lz");
 const u8 gMonBackPic_Sleeth[] = INCBIN_U8("graphics/pokemon/sleeth/back.4bpp.lz");
 const u8 gMonShinyPalette_Sleeth[] = INCBIN_U8("graphics/pokemon/sleeth/shiny.gbapal.lz");
 const u8 gMonIcon_Sleeth[] = INCBIN_U8("graphics/pokemon/sleeth/icon.4bpp");
 const u8 gMonFootprint_Sleeth[] = INCBIN_U8("graphics/pokemon/sleeth/footprint.1bpp");
+// rest
 const u8 gMonPic_Egg[] = INCBIN_U8("graphics/pokemon/egg/pic.4bpp.lz");
 const u8 gMonPalette_Egg[] = INCBIN_U8("graphics/pokemon/egg/palette.gbapal.lz");
 const u8 gMonFrontPic_UnownB[] = INCBIN_U8("graphics/pokemon/unown/front_b.4bpp.lz");

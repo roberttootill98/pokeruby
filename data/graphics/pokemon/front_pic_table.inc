@@ -412,7 +412,13 @@ gMonFrontPicTable:: @ 81E8354
 	obj_tiles gMonFrontPic_Jirachi, 0x800, SPECIES_JIRACHI
 	obj_tiles gMonFrontPic_Deoxys, 0x800, SPECIES_DEOXYS
 	obj_tiles gMonFrontPic_Chimecho, 0x800, SPECIES_CHIMECHO
+	// later gens
+	obj_tiles gMonFrontPic_Buizel, 0x800, SPECIES_BUIZEL
+	obj_tiles gMonFrontPic_Floatzel, 0x800, SPECIES_FLOATZEL
+	obj_tiles gMonFrontPic_Gliscor, 0x800, SPECIES_GLISCOR
+	// fakemon
 	obj_tiles gMonFrontPic_Sleeth, 0x800, SPECIES_SLEETH
+	// rest
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonFrontPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonFrontPic_UnownC, 0x800, SPECIES_UNOWN_C

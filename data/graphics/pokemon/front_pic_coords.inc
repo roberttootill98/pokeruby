@@ -413,7 +413,13 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte 136,  1, 0, 0
 	.byte  55,  6, 0, 0
 	.byte  51, 20, 0, 0
-	.byte  0,	0, 0, 0 // last 
+	// later gens
+	.byte  0, 0, 0, 0
+	.byte  0, 0, 0, 0
+	.byte  0, 0, 0, 0
+	// fakemon
+	.byte  0,	0, 0, 0
+	// rest
 	.byte  52, 16, 0, 0 // UNOWN B
 	.byte  68, 16, 0, 0 // UNOWN C
 	.byte  68, 16, 0, 0 // UNOWN D

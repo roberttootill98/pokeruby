@@ -86,7 +86,7 @@ TODO===> Fix sprite, name and footprint in pokedex
 /sound/...
 ---voice_groups.inc
 -> new cry entry
----/cries/direct_sound_samples/cry_(name).aif
+---/direct_sound_samples/cries/cry_(name).aif
 -> new audio file
 ---/direct_sound_data.inc
 -> new entry - pointer

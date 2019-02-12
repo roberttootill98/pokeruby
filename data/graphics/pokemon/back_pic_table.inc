@@ -412,7 +412,13 @@ gMonBackPicTable:: @ 81E97F4
 	obj_tiles gMonBackPic_Jirachi, 0x800, SPECIES_JIRACHI
 	obj_tiles gMonBackPic_Deoxys, 0x800, SPECIES_DEOXYS
 	obj_tiles gMonBackPic_Chimecho, 0x800, SPECIES_CHIMECHO
+	// later gens
+	obj_tiles gMonBackPic_Buizel, 0x800, SPECIES_BUIZEL
+	obj_tiles gMonBackPic_Floatzel, 0x800, SPECIES_FLOATZEL
+	obj_tiles gMonBackPic_Gliscor, 0x800, SPECIES_GLISCOR
+	// fakemon
 	obj_tiles gMonBackPic_Sleeth, 0x800, SPECIES_SLEETH
+	// rest
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonBackPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonBackPic_UnownC, 0x800, SPECIES_UNOWN_C

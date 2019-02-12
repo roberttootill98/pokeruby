@@ -5389,23 +5389,43 @@ static const u8 DexDescription_Deoxys_2[] = _(
   "chest appears to be its brain.");
 #endif
 
-#ifdef SAPPHIRE
+// later gens
+static const u8 DexDescription_Buizel_1[] = _(
+    "It has a flotation sac that is like an\n"
+    "inflatable collar. It floats on water\n"
+    "with its head out.");
+static const u8 DexDescription_Buizel_2[] = _(
+    "It has a flotation sac that is like an\n"
+    "inflatable collar. It floats on water\n"
+    "with its head out.");
+
+static const u8 DexDescription_Floatzel_1[] = _(
+    "It floats using its well-developed\n"
+    "flotation sac. It assists in the \n"
+    "rescues of drowning people.");
+static const u8 DexDescription_Floatzel_2[] = _(
+    "It floats using its well-developed\n"
+    "flotation sac. It assists in the \n"
+    "rescues of drowning people.");
+
+static const u8 DexDescription_Gliscor_1[] = _(
+    "It observes prey while hanging\n"
+    "inverted from branches. When the\n"
+    "chance presents itself, it swoops!");
+static const u8 DexDescription_Gliscor_2[] = _(
+    "It observes prey while hanging\n"
+    "inverted from branches. When the\n"
+    "chance presents itself, it swoops!");
+
+// fakemon
 static const u8 DexDescription_Sleeth_1[] = _(
-  "DEOXYS emerged from a virus that came\n"
-  "from space. It is highly intelligent and\n"
-  "wields psychokinetic powers.");
+    "Die DNS eines Weltraumvirus hat eine\n"
+    "spontane Mutation erfahren, da sie\n"
+    "einem Laserstrahl ausgesetzt wurde.");
 static const u8 DexDescription_Sleeth_2[] = _(
-  "This POKéMON shoots lasers from the\n"
-  "crystalline organ on its chest.");
-#else
-static const u8 DexDescription_Sleeth_1[] = _(
-  "The DNA of a space virus underwent a\n"
-  "sudden mutation upon exposure to a\n"
-  "laser beam and resulted in DEOXYS.");
-static const u8 DexDescription_Sleeth_2[] = _(
-  "The crystalline organ on this POKéMON's\n"
-  "chest appears to be its brain.");
-#endif
+    "Daraus entstand DEOXYS. \n"
+    "Das kristallartige Organ auf der Brust\n"
+    "dieses POKéMON ist sein Gehirn.");
 
 const struct PokedexEntry gPokedexEntries[] =
 {

@@ -6337,16 +6337,35 @@ static const u8 DexDescription_Deoxys_2[] = _(
     "dieses POKéMON ist sein Gehirn.");
 #endif
 
-#ifdef SAPPHIRE
-static const u8 DexDescription_Sleeth_1[] = _(
-    "DEOXYS ging aus einem Virus aus dem\n"
-    "Weltraum hervor. Es ist sehr intelligent\n"
-    "und nutzt psychokinetische Energie.");
-static const u8 DexDescription_Sleeth_2[] = _(
-    "Dieses POKéMON verschießt\n"
-    "Laserstrahlen aus einem kristallartigen\n"
-    "Organ auf seinem Brustkorb.");
-#else
+// later gens
+static const u8 DexDescription_Buizel_1[] = _(
+    "It has a flotation sac that is like an\n"
+    "inflatable collar. It floats on water\n"
+    "with its head out.");
+static const u8 DexDescription_Buizel_2[] = _(
+    "It has a flotation sac that is like an\n"
+    "inflatable collar. It floats on water\n"
+    "with its head out.");
+
+static const u8 DexDescription_Floatzel_1[] = _(
+    "It floats using its well-developed\n"
+    "flotation sac. It assists in the \n"
+    "rescues of drowning people.");
+static const u8 DexDescription_Floatzel_2[] = _(
+    "It floats using its well-developed\n"
+    "flotation sac. It assists in the \n"
+    "rescues of drowning people.");
+
+static const u8 DexDescription_Gliscor_1[] = _(
+    "It observes prey while hanging\n"
+    "inverted from branches. When the\n"
+    "chance presents itself, it swoops!");
+static const u8 DexDescription_Gliscor_2[] = _(
+    "It observes prey while hanging\n"
+    "inverted from branches. When the\n"
+    "chance presents itself, it swoops!");
+
+// fakemon
 static const u8 DexDescription_Sleeth_1[] = _(
     "Die DNS eines Weltraumvirus hat eine\n"
     "spontane Mutation erfahren, da sie\n"
@@ -6355,7 +6374,6 @@ static const u8 DexDescription_Sleeth_2[] = _(
     "Daraus entstand DEOXYS. \n"
     "Das kristallartige Organ auf der Brust\n"
     "dieses POKéMON ist sein Gehirn.");
-#endif
 
 const struct PokedexEntry gPokedexEntries[] =
 {

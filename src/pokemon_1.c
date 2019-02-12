@@ -438,7 +438,10 @@ const u16 gSpeciesToHoennPokedexNum[] = // Assigns all species to the Hoenn Dex 
 	HOENN_DEX_JIRACHI,         	// SPECIES_JIRACHI
 	HOENN_DEX_DEOXYS,          	// SPECIES_DEOXYS
 	HOENN_DEX_CHIMECHO,       	// SPECIES_CHIMECHO
-	HOENN_DEX_SLEETH     		// SPECIES_SLEETH
+	HOENN_DEX_BUIZEL,    				// SPECIES_BUIZEL
+	HOENN_DEX_FLOATZEL,   				// SPECIES_FLOATZEL
+	HOENN_DEX_GLISCOR,	  				// SPECIES_GLISCOR
+	HOENN_DEX_SLEETH    				// SPECIES_SLEETH
 };
 
 const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the National Dex Index (Summary No. for National Dex)

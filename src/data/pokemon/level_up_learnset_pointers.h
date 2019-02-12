@@ -418,6 +418,11 @@ const u16 *gLevelUpLearnsets[] = {
     gJirachiLevelUpLearnset,
     gDeoxysLevelUpLearnset,
     gChimechoLevelUpLearnset,
+    // later gens
+    gBuizelLevelUpLearnset,
+    gFloatzelLevelUpLearnset,
+    gGliscorLevelUpLearnset,
+    // fakemon
     gSleethLevelUpLearnset
 };
 

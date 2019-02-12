@@ -5,6 +5,9 @@
 // 255 (MON_GENDERLESS) is reserved for genderless pokemon.
 #define PERCENT_FEMALE(percent) min(254, ((percent * 255) / 100))
 
+// egg cycles =
+// 20 = 5140-5396
+
 const struct BaseStats gBaseStats[] =
 {
     [SPECIES_NONE] = {0},
@@ -13572,6 +13575,107 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // from later gens
+    [SPECIES_BUIZEL] =
+    {
+        .baseHP        = 55,
+        .baseAttack    = 65,
+        .baseDefense   = 35,
+        .baseSpeed     = 60,
+        .baseSpAttack  = 30,
+        .baseSpDefense = 85,
+        .type1 = TYPE_WATER,
+        .type2 = TYPE_WATER,
+        .catchRate = 190,
+        .expYield = 75,
+        .evYield_HP        = 0,
+        .evYield_Attack    = 0,
+        .evYield_Defense   = 0,
+        .evYield_Speed     = 1,
+        .evYield_SpAttack  = 0,
+        .evYield_SpDefense = 0,
+        .item1 = ITEM_NONE,
+        .item2 = ITEM_NONE,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = 70,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroup1 = EGG_GROUP_WATER_1,
+        .eggGroup2 = EGG_GROUP_FIELD,
+        .ability1 = ABILITY_SWIFT_SWIM,
+        .ability2 = ABILITY_SWIFT_SWIM,
+        .safariZoneFleeRate = 0,
+        .bodyColor = BODY_COLOR_BROWN,
+        .noFlip = FALSE,
+    },
+
+    [SPECIES_FLOATZEL] =
+    {
+        .baseHP        = 85,
+        .baseAttack    = 105,
+        .baseDefense   = 55,
+        .baseSpeed     = 85,
+        .baseSpAttack  = 50,
+        .baseSpDefense = 115,
+        .type1 = TYPE_WATER,
+        .type2 = TYPE_WATER,
+        .catchRate = 75,
+        .expYield = 178,
+        .evYield_HP        = 0,
+        .evYield_Attack    = 0,
+        .evYield_Defense   = 0,
+        .evYield_Speed     = 2,
+        .evYield_SpAttack  = 0,
+        .evYield_SpDefense = 0,
+        .item1 = ITEM_NONE,
+        .item2 = ITEM_NONE,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = 70,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroup1 = EGG_GROUP_WATER_1,
+        .eggGroup2 = EGG_GROUP_FIELD,
+        .ability1 = ABILITY_SWIFT_SWIM,
+        .ability2 = ABILITY_SWIFT_SWIM,
+        .safariZoneFleeRate = 0,
+        .bodyColor = BODY_COLOR_BROWN,
+        .noFlip = FALSE,
+    },
+
+    [SPECIES_GLISCOR] =
+    {
+        .baseHP        = 75,
+        .baseAttack    = 95,
+        .baseDefense   = 125,
+        .baseSpeed     = 45,
+        .baseSpAttack  = 75,
+        .baseSpDefense = 95,
+        .type1 = TYPE_GROUND,
+        .type2 = TYPE_FLYING,
+        .catchRate = 30,
+        .expYield = 192,
+        .evYield_HP        = 0,
+        .evYield_Attack    = 0,
+        .evYield_Defense   = 2,
+        .evYield_Speed     = 0,
+        .evYield_SpAttack  = 0,
+        .evYield_SpDefense = 0,
+        .item1 = ITEM_NONE,
+        .item2 = ITEM_NONE,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = 70,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroup1 = EGG_GROUP_BUG,
+        .eggGroup2 = EGG_GROUP_BUG,
+        .ability1 = ABILITY_HYPER_CUTTER,
+        .ability2 = ABILITY_SAND_VEIL,
+        .safariZoneFleeRate = 0,
+        .bodyColor = BODY_COLOR_PURPLE,
+        .noFlip = FALSE,
+    },
+
+    // fakemon
     [SPECIES_SLEETH] =
     {
         .baseHP        = 45,

@@ -875,7 +875,13 @@ const u8 gMonIconPaletteIndices[] =
     0, // Jirachi
     0, // Deoxys
     0, // Chimecho
+    // later gens
+    2, // Buizel
+    2, // Floatzel
+    0, // Gliscor 
+    // fakemon
     2, // Sleeth
+    // rest
     1, // Egg
     0, // Unown B
     0, // Unown C

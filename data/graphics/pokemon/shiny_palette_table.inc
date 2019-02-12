@@ -414,7 +414,13 @@ gMonShinyPaletteTable:: @ 81EB374
 	obj_pal gMonShinyPalette_Jirachi, PAL_ID_SHINY + SPECIES_JIRACHI
 	obj_pal gMonShinyPalette_Deoxys, PAL_ID_SHINY + SPECIES_DEOXYS
 	obj_pal gMonShinyPalette_Chimecho, PAL_ID_SHINY + SPECIES_CHIMECHO
+	// later gens
+	obj_pal gMonShinyPalette_Buizel, PAL_ID_SHINY + SPECIES_BUIZEL
+	obj_pal gMonShinyPalette_Floatzel, PAL_ID_SHINY + SPECIES_FLOATZEL
+	obj_pal gMonShinyPalette_Gliscor, PAL_ID_SHINY + SPECIES_GLISCOR
+	// fakemon
 	obj_pal gMonShinyPalette_Sleeth, PAL_ID_SHINY + SPECIES_SLEETH
+	// rest
 	obj_pal gMonPalette_Egg, PAL_ID_SHINY + SPECIES_EGG
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_B
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_C
