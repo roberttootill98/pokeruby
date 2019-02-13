@@ -17,11 +17,6 @@ TODO===> Fix sprite, name and footprint in pokedex
 /src/pokemon_1.c
 -> new entry x4
 
-/src/battle/...
----battle_1.c
--> gEnemyMonElevation[] - new entry
--> elevation in enemy scene
-
 /src/data/pokemon/...
 ---base_stats.h
 -> new entry
@@ -52,9 +47,17 @@ TODO===> Fix sprite, name and footprint in pokedex
 ================================================================
                             graphics
 ================================================================
+/src/battle/...
+---battle_1.c
+-> gEnemyMonElevation[] - new entry
+-> elevation in enemy species_names
+
+/src/pokemon_icon.c
+-> new entry
+
 /data/graphics/pokemon/...
 ---back_pic_coords.inc
--> new entry ==> seems to not be required
+-> new entry
 ---back_pic_table.inc
 -> new entry
 ---front_pic_coords.inc

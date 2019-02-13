@@ -414,11 +414,11 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte  55,  6, 0, 0
 	.byte  51, 20, 0, 0
 	// later gens
-	.byte  0, 0, 0, 0
-	.byte  0, 0, 0, 0
-	.byte  0, 0, 0, 0
+	.byte 136,  0, 0, 0 // buizel
+	.byte 136,  0, 0, 0 // floatzel
+	.byte 136,  0, 0, 0 // gliscor
 	// fakemon
-	.byte  0,	0, 0, 0
+	.byte 136,	0, 0, 0 // sleeth
 	// rest
 	.byte  52, 16, 0, 0 // UNOWN B
 	.byte  68, 16, 0, 0 // UNOWN C

@@ -878,5 +878,7 @@ LittlerootTown_EventScript_14DD38:: @ 814DD38
 
 LittlerootTown_EventScript_Event0:: @ LittlerootTown_Location0
 	msgbox LittlerootTown_Text_Text0, 2
+	giveitem_std ITEM_POKE_BALL, 5
+	givemon SPECIES_TOTODILE, 5, 0x0, 0x0, 0x0, 0
 	givemon SPECIES_TYPHLOSION, 100, 0x0, 0x0, 0x0, 0
 	end

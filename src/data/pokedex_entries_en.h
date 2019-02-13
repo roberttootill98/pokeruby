@@ -9686,6 +9686,44 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 290,
         .trainerOffset = 2,
     },
+    // later gens
+    {
+      // Buizel
+      .categoryName = _("SEA WEASEL"),
+      .height = 17,
+      .weight = 608,
+      .descriptionPage1 = DexDescription_Buizel_1,
+      .descriptionPage2 = DexDescription_Buizel_2,
+      .pokemonScale = 256,
+      .pokemonOffset = 0,
+      .trainerScale = 290,
+      .trainerOffset = 2,
+    },
+    {
+      // Sleeth
+      .categoryName = _("SEA WEASEL"),
+      .height = 17,
+      .weight = 608,
+      .descriptionPage1 = DexDescription_Floatzel_1,
+      .descriptionPage2 = DexDescription_Floatzel_2,
+      .pokemonScale = 256,
+      .pokemonOffset = 0,
+      .trainerScale = 290,
+      .trainerOffset = 2,
+    },
+    {
+      // Sleeth
+      .categoryName = _("FANG SCORPION"),
+      .height = 17,
+      .weight = 608,
+      .descriptionPage1 = DexDescription_Gliscor_1,
+      .descriptionPage2 = DexDescription_Gliscor_2,
+      .pokemonScale = 256,
+      .pokemonOffset = 0,
+      .trainerScale = 290,
+      .trainerOffset = 2,
+    },
+    // fakemon
     {
       // Sleeth
       .categoryName = _("SLOTH"),

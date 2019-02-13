@@ -413,6 +413,13 @@ gMonBackPicCoords:: @ 81E9114
 	.byte 134,  9, 0, 0
 	.byte  71,  7, 0, 0
 	.byte  54, 10, 0, 0
+	// later gens
+	.byte 136,  0, 0, 0 // buizel
+	.byte 136,  0, 0, 0 // floatzel
+	.byte 136,  0, 0, 0 // gliscor
+	// fakemon
+	.byte 136,  0, 0, 0 // sleeth
+	// rest
 	.byte  86,  9, 0, 0
 	.byte 103,  6, 0, 0
 	.byte  86,  8, 0, 0

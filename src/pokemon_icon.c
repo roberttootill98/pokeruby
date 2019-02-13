@@ -430,7 +430,13 @@ const u8 * const gMonIconTable[] =
     gMonIcon_Jirachi,
     gMonIcon_Deoxys,
     gMonIcon_Chimecho,
+    // later gens
+    gMonIcon_Buizel,
+    gMonIcon_Floatzel,
+    gMonIcon_Gliscor,
+    // fakemon
     gMonIcon_Sleeth,
+    // rest
     gMonIcon_Egg,
     gMonIcon_UnownB,
     gMonIcon_UnownC,
@@ -878,7 +884,7 @@ const u8 gMonIconPaletteIndices[] =
     // later gens
     2, // Buizel
     2, // Floatzel
-    0, // Gliscor 
+    0, // Gliscor
     // fakemon
     2, // Sleeth
     // rest

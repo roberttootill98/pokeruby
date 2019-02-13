@@ -453,8 +453,8 @@ const u8 gEnemyMonElevation[] = {
     [SPECIES_CHIMECHO] = 12,
     [SPECIES_BUIZEL] = 0,
     [SPECIES_FLOATZEL] = 0,
-    [SPECIES_GLISCOR] = 0,
-    [SPECIES_SLEETH] = 16,
+    [SPECIES_GLISCOR] = 4,
+    [SPECIES_SLEETH] = 0,
 };
 
 #include "../data/trainer_parties.h"
