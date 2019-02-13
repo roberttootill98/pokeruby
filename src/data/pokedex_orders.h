@@ -58,6 +58,7 @@ static const u16 gPokedexOrder_Alphabetical[] =
     NATIONAL_DEX_BLISSEY,
     NATIONAL_DEX_BRELOOM,
     NATIONAL_DEX_BULBASAUR,
+    NATIONAL_DEX_BUIZEL,
     NATIONAL_DEX_BUTTERFREE,
     NATIONAL_DEX_CACNEA,
     NATIONAL_DEX_CACTURNE,
@@ -124,6 +125,7 @@ static const u16 gPokedexOrder_Alphabetical[] =
     NATIONAL_DEX_FERALIGATR,
     NATIONAL_DEX_FLAAFFY,
     NATIONAL_DEX_FLAREON,
+    NATIONAL_DEX_FLOATZEL,
     NATIONAL_DEX_FLYGON,
     NATIONAL_DEX_FORRETRESS,
     NATIONAL_DEX_FURRET,
@@ -134,6 +136,7 @@ static const u16 gPokedexOrder_Alphabetical[] =
     NATIONAL_DEX_GIRAFARIG,
     NATIONAL_DEX_GLALIE,
     NATIONAL_DEX_GLIGAR,
+    NATIONAL_DEX_GLISCOR,
     NATIONAL_DEX_GLOOM,
     NATIONAL_DEX_GOLBAT,
     NATIONAL_DEX_GOLDEEN,
@@ -473,6 +476,7 @@ static const u16 gPokedexOrder_Alphabetical[] = {
     NATIONAL_DEX_VENONAT, // Bluzuk
     NATIONAL_DEX_DELIBIRD, // Botogel
     NATIONAL_DEX_SALAMENCE, // Brutalanda
+    NATIONAL_DEX_BUIZEL, // Buizel
     NATIONAL_DEX_SLAKOTH, // Bummelz
     NATIONAL_DEX_NUMEL, // Camaub
     NATIONAL_DEX_CAMERUPT, // Camerupt
@@ -511,6 +515,7 @@ static const u16 gPokedexOrder_Alphabetical[] = {
     NATIONAL_DEX_FLAREON, // Flamara
     NATIONAL_DEX_SLOWPOKE, // Flegmon
     NATIONAL_DEX_TORCHIC, // Flemmli
+    NATIONAL_DEX_FLOATZEL, // Floatzel
     NATIONAL_DEX_IGGLYBUFF, // Fluffeluff
     NATIONAL_DEX_MAWILE, // Flunkifer
     NATIONAL_DEX_WHISMUR, // Flurmel
@@ -753,6 +758,8 @@ static const u16 gPokedexOrder_Alphabetical[] = {
     NATIONAL_DEX_ALAKAZAM, // Simsala
     NATIONAL_DEX_HERACROSS, // Skaraborn
     NATIONAL_DEX_GLIGAR, // Skorgla
+    NATIONAL_DEX_GLISCOR, // Gliscor
+    NATIONAL_DEX_SLEETH, // Sleeth
     NATIONAL_DEX_GRIMER, // Sleima
     NATIONAL_DEX_MUK, // Sleimok
     NATIONAL_DEX_BUTTERFREE, // Smettbo
@@ -827,7 +834,6 @@ static const u16 gPokedexOrder_Alphabetical[] = {
     NATIONAL_DEX_ZUBAT, // Zubat
     NATIONAL_DEX_DUSCLOPS, // Zwirrklop
     NATIONAL_DEX_DUSKULL, // Zwirrlicht
-    NATIONAL_DEX_SLEETH, // Zwirrlicht
 };
 #endif
 
@@ -1219,6 +1225,9 @@ static const u16 gPokedexOrder_Weight[] =
     NATIONAL_DEX_SNORLAX,
     NATIONAL_DEX_METAGROSS,
     NATIONAL_DEX_GROUDON,
+    NATIONAL_DEX_BUIZEL,
+    NATIONAL_DEX_FLOATZEL,
+    NATIONAL_DEX_GLISCOR,
     NATIONAL_DEX_SLEETH,
 };
 static const u16 gPokedexOrder_Height[] =
@@ -1609,5 +1618,8 @@ static const u16 gPokedexOrder_Height[] =
     NATIONAL_DEX_ONIX,
     NATIONAL_DEX_STEELIX,
     NATIONAL_DEX_WAILORD,
+    NATIONAL_DEX_BUIZEL,
+    NATIONAL_DEX_FLOATZEL,
+    NATIONAL_DEX_GLISCOR,
     NATIONAL_DEX_SLEETH,
 };

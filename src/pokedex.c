@@ -918,9 +918,11 @@ static const u8 *const sMonFootprintTable[] =
     gMonFootprint_Jirachi,
     gMonFootprint_Deoxys,
     gMonFootprint_Chimecho,
+    // later gens
     gMonFootprint_Buizel,
     gMonFootprint_Floatzel,
     gMonFootprint_Gliscor,
+    // fakemon
     gMonFootprint_Sleeth,
 };
 static const u8 gUnknown_083B5558[] = _("{CLEAR_TO 0}");

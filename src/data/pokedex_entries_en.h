@@ -9700,7 +9700,7 @@ const struct PokedexEntry gPokedexEntries[] =
       .trainerOffset = 2,
     },
     {
-      // Sleeth
+      // Floatzel
       .categoryName = _("SEA WEASEL"),
       .height = 17,
       .weight = 608,
@@ -9712,7 +9712,7 @@ const struct PokedexEntry gPokedexEntries[] =
       .trainerOffset = 2,
     },
     {
-      // Sleeth
+      // Gliscor
       .categoryName = _("FANG SCORPION"),
       .height = 17,
       .weight = 608,
@@ -9736,4 +9736,5 @@ const struct PokedexEntry gPokedexEntries[] =
       .trainerScale = 290,
       .trainerOffset = 2,
     },
+    
 };
