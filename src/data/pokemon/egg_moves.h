@@ -1326,6 +1326,25 @@ const u16 gEggMoves[] = {
               MOVE_ODOR_SLEUTH,
               MOVE_SLASH),
 
+    egg_moves(SKORUPI,
+              MOVE_AGILITY,
+              MOVE_CONFUSE_RAY,
+              MOVE_FAINT_ATTACK,
+              MOVE_IRON_TAIL,
+              MOVE_PURSUIT,
+              MOVE_SAND_ATTACK,
+              MOVE_SCREECH,
+              MOVE_SLASH,
+              MOVE_TWINEEDLE,
+              MOVE_WHIRLWIND),
+
+    egg_moves(SKORUPI,
+              MOVE_ENDURE,
+              MOVE_FORESIGHT,
+              MOVE_HARDEN,
+              MOVE_MORNING_SUN,
+              MOVE_STRING_SHOT),
+
     // fakemon
     egg_moves(SLEETH,
               MOVE_LIGHT_SCREEN,

@@ -417,7 +417,11 @@ gMonShinyPaletteTable:: @ 81EB374
 	// later gens
 	obj_pal gMonShinyPalette_Buizel, PAL_ID_SHINY + SPECIES_BUIZEL
 	obj_pal gMonShinyPalette_Floatzel, PAL_ID_SHINY + SPECIES_FLOATZEL
+	obj_pal gMonShinyPalette_Skorupi, PAL_ID_SHINY + SPECIES_SKORUPI
+	obj_pal gMonShinyPalette_Drapion, PAL_ID_SHINY + SPECIES_DRAPION
 	obj_pal gMonShinyPalette_Gliscor, PAL_ID_SHINY + SPECIES_GLISCOR
+	obj_pal gMonShinyPalette_Larvesta, PAL_ID_SHINY + SPECIES_LARVESTA
+	obj_pal gMonShinyPalette_Volcarona, PAL_ID_SHINY + SPECIES_VOLCARONA
 	// fakemon
 	obj_pal gMonShinyPalette_Sleeth, PAL_ID_SHINY + SPECIES_SLEETH
 	// rest

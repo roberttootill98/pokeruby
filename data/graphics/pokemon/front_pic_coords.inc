@@ -416,9 +416,13 @@ gMonFrontPicCoords:: @ 81E7C74
 	// later gens
 	.byte 136,  0, 0, 0 // buizel
 	.byte 136,  0, 0, 0 // floatzel
+	.byte 136,  0, 0, 0 // skorupi
+	.byte 136,  0, 0, 0 // drapion
 	.byte 136,  0, 0, 0 // gliscor
+	.byte 136,  0, 0, 0 // larvesta
+	.byte 136,  0, 0, 0 // volcarona
 	// fakemon
-	.byte 136,	0, 0, 0 // sleeth
+	.byte   0,32,32,32 // sleeth
 	// rest
 	.byte  52, 16, 0, 0 // UNOWN B
 	.byte  68, 16, 0, 0 // UNOWN C

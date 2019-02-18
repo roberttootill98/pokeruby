@@ -454,7 +454,11 @@ const u8 gEnemyMonElevation[] = {
     // later gens
     [SPECIES_BUIZEL] = 0,
     [SPECIES_FLOATZEL] = 0,
+    [SPECIES_SKORUPI] = 0,
+    [SPECIES_DRAPION] = 0,
     [SPECIES_GLISCOR] = 4,
+    [SPECIES_LARVESTA] = 0,
+    [SPECIES_VOLCARONA] = 0,
     // fakemon
     [SPECIES_SLEETH] = 0,
 };

@@ -1824,9 +1824,25 @@ Cry_floatzel:: @ 8638E88
 	.incbin "sound/direct_sound_samples/cries/cry_Floatzel.bin"
 
 	.align 2
+Cry_skorupi:: @ 8638E88
+	.incbin "sound/direct_sound_samples/cries/cry_Skorupi.bin"
+
+	.align 2
+Cry_drapion:: @ 8638E88
+	.incbin "sound/direct_sound_samples/cries/cry_Drapion.bin"
+
+	.align 2
 Cry_gliscor:: @ 8638E88
 	.incbin "sound/direct_sound_samples/cries/cry_Gliscor.bin"
-	
+
+	.align 2
+Cry_larvesta:: @ 8638E88
+	.incbin "sound/direct_sound_samples/cries/cry_Larvesta.bin"
+
+	.align 2
+Cry_volcarona:: @ 8638E88
+	.incbin "sound/direct_sound_samples/cries/cry_Volcarona.bin"
+
 // fakemon
 	.align 2
 Cry_Sleeth:: @ 8638E88

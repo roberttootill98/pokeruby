@@ -415,7 +415,11 @@ gMonFrontPicTable:: @ 81E8354
 	// later gens
 	obj_tiles gMonFrontPic_Buizel, 0x800, SPECIES_BUIZEL
 	obj_tiles gMonFrontPic_Floatzel, 0x800, SPECIES_FLOATZEL
+	obj_tiles gMonFrontPic_Skorupi, 0x800, SPECIES_SKORUPI
+	obj_tiles gMonFrontPic_Drapion, 0x800, SPECIES_DRAPION
 	obj_tiles gMonFrontPic_Gliscor, 0x800, SPECIES_GLISCOR
+	obj_tiles gMonFrontPic_Larvesta, 0x800, SPECIES_LARVESTA
+	obj_tiles gMonFrontPic_Volcarona, 0x800, SPECIES_VOLCARONA
 	// fakemon
 	obj_tiles gMonFrontPic_Sleeth, 0x800, SPECIES_SLEETH
 	// rest

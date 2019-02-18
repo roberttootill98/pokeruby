@@ -921,7 +921,11 @@ static const u8 *const sMonFootprintTable[] =
     // later gens
     gMonFootprint_Buizel,
     gMonFootprint_Floatzel,
+    gMonFootprint_Skorupi,
+    gMonFootprint_Drapion,
     gMonFootprint_Gliscor,
+    gMonFootprint_Larvesta,
+    gMonFootprint_Volcarona,
     // fakemon
     gMonFootprint_Sleeth,
 };

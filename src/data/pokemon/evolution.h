@@ -190,6 +190,8 @@ struct Evolution gEvolutionTable[NUM_SPECIES][5] =
     [SPECIES_METANG]     = {{EVO_LEVEL, 45, SPECIES_METAGROSS}},
     // later gens
     [SPECIES_BUIZEL]     = {{EVO_LEVEL, 26, SPECIES_FLOATZEL}},
+    [SPECIES_SKORUPI]    = {{EVO_LEVEL, 40, SPECIES_DRAPION}},
+    [SPECIES_LARVESTA]   = {{EVO_LEVEL, 59, SPECIES_VOLCARONA}},
     // fakemon
 };
 

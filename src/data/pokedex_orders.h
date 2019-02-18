@@ -101,6 +101,7 @@ static const u16 gPokedexOrder_Alphabetical[] =
     NATIONAL_DEX_DONPHAN,
     NATIONAL_DEX_DRAGONAIR,
     NATIONAL_DEX_DRAGONITE,
+    NATIONAL_DEX_DRAPION,
     NATIONAL_DEX_DRATINI,
     NATIONAL_DEX_DROWZEE,
     NATIONAL_DEX_DUGTRIO,
@@ -190,6 +191,7 @@ static const u16 gPokedexOrder_Alphabetical[] =
     NATIONAL_DEX_LANTURN,
     NATIONAL_DEX_LAPRAS,
     NATIONAL_DEX_LARVITAR,
+    NATIONAL_DEX_LARVESTA,
     NATIONAL_DEX_LATIAS,
     NATIONAL_DEX_LATIOS,
     NATIONAL_DEX_LEDIAN,
@@ -330,6 +332,7 @@ static const u16 gPokedexOrder_Alphabetical[] =
     NATIONAL_DEX_SKARMORY,
     NATIONAL_DEX_SKIPLOOM,
     NATIONAL_DEX_SKITTY,
+    NATIONAL_DEX_SKORUPI,
     NATIONAL_DEX_SLAKING,
     NATIONAL_DEX_SLAKOTH,
     NATIONAL_DEX_SLEETH,
@@ -393,6 +396,7 @@ static const u16 gPokedexOrder_Alphabetical[] =
     NATIONAL_DEX_VIGOROTH,
     NATIONAL_DEX_VILEPLUME,
     NATIONAL_DEX_VOLBEAT,
+    NATIONAL_DEX_VOLCARONA,
     NATIONAL_DEX_VOLTORB,
     NATIONAL_DEX_VULPIX,
     NATIONAL_DEX_WAILMER,
@@ -496,6 +500,7 @@ static const u16 gPokedexOrder_Alphabetical[] = {
     NATIONAL_DEX_DRAGONITE, // Dragoran
     NATIONAL_DEX_SHELGON, // Draschel
     NATIONAL_DEX_DRATINI, // Dratini
+    NATIONAL_DEX_DRAPION, // Drapion
     NATIONAL_DEX_GLOOM, // Duflor
     NATIONAL_DEX_DUNSPARCE, // Dummisel
     NATIONAL_DEX_ELEKID, // Elekid
@@ -605,6 +610,7 @@ static const u16 gPokedexOrder_Alphabetical[] = {
     NATIONAL_DEX_LANTURN, // Lanturn
     NATIONAL_DEX_LAPRAS, // Lapras
     NATIONAL_DEX_LARVITAR, // Larvitar
+    NATIONAL_DEX_LARVESTA, // Larvesta
     NATIONAL_DEX_SLOWKING, // Laschoking
     NATIONAL_DEX_LATIAS, // Latias
     NATIONAL_DEX_LATIOS, // Latios
@@ -758,6 +764,7 @@ static const u16 gPokedexOrder_Alphabetical[] = {
     NATIONAL_DEX_ALAKAZAM, // Simsala
     NATIONAL_DEX_HERACROSS, // Skaraborn
     NATIONAL_DEX_GLIGAR, // Skorgla
+    NATIONAL_DEX_SKORUPI, // Skorupi
     NATIONAL_DEX_GLISCOR, // Gliscor
     NATIONAL_DEX_SLEETH, // Sleeth
     NATIONAL_DEX_GRIMER, // Sleima
@@ -808,6 +815,7 @@ static const u16 gPokedexOrder_Alphabetical[] = {
     NATIONAL_DEX_VIBRAVA, // Vibrava
     NATIONAL_DEX_SEVIPER, // Vipitis
     NATIONAL_DEX_VOLBEAT, // Volbeat
+    NATIONAL_DEX_VOLCARONA, // Volcarona
     NATIONAL_DEX_MANECTRIC, // Voltenso
     NATIONAL_DEX_MAREEP, // Voltilamm
     NATIONAL_DEX_VOLTORB, // Voltobal
@@ -1227,7 +1235,11 @@ static const u16 gPokedexOrder_Weight[] =
     NATIONAL_DEX_GROUDON,
     NATIONAL_DEX_BUIZEL,
     NATIONAL_DEX_FLOATZEL,
+    NATIONAL_DEX_SKORUPI,
+    NATIONAL_DEX_DRAPION,
     NATIONAL_DEX_GLISCOR,
+    NATIONAL_DEX_LARVESTA,
+    NATIONAL_DEX_VOLCARONA,
     NATIONAL_DEX_SLEETH,
 };
 static const u16 gPokedexOrder_Height[] =
@@ -1620,6 +1632,10 @@ static const u16 gPokedexOrder_Height[] =
     NATIONAL_DEX_WAILORD,
     NATIONAL_DEX_BUIZEL,
     NATIONAL_DEX_FLOATZEL,
+    NATIONAL_DEX_SKORUPI,
+    NATIONAL_DEX_DRAPION,
     NATIONAL_DEX_GLISCOR,
+    NATIONAL_DEX_LARVESTA,
+    NATIONAL_DEX_VOLCARONA,
     NATIONAL_DEX_SLEETH,
 };

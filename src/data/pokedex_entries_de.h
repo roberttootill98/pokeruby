@@ -6356,6 +6356,24 @@ static const u8 DexDescription_Floatzel_2[] = _(
     "flotation sac. It assists in the \n"
     "rescues of drowning people.");
 
+static const u8 DexDescription_Skorupi_1[] = _(
+    "As soon as the tail claws close,\n"
+    "its needle tips secrete poison.\n"
+    "It can survive a year without food.");
+static const u8 DexDescription_Skorupi_2[] = _(
+    "As soon as the tail claws close,\n"
+    "its needle tips secrete poison.\n"
+    "It can survive a year without food.");
+
+static const u8 DexDescription_Drapion_1[] = _(
+    "It has the power in its clawed\n"
+    "arms to make scrap of a car.\n"
+    "The tips of its claws release poison.");
+static const u8 DexDescription_Drapion_2[] = _(
+    "It has the power in its clawed\n"
+    "arms to make scrap of a car.\n"
+    "The tips of its claws release poison.");
+
 static const u8 DexDescription_Gliscor_1[] = _(
     "It observes prey while hanging\n"
     "inverted from branches. When the\n"
@@ -6364,6 +6382,24 @@ static const u8 DexDescription_Gliscor_2[] = _(
     "It observes prey while hanging\n"
     "inverted from branches. When the\n"
     "chance presents itself, it swoops!");
+
+static const u8 DexDescription_Larvesta_1[] = _(
+    "This Pokémon was believed to have\n"
+    "been born from the sun. When it evolves,\n"
+    "its entire body is engulfed in flames.");
+static const u8 DexDescription_Larvesta_2[] = _(
+    "This Pokémon was believed to have\n"
+    "been born from the sun. When it evolves,\n"
+    "its entire body is engulfed in flames.");
+
+static const u8 DexDescription_Volcarona_1[] = _(
+    "When volcanic ash darkened the atmosphere,\n"
+    "it is said that Volcarona's fire provided\n"
+    "a replacement for the sun.");
+static const u8 DexDescription_Volcarona_2[] = _(
+    "When volcanic ash darkened the atmosphere,\n"
+    "it is said that Volcarona's fire provided\n"
+    "a replacement for the sun.");
 
 // fakemon
 static const u8 DexDescription_Sleeth_1[] = _(
