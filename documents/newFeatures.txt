@@ -4,6 +4,7 @@ new moves
 run inside
 egg hatch at lvl 1
 fairy type -> with todo
+reusable tms, remove option to hold and amount of tm
 
 TODO-----------------------------------------------
 smarter ai, includes physical/special
