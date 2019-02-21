@@ -363,6 +363,10 @@
 #define ITEM_15B 347
 #define ITEM_15C 348
 
+// later gen items
+#define ITEM_RAZOR_FANG 349
+// new items
+
 #define NUM_TECHNICAL_MACHINES 50
 #define NUM_HIDDEN_MACHINES     8
 

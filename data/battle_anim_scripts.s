@@ -373,6 +373,7 @@ gBattleAnims_Moves:: @ 81C7168
 	.4byte Move_WATER_PULSE
 	.4byte Move_DOOM_DESIRE
 	.4byte Move_PSYCHO_BOOST
+	.4byte Move_XSCISSOR
 	.4byte PoundCopy
 
 	.align 2
@@ -10748,3 +10749,32 @@ Special_SubstituteToMon: @ 81D6BA6
 Special_MonToSubstitute: @ 81D6BB0
 	createvisualtask sub_814151C, 2, 0
 	end
+
+// later gens
+Move_XSCISSOR: @ move_scissor
+	loadspritegfx ANIM_TAG_CIRCLE_OF_LIGHT
+	monbg ANIM_BATTLER_ATK_PARTNER
+	fadetobg BG_PSYCHIC
+	waitbgfadeout
+	createvisualtask sub_812C624, 5
+	waitbgfadein
+	delay 6
+	createvisualtask sub_80E1F8C, 2, 1, 2, 8, 0, 10, 0
+	delay 0
+	monbgprio_28 0
+	setalpha 8, 8
+	delay 10
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BATTLER_ATTACKER, 3, 0, 240, 0
+	loopsewithpan SE_W060B, SOUND_PAN_ATTACKER, 14, 10
+	createsprite gBattleAnimSpriteTemplate_83DAA68, ANIM_BATTLER_ATTACKER, 2
+	delay 110
+	loopsewithpan SE_W060B, SOUND_PAN_ATTACKER, 7, 10
+	waitforvisualfinish
+	createvisualtask AnimTask_ShakeMon2, 2, ANIM_BATTLER_TARGET, -8, 1, 24, 1
+	playsewithpan SE_W043, SOUND_PAN_TARGET
+	waitforvisualfinish
+	clearmonbg ANIM_BATTLER_ATK_PARTNER
+	blendoff
+	call BackgroundRestore
+	end
+// new moves

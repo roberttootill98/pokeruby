@@ -1414,6 +1414,10 @@ static const u8 MoveDescription_PsychoBoost[] = _(
     "Allows a full-power attack,\n"
     "but sharply lowers SP. ATK.");
 
+static const u8 MoveDescription_XScissor[] = _(
+    "Slashes at the foe, crossing\n"
+    "its scythes or claws.");
+
 const u8 * const gMoveDescriptions[] = {
     MoveDescription_Pound,
     MoveDescription_KarateChop,
@@ -1769,4 +1773,5 @@ const u8 * const gMoveDescriptions[] = {
     MoveDescription_WaterPulse,
     MoveDescription_DoomDesire,
     MoveDescription_PsychoBoost,
+    MoveDescription_XScissor,
 };
