@@ -1566,7 +1566,7 @@ const struct WildPokemon Route101_LandMons [] =
     {2, 2, SPECIES_LARVESTA},
     {2, 2, SPECIES_LARVESTA},
     {3, 3, SPECIES_SKORUPI},
-    {3, 3, SPECIES_DRAPION},
+    {100, 100, SPECIES_DRAPION},
     {3, 3, SPECIES_VOLCARONA},
     {3, 3, SPECIES_LARVESTA},
     {3, 3, SPECIES_ZIGZAGOON},

@@ -1459,7 +1459,10 @@ static void atk04_critcalc(void)
      && !(gStatuses3[gBankAttacker] & STATUS3_CANT_SCORE_A_CRIT)
      && !(gBattleTypeFlags & (BATTLE_TYPE_WALLY_TUTORIAL | BATTLE_TYPE_FIRST_BATTLE))
      && !(Random() % sCriticalHitChance[critChance]))
-        gCritMultiplier = 2;
+        if (gBattleMons[gBankTarget].ability == ABILITY_SNIPER)
+          gCritMultiplier = 3;
+        else
+          gCritMultiplier = 2;
     else
         gCritMultiplier = 1;
 
@@ -5541,7 +5544,7 @@ static void atk23_getexp(void)
                 gBattleResources_statsBeforeLvlUp->spd = GetMonData(&gPlayerParty[gBattleStruct->expGetterID], MON_DATA_SPEED);
                 gBattleResources_statsBeforeLvlUp->spAtk = GetMonData(&gPlayerParty[gBattleStruct->expGetterID], MON_DATA_SPATK);
                 gBattleResources_statsBeforeLvlUp->spDef = GetMonData(&gPlayerParty[gBattleStruct->expGetterID], MON_DATA_SPDEF);
-                
+
                 gActiveBattler = gBattleStruct->expGetterBank;
 
                 EmitExpBarUpdate(0, gBattleStruct->expGetterID, gBattleMoveDamage);
@@ -14010,15 +14013,15 @@ static void atkC1_hiddenpowercalc(void)
 	          ((gBattleMons[gBankAttacker].speedIV & 1) << 3) |
 	          ((gBattleMons[gBankAttacker].spAttackIV & 1) << 4) |
 	          ((gBattleMons[gBankAttacker].spDefenseIV & 1) << 5);
-	
+
 	gDynamicBasePower = 30 + (power * 40 / 63);
-	
+
 	gBattleStruct->dynamicMoveType = ((type * 15) / 63) + 1;
 	if (gBattleStruct->dynamicMoveType >= TYPE_MYSTERY)
 		gBattleStruct->dynamicMoveType++;
-	
+
 	gBattleStruct->dynamicMoveType |= 0xC0;
-	
+
 	gBattlescriptCurrInstr++;
 }
 

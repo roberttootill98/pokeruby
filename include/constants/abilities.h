@@ -79,5 +79,8 @@
 #define ABILITY_SHELL_ARMOR 75
 #define ABILITY_CACOPHONY 76
 #define ABILITY_AIR_LOCK 77
+// later gens
+#define ABILITY_SNIPER 78
+// new abilities
 
 #endif  // GUARD_CONSTANTS_ABILITIES_H
