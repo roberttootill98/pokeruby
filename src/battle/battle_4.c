@@ -1459,7 +1459,7 @@ static void atk04_critcalc(void)
      && !(gStatuses3[gBankAttacker] & STATUS3_CANT_SCORE_A_CRIT)
      && !(gBattleTypeFlags & (BATTLE_TYPE_WALLY_TUTORIAL | BATTLE_TYPE_FIRST_BATTLE))
      && !(Random() % sCriticalHitChance[critChance]))
-        if (gBattleMons[gBankTarget].ability == ABILITY_SNIPER)
+        if (gBattleMons[gBankAttacker].ability == ABILITY_SNIPER)
           gCritMultiplier = 3;
         else
           gCritMultiplier = 2;
