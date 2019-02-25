@@ -1415,32 +1415,32 @@ static const u8 MoveDescription_PsychoBoost[] = _(
 
 // later gens
 static const u8 MoveDescription_AirSlash[] = _(
-    "The user attacks with a blade\n"
-    "of air that may cause flinching.");
+    "A blade strikes made of air,\n"
+    "it may also cause flinching.");
 
 static const u8 MoveDescription_AquaJet[] = _(
-    "The user lunges at the foe at\n"
-    "a fast speed to strike first.");
+    "The user lunges at the foe\n"
+    "at speed to strike first.");
 
 static const u8 MoveDescription_AquaTail[] = _(
-    "The user attacks by swinging its\n"
-    "tail as if it were a vicious wave.");
+    "The user whips its tail\n"
+    "as if it were a vicious wave.");
 
 static const u8 MoveDescription_Assurance[] = _(
-    "If the user has already taken\n"
-    "damage, the attack power is doubled.");
+    "If the user has been hit,\n"
+    "the attack power is doubled.");
 
 static const u8 MoveDescription_AuraSphere[] = _(
-    "The user looses a blast of aura\n"
-    "power from deep within its body.");
+    "The user looses a blast of\n"
+    "aura which can't be evaded.");
 
 static const u8 MoveDescription_Avalanche[] = _(
-  "If the user has already taken\n"
-  "damage, the attack power is doubled.");
+    "If the user has been hit,\n"
+    "the attack power is doubled.");
 
 static const u8 MoveDescription_XScissor[] = _(
     "The user slashes at the foe\n"
-    "by crossing its scythes or claws.");
+    "by crossing its appendages.");
 // new moves
 
 const u8 * const gMoveDescriptions[] = {
