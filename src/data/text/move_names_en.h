@@ -354,5 +354,13 @@ const u8 gMoveNames[][13] = {
     [MOVE_WATER_PULSE] = _("WATER PULSE"),
     [MOVE_DOOM_DESIRE] = _("DOOM DESIRE"),
     [MOVE_PSYCHO_BOOST] = _("PSYCHO BOOST"),
+    // later gens
+    [MOVE_AIR_SLASH] = _("AIR SLASH"),
+    [MOVE_AQUA_JET] = _("AQUA JET"),
+    [MOVE_AQUA_TAIL] = _("AQUA TAIL"),
+    [MOVE_ASSURANCE] = _("ASSURANCE"),
+    [MOVE_AURA_SPHERE] = _("AURA SPHERE"),
+    [MOVE_AVALANCHE] = _("AVALANCHE"),
     [MOVE_XSCISSOR] = _("X-SCISSOR"),
+    // new moves
 };

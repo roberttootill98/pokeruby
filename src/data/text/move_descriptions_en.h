@@ -1414,9 +1414,35 @@ static const u8 MoveDescription_PsychoBoost[] = _(
     "Allows a full-power attack,\n"
     "but sharply lowers SP. ATK.");
 
+// later gens
+static const u8 MoveDescription_AirSlash[] = _(
+    "A blade strikes made of air,\n"
+    "it may also cause flinching.");
+
+static const u8 MoveDescription_AquaJet[] = _(
+    "The user lunges at the foe\n"
+    "at speed to strike first.");
+
+static const u8 MoveDescription_AquaTail[] = _(
+    "The user whips its tail\n"
+    "as if it were a vicious wave.");
+
+static const u8 MoveDescription_Assurance[] = _(
+    "If the user has been hit,\n"
+    "the attack power is doubled.");
+
+static const u8 MoveDescription_AuraSphere[] = _(
+    "The user looses a blast of\n"
+    "aura which can't be evaded.");
+
+static const u8 MoveDescription_Avalanche[] = _(
+    "If the user has been hit,\n"
+    "the attack power is doubled.");
+
 static const u8 MoveDescription_XScissor[] = _(
-    "Slashes at the foe, crossing\n"
-    "its scythes or claws.");
+    "The user slashes at the foe\n"
+    "by crossing its appendages.");
+// new moves
 
 const u8 * const gMoveDescriptions[] = {
     MoveDescription_Pound,
@@ -1773,5 +1799,13 @@ const u8 * const gMoveDescriptions[] = {
     MoveDescription_WaterPulse,
     MoveDescription_DoomDesire,
     MoveDescription_PsychoBoost,
+    // later gens
+    MoveDescription_AirSlash,
+    MoveDescription_AquaJet,
+    MoveDescription_AquaTail,
+    MoveDescription_Assurance,
+    MoveDescription_AuraSphere,
+    MoveDescription_Avalanche,
     MoveDescription_XScissor,
+    // new moves
 };

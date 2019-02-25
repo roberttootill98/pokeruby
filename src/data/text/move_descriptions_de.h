@@ -1413,9 +1413,35 @@ static const u8 MoveDescription_PsychoBoost[] = _(
     "Angriff mit voller Kraft.\n"
     "SPEZ. ANGR. sinkt deutlich.");
 
+// later gens
+static const u8 MoveDescription_AirSlash[] = _(
+    "The user attacks with a blade\n"
+    "of air that may cause flinching.");
+
+static const u8 MoveDescription_AquaJet[] = _(
+    "The user lunges at the foe at\n"
+    "a fast speed to strike first.");
+
+static const u8 MoveDescription_AquaTail[] = _(
+    "The user attacks by swinging its\n"
+    "tail as if it were a vicious wave.");
+
+static const u8 MoveDescription_Assurance[] = _(
+    "If the user has already taken\n"
+    "damage, the attack power is doubled.");
+
+static const u8 MoveDescription_AuraSphere[] = _(
+    "The user looses a blast of aura\n"
+    "power from deep within its body.");
+
+static const u8 MoveDescription_Avalanche[] = _(
+  "If the user has already taken\n"
+  "damage, the attack power is doubled.");
+
 static const u8 MoveDescription_XScissor[] = _(
     "The user slashes at the foe\n"
     "by crossing its scythes or claws.");
+// new moves
 
 const u8 * const gMoveDescriptions[] = {
     MoveDescription_Pound,
@@ -1772,5 +1798,13 @@ const u8 * const gMoveDescriptions[] = {
     MoveDescription_WaterPulse,
     MoveDescription_DoomDesire,
     MoveDescription_PsychoBoost,
+    // later gens
+    MoveDescription_AirSlash,
+    MoveDescription_AquaJet,
+    MoveDescription_AquaTail,
+    MoveDescription_Assurance,
+    MoveDescription_AuraSphere,
+    MoveDescription_Avalanche,
     MoveDescription_XScissor,
+    // new moves
 };
