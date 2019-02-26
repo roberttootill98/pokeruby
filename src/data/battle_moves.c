@@ -4627,6 +4627,7 @@ const struct BattleMove gBattleMoves[] = {
     },
 
     // later gens
+    // gen 4
     [MOVE_AIR_SLASH] = {
         .effect = EFFECT_FLINCH_HIT,
         .power = 75,
@@ -4667,7 +4668,7 @@ const struct BattleMove gBattleMoves[] = {
     },
 
     [MOVE_ASSURANCE] = {
-        .effect = EFFECT_HIT,
+        .effect = EFFECT_HIT, // placeholder, effect_double_if_hit
         .power = 60,
         .type = TYPE_DARK,
         .accuracy = 100,
@@ -4693,7 +4694,7 @@ const struct BattleMove gBattleMoves[] = {
     },
 
     [MOVE_AVALANCHE] = {
-        .effect = EFFECT_HIT,
+        .effect = EFFECT_HIT, // placeholder, effect_double_if_hit
         .power = 60,
         .type = TYPE_ICE,
         .accuracy = 100,
@@ -4701,6 +4702,71 @@ const struct BattleMove gBattleMoves[] = {
         .secondaryEffectChance = 0,
         .target = TARGET_SELECTED_POKEMON,
         .priority = -4,
+        .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT,
+        .isPhysical = 1,
+    },
+
+    [MOVE_BRAVE_BIRD] = {
+        .effect = EFFECT_DOUBLE_EDGE,
+        .power = 120,
+        .type = TYPE_FLYING,
+        .accuracy = 100,
+        .pp = 15,
+        .secondaryEffectChance = 0,
+        .target = TARGET_SELECTED_POKEMON,
+        .priority = 0,
+        .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT,
+        .isPhysical = 1,
+    },
+
+    [MOVE_BRINE] = {
+        .effect = EFFECT_HIT, // placeholder, effect_double_below_50
+        .power = 65,
+        .type = TYPE_WATER,
+        .accuracy = 100,
+        .pp = 10,
+        .secondaryEffectChance = 0,
+        .target = TARGET_SELECTED_POKEMON,
+        .priority = 0,
+        .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT,
+        .isPhysical = 0,
+    },
+
+    [MOVE_BUG_BITE] = {
+        .effect = EFFECT_HIT, // placeholder, effect_bug_bite
+        .power = 60,
+        .type = TYPE_BUG,
+        .accuracy = 100,
+        .pp = 20,
+        .secondaryEffectChance = 0,
+        .target = TARGET_SELECTED_POKEMON,
+        .priority = 0,
+        .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT,
+        .isPhysical = 1,
+    },
+
+    [MOVE_BUG_BUZZ] = { // todo find where soundproof based moves are accounted for
+        .effect = EFFECT_SPECIAL_DEFENSE_DOWN_HIT,
+        .power = 90,
+        .type = TYPE_BUG,
+        .accuracy = 100,
+        .pp = 10,
+        .secondaryEffectChance = 10,
+        .target = TARGET_SELECTED_POKEMON,
+        .priority = 0,
+        .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT,
+        .isPhysical = 0,
+    },
+
+    [MOVE_BULLET_PUNCH] = {
+        .effect = EFFECT_HIT,
+        .power = 40,
+        .type = TYPE_FIGHTING,
+        .accuracy = 100,
+        .pp = 30,
+        .secondaryEffectChance = 0,
+        .target = TARGET_SELECTED_POKEMON,
+        .priority = 1,
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT,
         .isPhysical = 1,
     },

@@ -355,12 +355,18 @@ const u8 gMoveNames[][13] = {
     [MOVE_DOOM_DESIRE] = _("KISMETWUNSCH"),
     [MOVE_PSYCHO_BOOST] = _("PSYSCHUB"),
     // later gens
+    // gen 4
     [MOVE_AIR_SLASH] = _("AIR SLASH"),
     [MOVE_AQUA_JET] = _("AQUA JET"),
     [MOVE_AQUA_TAIL] = _("AQUA TAIL"),
     [MOVE_ASSURANCE] = _("ASSURANCE"),
     [MOVE_AURA_SPHERE] = _("AURA SPHERE"),
     [MOVE_AVALANCHE] = _("AVALANCHE"),
+    [MOVE_BRAVE_BIRD] = _("BRAVE BIRD"),
+    [MOVE_BRINE] = _("BRINE"),
+    [MOVE_BUG_BITE] = _("BUG BITE"),
+    [MOVE_BUG_BUZZ] = _("BUG BUZZ"),
+    [MOVE_BULLET_PUNCH] = _("BULLET PUNCH"),
     [MOVE_XSCISSOR] = _("X-SCISSOR"),
     // new moves
 };

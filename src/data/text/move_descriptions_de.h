@@ -1438,6 +1438,26 @@ static const u8 MoveDescription_Avalanche[] = _(
     "If the user has been hit,\n"
     "the attack power is doubled.");
 
+static const u8 MoveDescription_BraveBird[] = _(
+    "The user swoops in with\n"
+    "reckless abandon, recoiling.");
+
+static const u8 MoveDescription_Brine[] = _(
+    "This moves power is doubled\n"
+    "when the users HP is low.");
+
+static const u8 MoveDescription_BugBite[] = _(
+    "If the foe has a Berry, the\n"
+    "user steals and eats it.");
+
+static const u8 MoveDescription_BugBuzz[] = _(
+    "The user vibrates its wings\n"
+    "loudly, it may lower Sp. Def.");
+
+static const u8 MoveDescription_BulletPunch[] = _(
+    "Punches as fast as a bullet.\n"
+    "This move always goes first.");
+
 static const u8 MoveDescription_XScissor[] = _(
     "The user slashes at the foe\n"
     "by crossing its appendages.");
@@ -1805,6 +1825,11 @@ const u8 * const gMoveDescriptions[] = {
     MoveDescription_Assurance,
     MoveDescription_AuraSphere,
     MoveDescription_Avalanche,
+    MoveDescription_BraveBird,
+    MoveDescription_Brine,
+    MoveDescription_BugBite,
+    MoveDescription_BugBuzz,
+    MoveDescription_BulletPunch,
     MoveDescription_XScissor,
     // new moves
 };

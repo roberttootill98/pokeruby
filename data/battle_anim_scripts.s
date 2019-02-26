@@ -374,14 +374,21 @@ gBattleAnims_Moves:: @ 81C7168
 	.4byte Move_DOOM_DESIRE
 	.4byte Move_PSYCHO_BOOST
 	// later gens
+	// gen 4
 	.4byte Move_AIR_SLASH
 	.4byte Move_AQUA_JET
 	.4byte Move_AQUA_TAIL
 	.4byte Move_ASSURANCE
 	.4byte Move_AURA_SPHERE
 	.4byte Move_AVALANCHE
+	.4byte Move_BRAVE_BIRD
+	.4byte Move_BRINE
+	.4byte Move_BUG_BITE
+	.4byte Move_BUG_BUZZ
+	.4byte Move_BULLET_PUNCH
 	.4byte Move_XSCISSOR
 	// new moves
+	// rest
 	.4byte PoundCopy
 
 	.align 2
@@ -10820,6 +10827,66 @@ Move_AURA_SPHERE: @ move_aura_sphere
 	end
 
 Move_AVALANCHE: @ move_avalanche
+	loadspritegfx ANIM_TAG_IMPACT
+	monbg ANIM_BATTLER_TARGET
+	setalpha 12, 8
+	playsewithpan SE_W003, SOUND_PAN_TARGET
+	createsprite gBasicHitSplatSpriteTemplate, ANIM_BATTLER_ATTACKER, 2, 0, 0, 1, 2
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BATTLER_TARGET, 3, 0, 6, 1
+	waitforvisualfinish
+	clearmonbg ANIM_BATTLER_TARGET
+	blendoff
+	end
+
+Move_BRAVE_BIRD: @ move_brave_bird
+	loadspritegfx ANIM_TAG_IMPACT
+	monbg ANIM_BATTLER_TARGET
+	setalpha 12, 8
+	playsewithpan SE_W003, SOUND_PAN_TARGET
+	createsprite gBasicHitSplatSpriteTemplate, ANIM_BATTLER_ATTACKER, 2, 0, 0, 1, 2
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BATTLER_TARGET, 3, 0, 6, 1
+	waitforvisualfinish
+	clearmonbg ANIM_BATTLER_TARGET
+	blendoff
+	end
+
+Move_BRINE: @ move_brine
+	loadspritegfx ANIM_TAG_IMPACT
+	monbg ANIM_BATTLER_TARGET
+	setalpha 12, 8
+	playsewithpan SE_W003, SOUND_PAN_TARGET
+	createsprite gBasicHitSplatSpriteTemplate, ANIM_BATTLER_ATTACKER, 2, 0, 0, 1, 2
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BATTLER_TARGET, 3, 0, 6, 1
+	waitforvisualfinish
+	clearmonbg ANIM_BATTLER_TARGET
+	blendoff
+	end
+
+Move_BUG_BITE: @ move_bug_bite
+	loadspritegfx ANIM_TAG_IMPACT
+	monbg ANIM_BATTLER_TARGET
+	setalpha 12, 8
+	playsewithpan SE_W003, SOUND_PAN_TARGET
+	createsprite gBasicHitSplatSpriteTemplate, ANIM_BATTLER_ATTACKER, 2, 0, 0, 1, 2
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BATTLER_TARGET, 3, 0, 6, 1
+	waitforvisualfinish
+	clearmonbg ANIM_BATTLER_TARGET
+	blendoff
+	end
+
+Move_BUG_BUZZ: @ move_bug_bite
+	loadspritegfx ANIM_TAG_IMPACT
+	monbg ANIM_BATTLER_TARGET
+	setalpha 12, 8
+	playsewithpan SE_W003, SOUND_PAN_TARGET
+	createsprite gBasicHitSplatSpriteTemplate, ANIM_BATTLER_ATTACKER, 2, 0, 0, 1, 2
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BATTLER_TARGET, 3, 0, 6, 1
+	waitforvisualfinish
+	clearmonbg ANIM_BATTLER_TARGET
+	blendoff
+	end
+
+Move_BULLET_PUNCH: @ move_bullet_punch
 	loadspritegfx ANIM_TAG_IMPACT
 	monbg ANIM_BATTLER_TARGET
 	setalpha 12, 8
