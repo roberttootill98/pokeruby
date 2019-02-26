@@ -15942,3 +15942,10 @@ static void atkF7_finishturn(void)
     gCurrentActionFuncId = 0xC;
     gCurrentTurnActionNumber = gBattlersCount;
 }
+
+static void atkF8_double_if_hit(void)
+{
+    if () // took damage
+      // power * 2
+      gBattleMoveDamage = gProtectStructs[gBankAttacker].physicalDmg * 2;
+}

@@ -215,5 +215,8 @@
 #define EFFECT_CALM_MIND 211
 #define EFFECT_DRAGON_DANCE 212
 #define EFFECT_CAMOUFLAGE 213
+// later gen effects
+#define EFFECT_DOUBLE_IF_HIT 214
+// new effects
 
 #endif  // GUARD_CONSTANTS_BATTLE_MOVE_EFFECTS_H

@@ -24,6 +24,9 @@
                         new move behaviour
 ================================================================
 
+/constants/battle_script_constants.inc
+-> new .set, 
+
 /include/contants/battle_move_effects.h
 -> new entry, for new type of move
 

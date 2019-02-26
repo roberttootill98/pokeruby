@@ -22,12 +22,12 @@
 	.set ANIM_x14, 0x14
 	.set ANIM_INGRAIN_HEAL, 0x15
 	.set ANIM_WISH_HEAL, 0x16
-		
+
 @ atk 80
 	.set ATK80_DMG_CHANGE_SIGN, 0x0
 	.set ATK80_DMG_HALF_BY_TWO_NOT_MORE_THAN_HALF_MAX_HP, 0x1
 	.set ATK80_DMG_DOUBLED, 0x2
-	
+
 @ compare operands
 	.set EQUAL, 0x0
 	.set NOT_EQUAL, 0x1
@@ -35,7 +35,7 @@
 	.set LESS_THAN, 0x3
 	.set COMMON_BITS, 0x4
 	.set NO_COMMON_BITS, 0x5
-	
+
 @ move effects
 	.set EFFECT_SLEEP, 0x1
 	.set EFFECT_POISON, 0x2
@@ -100,10 +100,12 @@
 	.set EFFECT_NOTHING_3D, 0x3D
 	.set EFFECT_NOTHING_3E, 0x3E
 	.set EFFECT_NOTHING_3F, 0x3F
-	
 	.set AFFECTS_USER, 0x40
+	// later gens
+	.set EFFECT_DOUBLE_IF_HIT, 0x41
+	// new effects
 	.set CERTAIN, 0x80
-	
+
 @ accuracy calc
 	.set NO_ACC_CALC, 0xFFFE
 	.set NO_ACC_CALC_CHECK_LOCK_ON, 0xFFFF
@@ -116,7 +118,7 @@
 	.set BANK0, 0x7
 	.set SCRIPTING_BANK, 0xA
 	.set OPPONENT1, 0xC
-	
+
 @ various
 	.set VARIOUS_CANCEL_MULTI_TURN_MOVES, 0
 	.set VARIOUS_SET_MAGIC_COAT_TARGET, 1
@@ -130,7 +132,7 @@
 	.set VARIOUS_RETURN_OPPONENT_MON2, 20
 	.set VARIOUS_SET_TELEPORT_OUTCOME, 25
 	.set VARIOUS_PLAY_TRAINER_DEFEATED_MUSIC, 26
-	
+
 @ jumpifcant switch flag argument
 	.set ATK4F_DONT_CHECK_STATUSES, 0x80
 

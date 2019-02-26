@@ -224,6 +224,9 @@ gBattleScriptsForMoveEffects:: @ 81D6BBC
 	.4byte BattleScript_EffectCalmMind
 	.4byte BattleScript_EffectDragonDance
 	.4byte BattleScript_EffectCamouflage
+	// later gens
+	.4byte BattleScript_EffectDoubleIfHit
+	// new effects
 
 BattleScript_EffectHit: @ 81D6F14
 BattleScript_EffectAccuracyDown2: @ 81D6F14
@@ -3192,7 +3195,7 @@ BattleScript_Pausex20:: @ 81D8EEF
 
 BattleScript_LevelUp:: @ 81D8EF3
 	fanfare MUS_FANFA1
-	printstring BATTLE_TEXT_GrewLevel 
+	printstring BATTLE_TEXT_GrewLevel
 	setbyte sLVLBOX_STATE, 0
 	drawlvlupbox
 	handlelearnnewmove BattleScript_LearnedNewMove, BattleScript_LearnMoveReturn, 1
@@ -4471,3 +4474,12 @@ BattleScript_ActionSelectionItemsCantBeUsed:: @ 81D9B29
 gUnknown_081D9B2D:: @ 81D9B2D
 	printstring BATTLE_TEXT_Terminator2
 	return
+
+// later gens
+BattleScript_EffectDoubleIfHit:: @ effect_double_if_hit
+	attackcanceler
+	attackstring
+	ppreduce
+	jumpifstat USER, LESS_THAN, ATTACK, 12, BattleScript_DragonDanceDoMoveAnim
+	jumpifstat USER, EQUAL, SPEED, 12, BattleScript_CantRaiseMultipleStats
+// new effects

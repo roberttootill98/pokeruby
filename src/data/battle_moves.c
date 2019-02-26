@@ -4668,7 +4668,7 @@ const struct BattleMove gBattleMoves[] = {
     },
 
     [MOVE_ASSURANCE] = {
-        .effect = EFFECT_HIT, // placeholder, effect_double_if_hit
+        .effect = EFFECT_DOUBLE_IF_HIT,
         .power = 60,
         .type = TYPE_DARK,
         .accuracy = 100,
@@ -4694,7 +4694,7 @@ const struct BattleMove gBattleMoves[] = {
     },
 
     [MOVE_AVALANCHE] = {
-        .effect = EFFECT_HIT, // placeholder, effect_double_if_hit
+        .effect = EFFECT_DOUBLE_IF_HIT,
         .power = 60,
         .type = TYPE_ICE,
         .accuracy = 100,
