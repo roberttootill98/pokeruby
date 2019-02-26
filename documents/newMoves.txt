@@ -28,6 +28,7 @@
 -> new entry, for new type of move
 
 /data/battle_scripts_1.s
+-> new entry, gBattleScriptsForMoveEffects
 
 ================================================================
                             graphics
