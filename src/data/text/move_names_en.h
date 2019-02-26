@@ -367,6 +367,11 @@ const u8 gMoveNames[][13] = {
     [MOVE_BUG_BITE] = _("BUG BITE"),
     [MOVE_BUG_BUZZ] = _("BUG BUZZ"),
     [MOVE_BULLET_PUNCH] = _("BULLET PUNCH"),
+    [MOVE_CAPTIVATE] = _("CAPTIVATE"),
+    [MOVE_CHARGE_BEAM] = _("CHARGE BEAM"),
+    [MOVE_CLOSE_COMBAT] =  _("CLOSE COMBAT"),
+    [MOVE_CROSS_POISON] = _("CROSS POISON"),
+    [MOVE_CRUSH_GRIP] = _("CRUSH GRIP"),
     [MOVE_XSCISSOR] = _("X-SCISSOR"),
     // new moves
 };

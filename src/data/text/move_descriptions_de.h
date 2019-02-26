@@ -1458,6 +1458,26 @@ static const u8 MoveDescription_BulletPunch[] = _(
     "Punches as fast as a bullet.\n"
     "This move always goes first.");
 
+static const u8 MoveDescription_Captivate[] = _(
+    "A foe of opposite gender is\n"
+    "charmed, lowering Sp. Atk.");
+
+static const u8 MoveDescription_ChargeBeam[] = _(
+    "An electrically charged\n"
+    "attack, may raise Sp. Atk.");
+
+static const u8 MoveDescription_CloseCombat[] = _(
+    "Striking without guarding,\n"
+    "this move lowers defenses.");
+
+static const u8 MoveDescription_CrossPoison[] = _(
+    "Slashing attack with poison\n"
+    "sythes, may critcally hit.");
+
+static const u8 MoveDescription_CrushGrip[] = _(
+    "The foe is crushed with vast\n"
+    "force, power rises with HP.");
+
 static const u8 MoveDescription_XScissor[] = _(
     "The user slashes at the foe\n"
     "by crossing its appendages.");
@@ -1830,6 +1850,11 @@ const u8 * const gMoveDescriptions[] = {
     MoveDescription_BugBite,
     MoveDescription_BugBuzz,
     MoveDescription_BulletPunch,
+    MoveDescription_Captivate,
+    MoveDescription_ChargeBeam,
+    MoveDescription_CloseCombat,
+    MoveDescription_CrossPoison,
+    MoveDescription_CrushGrip,
     MoveDescription_XScissor,
     // new moves
 };

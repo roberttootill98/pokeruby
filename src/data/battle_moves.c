@@ -4771,6 +4771,71 @@ const struct BattleMove gBattleMoves[] = {
         .isPhysical = 1,
     },
 
+    [MOVE_CAPTIVATE] = {
+        .effect = EFFECT_HIT, // placeholder, effect_captivate
+        .power = 0,
+        .type = TYPE_NORMAL,
+        .accuracy = 100,
+        .pp = 20,
+        .secondaryEffectChance = 0,
+        .target = TARGET_SELECTED_POKEMON,
+        .priority = 0,
+        .flags = F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_AFFECTED_BY_MAGIC_COAT,
+        .isPhysical = 2,
+    },
+
+    [MOVE_CHARGE_BEAM] = {
+        .effect = EFFECT_HIT, // placeholder, effect_special_attack_up_hit
+        .power = 50,
+        .type = TYPE_ELECTRIC,
+        .accuracy = 90,
+        .pp = 10,
+        .secondaryEffectChance = 70,
+        .target = TARGET_SELECTED_POKEMON,
+        .priority = 0,
+        .flags = F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_AFFECTED_BY_MAGIC_COAT,
+        .isPhysical = 1,
+    },
+
+    [MOVE_CLOSE_COMBAT] = {
+        .effect = EFFECT_HIT, // placeholder, effect_defense_down_special_defense_down
+        .power = 120,
+        .type = TYPE_FIGHTING,
+        .accuracy = 100,
+        .pp = 5,
+        .secondaryEffectChance = 100,
+        .target = TARGET_SELECTED_POKEMON,
+        .priority = 0,
+        .flags = F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_AFFECTED_BY_MAGIC_COAT,
+        .isPhysical = 1,
+    },
+
+    [MOVE_CROSS_POISON] = {
+        .effect = EFFECT_POISON_TAIL,
+        .power = 70,
+        .type = TYPE_POISON,
+        .accuracy = 100,
+        .pp = 20,
+        .secondaryEffectChance = 10,
+        .target = TARGET_SELECTED_POKEMON,
+        .priority = 0,
+        .flags = F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_AFFECTED_BY_MAGIC_COAT | F_MAKES_CONTACT,
+        .isPhysical = 1,
+    },
+
+    [MOVE_CRUSH_GRIP] = {
+        .effect = EFFECT_HIT, // placeholder, effect_120_x_hp
+        .power = 0,
+        .type = TYPE_NORMAL,
+        .accuracy = 100,
+        .pp = 5,
+        .secondaryEffectChance = 0,
+        .target = TARGET_SELECTED_POKEMON,
+        .priority = 0,
+        .flags = F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_AFFECTED_BY_MAGIC_COAT | F_MAKES_CONTACT,
+        .isPhysical = 1,
+    },
+
     [MOVE_XSCISSOR] = {
         .effect = EFFECT_HIT,
         .power = 80,
