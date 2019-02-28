@@ -1480,6 +1480,38 @@ static const u8 MoveDescription_CrushGrip[] = _(
     "The foe is crushed with vast\n"
     "force, power rises with HP.");
 
+static const u8 MoveDescription_DarkPulse[] = _(
+    "An aura of dark thoughts,\n"
+    "may cause the target to flinch.");
+
+static const u8 MoveDescription_Defog[] = _(
+    "It reduces the foe's evasion,\n"
+    "it also clears stage hazards.");
+
+static const u8 MoveDescription_Discharge[] = _(
+    "A loose strike of electricity,\n"
+    "may cause paralysis.");
+
+static const u8 MoveDescription_DoubleHit[] = _(
+    "The user slams the foe twice\n"
+    "with a tail, vine or tentacle.");
+
+static const u8 MoveDescription_DracoMeteor[] = _(
+    "Comets are summoned down from\n"
+    "the sky, may lower Sp. Atk.");
+
+static const u8 MoveDescription_DragonPulse[] = _(
+    "The user generates a shock wave\n"
+    "from its gaping mouth.");
+
+static const u8 MoveDescription_DragonRush[] = _(
+    "Tackles with overwhelming menace,\n"
+    "it may also causing flinching.");
+
+static const u8 MoveDescription_DrainPunch[] = _(
+    "An energy draining punch, half\n"
+    "of the damage dealt is restored.");
+
 static const u8 MoveDescription_XScissor[] = _(
     "The user slashes at the foe\n"
     "by crossing its appendages.");
@@ -1857,6 +1889,14 @@ const u8 * const gMoveDescriptions[] = {
     MoveDescription_CloseCombat,
     MoveDescription_CrossPoison,
     MoveDescription_CrushGrip,
+    MoveDescription_DarkPulse,
+    MoveDescription_Defog,
+    MoveDescription_Discharge,
+    MoveDescription_DoubleHit,
+    MoveDescription_DracoMeteor,
+    MoveDescription_DragonPulse,
+    MoveDescription_DragonRush,
+    MoveDescription_DrainPunch,
     MoveDescription_XScissor,
     // new moves
 };

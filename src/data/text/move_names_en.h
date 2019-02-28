@@ -372,6 +372,14 @@ const u8 gMoveNames[][13] = {
     [MOVE_CLOSE_COMBAT] =  _("CLOSE COMBAT"),
     [MOVE_CROSS_POISON] = _("CROSS POISON"),
     [MOVE_CRUSH_GRIP] = _("CRUSH GRIP"),
+    [MOVE_DARK_PULSE] = _("DARK PULSE"),
+    [MOVE_DEFOG] = _("DEFOG"),
+    [MOVE_DISCHARGE] = _("DISCHARGE"),
+    [MOVE_DOUBLE_HIT] = _("DOUBLE HIT"),
+    [MOVE_DRACO_METEOR] = _("DRACO METEOR"),
+    [MOVE_DRAGON_PULSE] = _("DRAGON PULSE"),
+    [MOVE_DRAGON_RUSH] = _("DRAGON RUSH"),
+    [MOVE_DRAIN_PUNCH] = _("DRAIN PUNCH"),
     [MOVE_XSCISSOR] = _("X-SCISSOR"),
     // new moves
 };

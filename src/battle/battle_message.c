@@ -366,7 +366,7 @@ void BufferStringBattle(u16 stringID)
         break;
     case 4: // pokemon used a move msg
         sub_8121D1C(gBattleTextBuff1);
-        if (gStringInfo->currentMove > 0x173) // expand this hex for new moves
+        if (gStringInfo->currentMove > 0x18B) // expand this hex for new moves
             StringCopy(gBattleTextBuff2, gUnknown_08401674[gBattleStruct->stringMoveType]);
         else
             StringCopy(gBattleTextBuff2, gMoveNames[gStringInfo->currentMove]);
