@@ -1478,6 +1478,38 @@ static const u8 MoveDescription_CrushGrip[] = _(
     "The foe is crushed with vast\n"
     "force, power rises with HP.");
 
+static const u8 MoveDescription_DarkPulse[] = _(
+    "An aura of dark thoughts,\n"
+    "may cause the flinching.");
+
+static const u8 MoveDescription_Defog[] = _(
+    "Reduces the foe's evasion,\n"
+    "also clears stage hazards.");
+
+static const u8 MoveDescription_Discharge[] = _(
+    "A loose strike of electrical\n"
+    "charge, may cause paralysis.");
+
+static const u8 MoveDescription_DoubleHit[] = _(
+    "Slams the foe twice with a\n"
+    "tail, vine or tentacle.");
+
+static const u8 MoveDescription_DracoMeteor[] = _(
+    "Comets rain down from the\n"
+    "sky, may lower Sp. Atk.");
+
+static const u8 MoveDescription_DragonPulse[] = _(
+    "The user generates a shock\n"
+    "wave from its gaping mouth.");
+
+static const u8 MoveDescription_DragonRush[] = _(
+    "Tackles with overwhelming\n"
+    "menace, causes flinching.");
+
+static const u8 MoveDescription_DrainPunch[] = _(
+    "An energy draining punch, \n"
+    "restores user's HP.");
+
 static const u8 MoveDescription_XScissor[] = _(
     "The user slashes at the foe\n"
     "by crossing its appendages.");
