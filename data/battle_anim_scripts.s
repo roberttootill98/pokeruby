@@ -399,6 +399,14 @@ gBattleAnims_Moves:: @ 81C7168
 	.4byte Move_DRAGON_PULSE
 	.4byte Move_DRAGON_RUSH
 	.4byte Move_DRAIN_PUNCH
+	.4byte Move_EARTH_POWER
+	.4byte Move_ENERGY_BALL
+	.4byte Move_FEINT
+	.4byte Move_FIRE_FANG
+	.4byte Move_FLARE_BLITZ
+	.4byte Move_FLASH_CANNON
+	.4byte Move_FOCUS_BLAST
+	.4byte Move_FORCE_PALM
 	.4byte Move_XSCISSOR
 	// new moves
 	// rest
@@ -11056,6 +11064,102 @@ Move_DRAGON_RUSH: @ move_dragon_rush
 	end
 
 Move_DRAIN_PUNCH: @ move_drain_punch
+	loadspritegfx ANIM_TAG_IMPACT
+	monbg ANIM_BATTLER_TARGET
+	setalpha 12, 8
+	playsewithpan SE_W003, SOUND_PAN_TARGET
+	createsprite gBasicHitSplatSpriteTemplate, ANIM_BATTLER_ATTACKER, 2, 0, 0, 1, 2
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BATTLER_TARGET, 3, 0, 6, 1
+	waitforvisualfinish
+	clearmonbg ANIM_BATTLER_TARGET
+	blendoff
+	end
+
+Move_EARTH_POWER: @ move_earth_power
+	loadspritegfx ANIM_TAG_IMPACT
+	monbg ANIM_BATTLER_TARGET
+	setalpha 12, 8
+	playsewithpan SE_W003, SOUND_PAN_TARGET
+	createsprite gBasicHitSplatSpriteTemplate, ANIM_BATTLER_ATTACKER, 2, 0, 0, 1, 2
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BATTLER_TARGET, 3, 0, 6, 1
+	waitforvisualfinish
+	clearmonbg ANIM_BATTLER_TARGET
+	blendoff
+	end
+
+Move_ENERGY_BALL: @ move_energy_ball
+	loadspritegfx ANIM_TAG_IMPACT
+	monbg ANIM_BATTLER_TARGET
+	setalpha 12, 8
+	playsewithpan SE_W003, SOUND_PAN_TARGET
+	createsprite gBasicHitSplatSpriteTemplate, ANIM_BATTLER_ATTACKER, 2, 0, 0, 1, 2
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BATTLER_TARGET, 3, 0, 6, 1
+	waitforvisualfinish
+	clearmonbg ANIM_BATTLER_TARGET
+	blendoff
+	end
+
+Move_FEINT: @ move_feint
+	loadspritegfx ANIM_TAG_IMPACT
+	monbg ANIM_BATTLER_TARGET
+	setalpha 12, 8
+	playsewithpan SE_W003, SOUND_PAN_TARGET
+	createsprite gBasicHitSplatSpriteTemplate, ANIM_BATTLER_ATTACKER, 2, 0, 0, 1, 2
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BATTLER_TARGET, 3, 0, 6, 1
+	waitforvisualfinish
+	clearmonbg ANIM_BATTLER_TARGET
+	blendoff
+	end
+
+Move_FIRE_FANG: @ move_fire_fang
+	loadspritegfx ANIM_TAG_IMPACT
+	monbg ANIM_BATTLER_TARGET
+	setalpha 12, 8
+	playsewithpan SE_W003, SOUND_PAN_TARGET
+	createsprite gBasicHitSplatSpriteTemplate, ANIM_BATTLER_ATTACKER, 2, 0, 0, 1, 2
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BATTLER_TARGET, 3, 0, 6, 1
+	waitforvisualfinish
+	clearmonbg ANIM_BATTLER_TARGET
+	blendoff
+	end
+
+Move_FLARE_BLITZ: @ move_flare_blitz
+	loadspritegfx ANIM_TAG_IMPACT
+	monbg ANIM_BATTLER_TARGET
+	setalpha 12, 8
+	playsewithpan SE_W003, SOUND_PAN_TARGET
+	createsprite gBasicHitSplatSpriteTemplate, ANIM_BATTLER_ATTACKER, 2, 0, 0, 1, 2
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BATTLER_TARGET, 3, 0, 6, 1
+	waitforvisualfinish
+	clearmonbg ANIM_BATTLER_TARGET
+	blendoff
+	end
+
+Move_FLASH_CANNON: @ move_flash_cannon
+	loadspritegfx ANIM_TAG_IMPACT
+	monbg ANIM_BATTLER_TARGET
+	setalpha 12, 8
+	playsewithpan SE_W003, SOUND_PAN_TARGET
+	createsprite gBasicHitSplatSpriteTemplate, ANIM_BATTLER_ATTACKER, 2, 0, 0, 1, 2
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BATTLER_TARGET, 3, 0, 6, 1
+	waitforvisualfinish
+	clearmonbg ANIM_BATTLER_TARGET
+	blendoff
+	end
+
+Move_FOCUS_BLAST: @ move_focus_blast
+	loadspritegfx ANIM_TAG_IMPACT
+	monbg ANIM_BATTLER_TARGET
+	setalpha 12, 8
+	playsewithpan SE_W003, SOUND_PAN_TARGET
+	createsprite gBasicHitSplatSpriteTemplate, ANIM_BATTLER_ATTACKER, 2, 0, 0, 1, 2
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BATTLER_TARGET, 3, 0, 6, 1
+	waitforvisualfinish
+	clearmonbg ANIM_BATTLER_TARGET
+	blendoff
+	end
+
+Move_FORCE_PALM: @ move_force_palm
 	loadspritegfx ANIM_TAG_IMPACT
 	monbg ANIM_BATTLER_TARGET
 	setalpha 12, 8

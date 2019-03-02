@@ -380,6 +380,14 @@ const u8 gMoveNames[][13] = {
     [MOVE_DRAGON_PULSE] = _("DRAGON PULSE"),
     [MOVE_DRAGON_RUSH] = _("DRAGON RUSH"),
     [MOVE_DRAIN_PUNCH] = _("DRAIN PUNCH"),
+    [MOVE_EARTH_POWER] = _("EARTH POWER"),
+    [MOVE_ENERGY_BALL] = _("ENERGY BALL"),
+    [MOVE_FEINT] = _("FEINT"),
+    [MOVE_FIRE_FANG] = _("FIRE FANG"),
+    [MOVE_FLARE_BLITZ] = _("FLARE BLITZ"),
+    [MOVE_FLASH_CANNON] = _("FLASH CANNON"),
+    [MOVE_FOCUS_BLAST] = _("FOCUS BLAST"),
+    [MOVE_FORCE_PALM] = _("FORCE PALM"),
     [MOVE_XSCISSOR] = _("X-SCISSOR"),
     // new moves
 };

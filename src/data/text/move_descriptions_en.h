@@ -1512,6 +1512,38 @@ static const u8 MoveDescription_DrainPunch[] = _(
     "An energy draining punch, \n"
     "restores user's HP.");
 
+static const u8 MoveDescription_EarthPower[] = _(
+    "The ground erupts under\n"
+    "the foe, may lower Sp. Def.");
+
+static const u8 MoveDescription_EnergyBall[] = _(
+    "A ball of energy drawn from\n"
+    "nature, may lower Sp. Def.");
+
+static const u8 MoveDescription_Feint[] = _(
+    "Only hits foes that try to\n"
+    "defend themselves.");
+
+static const u8 MoveDescription_FireFang[] = _(
+    "A bite with flame-cloaked\n"
+    "fangs, may cause flinching.");
+
+static const u8 MoveDescription_FlareBlitz[] = _(
+    "A flame infused charge,\n"
+    "enemies and causes recoil.");
+
+static const u8 MoveDescription_FlashCannon[] = _(
+    "The user lets loose light\n"
+    "energy, may lower Sp. Def.");
+
+static const u8 MoveDescription_FocusBlast[] = _(
+    "A mentally focssed blast\n"
+    "that may lower Sp. Def.");
+
+static const u8 MoveDescription_ForcePalm[] = _(
+    "A shock wave attack,\n"
+    "may paralyze the target.");
+
 static const u8 MoveDescription_XScissor[] = _(
     "The user slashes at the foe\n"
     "by crossing its appendages.");
@@ -1897,6 +1929,14 @@ const u8 * const gMoveDescriptions[] = {
     MoveDescription_DragonPulse,
     MoveDescription_DragonRush,
     MoveDescription_DrainPunch,
+    MoveDescription_EarthPower,
+    MoveDescription_EnergyBall,
+    MoveDescription_Feint,
+    MoveDescription_FireFang,
+    MoveDescription_FlareBlitz,
+    MoveDescription_FlashCannon,
+    MoveDescription_FocusBlast,
+    MoveDescription_ForcePalm,
     MoveDescription_XScissor,
     // new moves
 };
