@@ -1544,6 +1544,86 @@ static const u8 MoveDescription_ForcePalm[] = _(
     "A shock wave attack,\n"
     "may paralyze the target.");
 
+static const u8 MoveDescription_GigaImpact[] = _(
+    "A charge with all the user's\n"
+    "power, requires rest after.");
+
+static const u8 MoveDescription_GrassKnot[] = _(
+    "The heavier the foe, the\n"
+    "more damage is dealt.");
+
+static const u8 MoveDescription_GuardSwap[] = _(
+    "Switches Def and Sp. Def\n"
+    "changes with the foe.");
+
+static const u8 MoveDescription_GunkShot[] = _(
+    "The user shoots poisonous\n"
+    "garbage at the foe.");
+
+static const u8 MoveDescription_GyroBall[] = _(
+    "The slower the user, the\n"
+    "greater the damage dealt.");
+
+static const u8 MoveDescription_HammerArm[] = _(
+    "Swings with a heavy fist,\n"
+    "lowers user's speed.");
+
+static const u8 MoveDescription_HeadSmash[] = _(
+    "A life-endangering head\n"
+    "butt at full power, recoils.");
+
+static const u8 MoveDescription_HeartSwap[] = _(
+    "Any stat changes made are\n"
+    "switched with the foe.");
+
+static const u8 MoveDescription_IceFang[] = _(
+    "A icy bite, may cause\n"
+    "freezing and flinching.");
+
+static const u8 MoveDescription_IceShard[] = _(
+    "A fast chunk of ice is\n"
+    "hurled at the foe.");
+
+static const u8 MoveDescription_IronHead[] = _(
+    "The foe is slammed with the\n"
+    "user's steel hard head.");
+
+static const u8 MoveDescription_LavaPlume[] = _(
+    "An inferno of vivid flames\n"
+    "that hits all in battle.");
+
+static const u8 MoveDescription_LeafStorm[] = _(
+    "A storm of sharp leaves,\n"
+    "reduce's the user's Sp. Atk.");
+
+static const u8 MoveDescription_LuckyChant[] = _(
+    "An incantation preventing\n"
+    "critical hits from landing.");
+
+static const u8 MoveDescription_MagnetBomb[] = _(
+    "An unavoidable steel bomb\n"
+    "that sticks to the target.");
+
+static const u8 MoveDescription_MirrorShot[] = _(
+    "A loose flash of energy\n"
+    "from the user's body.");
+
+static const u8 MoveDescription_MudBomb[] = _(
+    "A hard-packed mud ball\n"
+    "attack, lowers accuracy.");
+
+static const u8 MoveDescription_NastyPlot[] = _(
+    "Dark thoughts fill the\n"
+    "brain, raises Sp. Atk.");
+
+static const u8 MoveDescription_NightSlash[] = _(
+    "Slashs an at instant, has\n"
+    "a high critical-hit ratio.");
+
+static const u8 MoveDescription_OminousWind[] = _(
+    "Gust of repulsive wind, the\n"
+    "user can raises all stats.");
+
 static const u8 MoveDescription_XScissor[] = _(
     "The user slashes at the foe\n"
     "by crossing its appendages.");
@@ -1937,6 +2017,26 @@ const u8 * const gMoveDescriptions[] = {
     MoveDescription_FlashCannon,
     MoveDescription_FocusBlast,
     MoveDescription_ForcePalm,
+    MoveDescription_GigaImpact,
+    MoveDescription_GrassKnot,
+    MoveDescription_GuardSwap,
+    MoveDescription_GunkShot,
+    MoveDescription_GyroBall,
+    MoveDescription_HammerArm,
+    MoveDescription_HeadSmash,
+    MoveDescription_HeartSwap,
+    MoveDescription_IceFang,
+    MoveDescription_IceShard,
+    MoveDescription_IronHead,
+    MoveDescription_LavaPlume,
+    MoveDescription_LeafStorm,
+    MoveDescription_LuckyChant,
+    MoveDescription_MagnetBomb,
+    MoveDescription_MirrorShot,
+    MoveDescription_MudBomb,
+    MoveDescription_NastyPlot,
+    MoveDescription_NightSlash,
+    MoveDescription_OminousWind,
     MoveDescription_XScissor,
     // new moves
 };
