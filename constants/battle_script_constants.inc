@@ -102,7 +102,6 @@
 	.set EFFECT_NOTHING_3F, 0x3F
 	.set AFFECTS_USER, 0x40
 	// later gens
-	.set EFFECT_DOUBLE_IF_HIT, 0x41
 	// new effects
 	.set CERTAIN, 0x80
 

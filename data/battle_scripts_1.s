@@ -4477,9 +4477,14 @@ gUnknown_081D9B2D:: @ 81D9B2D
 
 // later gens
 BattleScript_EffectDoubleIfHit:: @ effect_double_if_hit
-	attackcanceler
-	attackstring
-	ppreduce
-	jumpifstat USER, LESS_THAN, ATTACK, 12, BattleScript_DragonDanceDoMoveAnim
-	jumpifstat USER, EQUAL, SPEED, 12, BattleScript_CantRaiseMultipleStats
+	// check if hit
+	jumpifbyte NO_COMMON_BITS, gMoveResultFlags, MOVE_RESULT_SUPER_EFFECTIVE, BattleScript_EffectHit
+	jumpifbyte NO_COMMON_BITS, gMoveResultFlags, MOVE_RESULT_NOT_VERY_EFFECTIVE, BattleScript_EffectHit
+	setbyte sDMG_MULTIPLIER, 10
+	goto BattleScript_EffectHit
+
+BattleScript_EffectSpecialAttackUpHit:: @ effect_effect_special_attack_up_hit
+	setmoveeffect EFFECT_SP_ATK_PLUS_1 | AFFECTS_USER | CERTAIN
+	goto BattleScript_EffectHit
+
 // new effects

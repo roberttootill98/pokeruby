@@ -4785,7 +4785,7 @@ const struct BattleMove gBattleMoves[] = {
     },
 
     [MOVE_CHARGE_BEAM] = {
-        .effect = EFFECT_HIT, // placeholder, effect_special_attack_up_hit
+        .effect = EFFECT_SPECIAL_ATTACK_UP_HIT,
         .power = 50,
         .type = TYPE_ELECTRIC,
         .accuracy = 90,
