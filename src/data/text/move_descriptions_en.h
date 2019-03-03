@@ -1624,9 +1624,127 @@ static const u8 MoveDescription_OminousWind[] = _(
     "Gust of repulsive wind, the\n"
     "user can raises all stats.");
 
+static const u8 MoveDescription_PoisonJab[] = _(
+    "The foe is stabbed with a\n"
+    "poison filled arm.");
+
+static const u8 MoveDescription_PowerGem[] = _(
+    "Attacks with a ray of light\n"
+    "that sparkles like gems.");
+
+static const u8 MoveDescription_PowerTrick[] = _(
+    "Swaps the user's Atk with\n"
+    "its Def, ignore any boosts.");
+
+static const u8 MoveDescription_PowerWhip[] = _(
+    "A violent whirling strike\n"
+    "with vines or tentacles.");
+
+static const u8 MoveDescription_PsychoCut[] = _(
+    "A psychic blade strike with\n"
+    "a high critical-hit ratio.");
+
+static const u8 MoveDescription_PsychoShift[] = _(
+    "By the power of suggestion,\n"
+    "the statuses are swapped.");
+
+static const u8 MoveDescription_Punishment[] = _(
+    "Damages a foe more if they\n"
+    "powered up themselves.");
+
+static const u8 MoveDescription_RockClimb[] = _(
+    "A charging attack that may\n"
+    "leave the foe confused.");
+
+static const u8 MoveDescription_RockPolish[] = _(
+    "Polishes the user to reduce\n"
+    "drag, sharply raising Spd.");
+
+static const u8 MoveDescription_RockWrecker[] = _(
+    "A huge boulder is launched\n"
+    "at the foe, requires rest.");
+
+static const u8 MoveDescription_Roost[] = _(
+    "The user lands and rests,\n"
+    "restores half the user's HP.");
+
+static const u8 MoveDescription_SeedBomb[] = _(
+    "The user barrages hard\n"
+    "shelled seeds from above.");
+
+static const u8 MoveDescription_ShadowClaw[] = _(
+    "A shadowy slash with\n"
+    "a high critical-hit ratio.");
+
+static const u8 MoveDescription_ShadowSneak[] = _(
+    "Strikes from behind, this\n"
+    "move always goes first.");
+
+static const u8 MoveDescription_StealthRock[] = _(
+    "The user lays a trap of\n"
+    "levitating stones.");
+
+static const u8 MoveDescription_StoneEdge[] = _(
+    "A sharp stone attack with\n"
+    "a high critical-hit ratio.");
+
+static const u8 MoveDescription_SuckerPunch[] = _(
+    "Anticipates the attack of\n"
+    "the foe, always goes first.");
+
+static const u8 MoveDescription_Switcheroo[] = _(
+    "Trades held items with the\n"
+    "foe, faster than the eye.");
+
+static const u8 MoveDescription_Tailwind[] = _(
+    "Speeds up the rest of\n"
+    "party for three turns.");
+
+static const u8 MoveDescription_ThunderFang[] = _(
+    "Zap fang attack, causes\n"
+    "paralysis or flinching.");
+
+static const u8 MoveDescription_ToxicSpikes[] = _(
+    "A trap is laid that poisons\n"
+    "foes that switch in.");
+
+static const u8 MoveDescription_TrickRoom[] = _(
+    "A bizarre area where slower\n"
+    "Pokémon get to move first.");
+
+static const u8 MoveDescription_TrumpCard[] = _(
+    "The fewer PP this move has,\n"
+    "the more power it has.");
+
+static const u8 MoveDescription_VacuumWave[] = _(
+    "A pure vacuum is strikes\n"
+    "the foe, always goes first.");
+
+static const u8 MoveDescription_WakeUpSlap[] = _(
+    "Inflicts higher damage on\n"
+    "sleeping foes, waking them.");
+
+static const u8 MoveDescription_WoodHammer[] = _(
+    "Recklessly slams the foe\n"
+    "its rugged body, recoils.");
+
+static const u8 MoveDescription_WorrySeed[] = _(
+    "A seed that causes worry,\n"
+    "preventing sleeping.");
+
+static const u8 MoveDescription_WringOut[] = _(
+    "Wrings out the foe, damage\n"
+    "rises with the foe's HP.");
+
 static const u8 MoveDescription_XScissor[] = _(
     "The user slashes at the foe\n"
     "by crossing its appendages.");
+
+static const u8 MoveDescription_ZenHeadbutt[] = _(
+    "The user concentrates its\n"
+    "willpower and slam the foe.");
+
+// gen 5
 // new moves
 
 const u8 * const gMoveDescriptions[] = {
@@ -2037,6 +2155,36 @@ const u8 * const gMoveDescriptions[] = {
     MoveDescription_NastyPlot,
     MoveDescription_NightSlash,
     MoveDescription_OminousWind,
+    MoveDescription_PoisonJab,
+    MoveDescription_PowerGem,
+    MoveDescription_PowerTrick,
+    MoveDescription_PowerWhip,
+    MoveDescription_PsychoCut,
+    MoveDescription_PsychoShift,
+    MoveDescription_Punishment,
+    MoveDescription_RockClimb,
+    MoveDescription_RockPolish,
+    MoveDescription_RockWrecker,
+    MoveDescription_Roost,
+    MoveDescription_SeedBomb,
+    MoveDescription_ShadowClaw,
+    MoveDescription_ShadowSneak,
+    MoveDescription_StealthRock,
+    MoveDescription_StoneEdge,
+    MoveDescription_SuckerPunch,
+    MoveDescription_Switcheroo,
+    MoveDescription_Tailwind,
+    MoveDescription_ThunderFang,
+    MoveDescription_ToxicSpikes,
+    MoveDescription_TrickRoom,
+    MoveDescription_TrumpCard,
+    MoveDescription_VacuumWave,
+    MoveDescription_WakeUpSlap,
+    MoveDescription_WoodHammer,
+    MoveDescription_WorrySeed,
+    MoveDescription_WringOut,
     MoveDescription_XScissor,
+    MoveDescription_ZenHeadbutt,
+    // gen 5
     // new moves
 };
