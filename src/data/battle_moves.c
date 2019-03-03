@@ -4798,7 +4798,7 @@ const struct BattleMove gBattleMoves[] = {
     },
 
     [MOVE_CLOSE_COMBAT] = {
-        .effect = EFFECT_HIT, // placeholder, effect_defense_down_special_defense_down
+        .effect = EFFECT_DEFENSE_DOWN_SPECIAL_DEFENSE_DOWN,
         .power = 120,
         .type = TYPE_FIGHTING,
         .accuracy = 100,

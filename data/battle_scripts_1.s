@@ -226,6 +226,7 @@ gBattleScriptsForMoveEffects:: @ 81D6BBC
 	.4byte BattleScript_EffectCamouflage
 	// later gens
 	.4byte BattleScript_EffectDoubleIfHit
+	.4byte BattleScript_EffectDefenseDownSpecialDefenseDown
 	// new effects
 
 BattleScript_EffectHit: @ 81D6F14
@@ -4482,9 +4483,17 @@ BattleScript_EffectDoubleIfHit:: @ effect_double_if_hit
 	jumpifbyte NO_COMMON_BITS, gMoveResultFlags, MOVE_RESULT_NOT_VERY_EFFECTIVE, BattleScript_EffectHit
 	setbyte sDMG_MULTIPLIER, 10
 	goto BattleScript_EffectHit
+	end2
 
-BattleScript_EffectSpecialAttackUpHit:: @ effect_effect_special_attack_up_hit
+BattleScript_EffectSpecialAttackUpHit:: @ effect_special_attack_up_hit
 	setmoveeffect EFFECT_SP_ATK_PLUS_1 | AFFECTS_USER | CERTAIN
 	goto BattleScript_EffectHit
+	end2
+
+BattleScript_EffectDefenseDownSpecialDefenseDown:: @ effect_defense_down_special_defense_down
+	setmoveeffect EFFECT_DEF_MINUS_1 | AFFECTS_USER | CERTAIN
+	setmoveeffect EFFECT_SP_DEF_MINUS_1 | AFFECTS_USER | CERTAIN
+	goto BattleScript_EffectHit
+	end2
 
 // new effects
