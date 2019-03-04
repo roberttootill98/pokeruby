@@ -1,0 +1,12 @@
+/include/constants/abilities.h
+-> new entry (#define)
+
+===>ai take into account
+===>behavior somewhere
+
+/data(-de, _)/text/ability_descriptions.inc
+-> new string for ability text
+-> new .4byte pointer for ability text
+
+/data/text/ability_names.inc
+-> new string for ability name

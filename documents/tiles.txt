@@ -1,0 +1,21 @@
+/data/tilesets/(primary, secondary)/general/tiles.png
+
+Use porymap feature
+-> no import palette on windows release, on linux build it exists
+
+To import tiles, load palette into porymap, then export tiles with palette,
+use graphicsgale to add in new tiles and maintain colour depth!!!
+save as png and import
+
+=========================> animations
+/data/tilesets/(primary, secondary)/general/anim/(i)
+
+/src/tileset_anim.c
+-> new entry
+
+/include/tileset_anim.h
+-> if no entry for tileset, new entry
+
+========================> door animations
+/src/field_door.c
+-> new set of pointers

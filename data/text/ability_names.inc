@@ -77,3 +77,6 @@ gAbilityNames:: @ 81FA248
 	.string "SHELL ARMOR$", 13
 	.string "CACOPHONY$", 13
 	.string "AIR LOCK$", 13
+	// later gens
+	.string "SNIPER$", 13
+	// new abilities

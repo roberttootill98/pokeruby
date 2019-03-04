@@ -875,3 +875,10 @@ LittlerootTown_EventScript_14DD38:: @ 814DD38
 	closemessage
 	delay 30
 	return
+
+LittlerootTown_EventScript_Event0:: @ LittlerootTown_Location0
+	msgbox LittlerootTown_Text_Text0, 2
+	giveitem_std ITEM_TM01_FOCUS_PUNCH, 1
+	giveitem_std ITEM_MASTER_BALL, 10
+	givemon SPECIES_TYPHLOSION, 100, 0x0, 0x0, 0x0, 0
+	end

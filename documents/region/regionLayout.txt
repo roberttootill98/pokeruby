@@ -1,0 +1,39 @@
+--areas
+Grassy Field
+Icy Field
+Marsh
+Meadow
+Forest
+Jungle
+Valley
+Cave (Normal)
+Cave (Icy)
+Cave (Dusty)
+Cave (Underwater)
+Desert
+Volcano
+River
+Lake
+Ocean
+Rapids
+
+--world landmarks
+desert temple
+jungle shrine
+ocean temple
+safari zone
+large waterfall
+poisoned lake
+abandoned prison
+
+--city landmarks
+aqueduct
+dock (industrial/port)
+day care
+bike shop
+department store
+market (farmers/traders)
+shard collector
+pokeball factory
+stone dealer
+move tutors

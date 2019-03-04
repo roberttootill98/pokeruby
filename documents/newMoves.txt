@@ -1,0 +1,63 @@
+/include/constants/moves.h -> increase total move counter by one, add new move entry (#define)
+
+/include/constants/moves.h
+-> new entry
+-> increment NUM_MOVES
+
+/src/data/...
+---battle_moves.c
+-> new entry
+---contest_moves.h
+-> new entry
+---/text/...
+------move_descriptions_(de.h, en.h)
+----> new static descrpition
+----> new pointer
+------move_names_(de.h, en.h)
+----> new entry
+
+/src/battle/battle_message.c
+-> increment max move counter
+-> ln369
+
+================================================================
+                        new move behaviour
+================================================================
+
+/include/contants/battle_move_effects.h
+-> new entry, for new type of move
+
+/data/battle_scripts_1.s
+-> new entry, gBattleScriptsForMoveEffects
+-> new func for actual behaviour
+
+/constants/battle_script_constants.inc === not required
+-> new .set,
+-> only required for entirely new behaviour
+
+/include/battle.h === not required
+-> new define, MOVE_EFFECT_
+-> only required for entirely new behaviour
+
+================================================================
+                            graphics
+================================================================
+
+/data/battle_anim_scripts.s
+-> new entry for pointer
+-> new func for animation
+---> data location (pointer) can be anything, must be unique
+
+/src/data/... === not required
+---bard_music_(de.h, en.h)
+-> new entry
+
+================================================================
+                              misc
+================================================================
+
+/src/data/text/easychat/...
+---/groups/move_(1,2)/words.h
+-> new entry
+---/words_by_letter_(de.h, en.h)
+-> new entry

@@ -357,6 +357,9 @@ const struct ContestMove gContestMoves[] = {
     {CONTEST_EFFECT_SCRAMBLE_NEXT_TURN_ORDER, CONTEST_CATEGORY_BEAUTY, 0, {COMBO_STARTER_RAIN_DANCE, 0, 0, 0}}, // WATER_PULSE
     {CONTEST_EFFECT_DONT_EXCITE_AUDIENCE, CONTEST_CATEGORY_COOL, 0, {0, 0, 0, 0}}, // DOOM_DESIRE
     {CONTEST_EFFECT_USER_MORE_EASILY_STARTLED, CONTEST_CATEGORY_SMART, 0, {COMBO_STARTER_CALM_MIND, 0, 0, 0}}, // PSYCHO_BOOST
+    // later gens
+    // gen 4
+    // new moves
 };
 
 const struct ContestEffect gContestEffects[] = {

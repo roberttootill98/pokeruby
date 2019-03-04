@@ -1,0 +1,98 @@
+TODO===> Fix sprite, name and footprint in pokedex
+
+/include/constants/species.h -> add new entry (#define)
+-> new species ==> must be before unown and egg
+-> national dex order
+-> hoenn dex order
+
+/include/...
+---global.h
+-> increment POKEMON_SLOTS_NUMBER
+---pokedex.h
+-> increment pokedex counts, not necessary for hoenn
+
+/src/pokedex.c
+-> new entry for footprint
+
+/src/pokemon_1.c
+-> new entry x4
+
+/src/data/pokemon/...
+---base_stats.h
+-> new entry
+---cry_ids.h ===> may not be required
+-> new entry
+---egg_moves.h
+-> new entry
+---evolution.h
+-> new entry (not necessary)
+---level_up_learnset_pointers.h
+-> new entry
+---level_up_learnset.h
+-> new entry
+---tmhm_learnsets.h
+-> new entry
+
+/src/data/text/...
+---species_names_(de.h, en.h)
+-> new entry
+
+/src/data/...
+---pokedex_entries_(de.h, en.h)
+-> new entry
+-> include actual text dump and pointer struct
+---pokedex_orders.h
+-> new entry (x4)
+
+================================================================
+                            graphics
+================================================================
+/src/battle/...
+---battle_1.c
+-> gEnemyMonElevation[] - new entry
+-> elevation in enemy species_names
+
+/src/pokemon_icon.c
+-> new entry
+
+/data/graphics/pokemon/...
+---back_pic_coords.inc
+-> new entry
+---back_pic_table.inc
+-> new entry
+---front_pic_coords.inc
+-> new entry -> before unown
+---front_pic_table.inc
+-> new entry
+---palette_table.inc
+-> new entry
+---shiny_palette_table.inc
+-> new entry
+
+/include/graphics.h
+-> new extern (x6), related to pics and palettes
+
+/graphics/pokemon/_name/...
+---back.png
+---footprint.png
+---front.png
+---icon.png
+---normal.pal
+---shiny.pal
+
+/graphics/pokemon_icon_palettes/(0.pal, 1.pal, 2.pal)
+-> icon palettes (party sprite)
+
+/src/data/pokemon_gfx.h
+-> new entry (x6)
+
+/sound/...
+---voice_groups.inc
+-> new cry entry
+---/direct_sound_samples/cries/cry_(name).aif
+-> new audio file
+---/direct_sound_data.inc
+-> new entry - pointer
+
+/src/data/bard_music_(de.h, en.h)
+-> new entry - only required for old man bard, not a requirement

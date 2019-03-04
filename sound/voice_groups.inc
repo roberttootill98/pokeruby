@@ -12522,6 +12522,16 @@ gCryTable:: @ 8452590
 	cry Cry_Jirachi
 	cry Cry_Deoxys
 	cry Cry_Chimecho
+	// later gens
+	cry Cry_Buizel
+	cry Cry_Floatzel
+	cry Cry_Skorupi
+	cry Cry_Drapion
+	cry Cry_Gliscor
+	cry Cry_Larvesta
+	cry Cry_Volcarona
+	// fakemon
+	cry Cry_Sleeth
 
 	.align 2
 gCryTable2:: @ 84537C0
@@ -12913,6 +12923,16 @@ gCryTable2:: @ 84537C0
 	cry2 Cry_Jirachi
 	cry2 Cry_Deoxys
 	cry2 Cry_Chimecho
+	// later gens
+	cry2 Cry_Buizel
+	cry2 Cry_Floatzel
+	cry2 Cry_Skorupi
+	cry2 Cry_Drapion
+	cry2 Cry_Gliscor
+	cry2 Cry_Larvesta
+	cry2 Cry_Volcarona
+	// fakemon
+	cry2 Cry_Sleeth
 
 	.align 2
 voicegroup112:: @ 84549F0

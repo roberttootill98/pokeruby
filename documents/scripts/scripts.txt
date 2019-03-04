@@ -1,0 +1,12 @@
+/data/maps/_mapName/...
+---events.inc
+-> add meta data about script to _mapName_EventObjects, should be done by porymap
+---scripts.inc
+-> add actual script in XSE hybrid format
+-> data location (pointer), set location to unique field, can be named anything
+---text.inc
+-> any text dump, pointed to in main script
+-> must add $ to end of strings
+
+=====================> specials
+/data/specials.inc

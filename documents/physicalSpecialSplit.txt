@@ -1,0 +1,18 @@
+/src/data/battle_moves.c
+-> new property, is physical, special or other
+
+/src/battle/calculateBaseDamage.c
+-> check move instead of type
+
+/include/pokemon.h
+-> edit struct - BattleMove, isPhysical
+
+/include/battle.h
+-> new funcs
+---> MOVE_IS_PHYSICAL
+---> MOVE_IS_SPECIAL
+---> eg...
+
+// physical/special moves
+#define MOVE_IS_PHYSICAL(move) (gBattleMoves[move].isPhysical == 1)
+#define MOVE_IS_SPECIAL(move) (gBattleMoves[move].isPhysical == 0)

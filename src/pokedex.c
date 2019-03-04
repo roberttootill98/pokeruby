@@ -918,7 +918,16 @@ static const u8 *const sMonFootprintTable[] =
     gMonFootprint_Jirachi,
     gMonFootprint_Deoxys,
     gMonFootprint_Chimecho,
-    gMonFootprint_Bulbasaur,
+    // later gens
+    gMonFootprint_Buizel,
+    gMonFootprint_Floatzel,
+    gMonFootprint_Skorupi,
+    gMonFootprint_Drapion,
+    gMonFootprint_Gliscor,
+    gMonFootprint_Larvesta,
+    gMonFootprint_Volcarona,
+    // fakemon
+    gMonFootprint_Sleeth,
 };
 static const u8 gUnknown_083B5558[] = _("{CLEAR_TO 0}");
 const u8 gUnknown_083B555C[] = INCBIN_U8("graphics/unknown/unknown_3B555C.bin");

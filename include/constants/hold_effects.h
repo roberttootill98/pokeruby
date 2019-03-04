@@ -68,5 +68,7 @@
 #define HOLD_EFFECT_METAL_POWDER   64
 #define HOLD_EFFECT_THICK_CLUB     65
 #define HOLD_EFFECT_STICK          66
+// later gens
+#define HOLD_EFFECT_RAZOR_FANG     67
 
 #endif // GUARD_CONSTANTS_HOLD_EFFECTS_H

@@ -412,6 +412,17 @@ gMonPaletteTable:: @ 81EA5B4
 	obj_pal gMonPalette_Jirachi, SPECIES_JIRACHI
 	obj_pal gMonPalette_Deoxys, SPECIES_DEOXYS
 	obj_pal gMonPalette_Chimecho, SPECIES_CHIMECHO
+	// later gens
+	obj_pal gMonPalette_Buizel, SPECIES_BUIZEL
+	obj_pal gMonPalette_Floatzel, SPECIES_FLOATZEL
+	obj_pal gMonPalette_Skorupi, SPECIES_SKORUPI
+	obj_pal gMonPalette_Drapion, SPECIES_DRAPION
+	obj_pal gMonPalette_Gliscor, SPECIES_GLISCOR
+	obj_pal gMonPalette_Larvesta, SPECIES_LARVESTA
+	obj_pal gMonPalette_Volcarona, SPECIES_VOLCARONA
+	// fakemon
+	obj_tiles gMonPalette_Sleeth, 0x800, SPECIES_SLEETH
+	// rest
 	obj_pal gMonPalette_Egg, SPECIES_EGG
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_B
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_C

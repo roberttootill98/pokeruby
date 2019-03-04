@@ -156,6 +156,13 @@ u16 gEasyChatGroupOrder_Move1[] = {
     261,
     110,
     281,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
 };
 #elif GERMAN
 u16 gEasyChatGroupOrder_Move1[] = {

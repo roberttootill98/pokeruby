@@ -76,3 +76,6 @@
 	.set EVO_LEVEL_NINJASK,    0x000d @ Pokémon reaches the specified level (special value for Ninjask)
 	.set EVO_LEVEL_SHEDINJA,   0x000e @ Pokémon reaches the specified level (special value for Shedinja)
 	.set EVO_BEAUTY,           0x000f @ Pokémon levels up with beauty ≥ specified value
+	.set EVO_MOVE,						 0x0010 @ Pokémon levels up with specified move
+	.set EVO_ITEM_DAY					 0x0011 @ Pokémon levels up at day with specified item
+	.set EVO_ITEM_NIGHT				 0x0012 @ Pokémon levels up at night with specified item

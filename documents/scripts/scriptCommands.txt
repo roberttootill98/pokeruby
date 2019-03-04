@@ -1,0 +1,53 @@
+Format:
+
+=====================================> map scripts
+_map_MapScripts:: @ _dataLocation
+	map_script i, _map_MapScript1_dataLocation
+	.byte 0
+
+_map_MapScript1_dataLocation:: @ dataLocation
+  	setflag FLAG_VISITED_MAP
+  	// do stuff
+  	end
+
+=====================================> regular scripts
+
+
+Commands:
+===> full definitions in /include/macro/events.inc
+===> here, descriptions of commands
+
+lockall -> lockall
+-> no args
+-> locks all movement, useful in most events
+
+setflag -> setflag _FlagName (/include/constants/flags.h)
+-> args; _FlagName = identifier
+-> flag can either be in state 0x0 or 0x1, binary check
+-> used for sprites, if set and sprite has id of flag, sprite will not appear
+
+setvar -> VAR_NAME, i
+-> args; VAR_NAME = identifier, i = var value
+-> var can be set to any value from 0x0000 to 0x4000
+-> eg. for starter, var can be set 0x0001, 0x0002, or 0x0003 for each choice or 0x0000 for none
+
+setobjectxyperm -> setobjectxyperm i, j, k
+-> args; i = person id, j = x pos, k = y pos
+-> moves event to specific position
+
+checkgender -> checkgender
+-> no args
+-> stores player gender in RESULT (0x800D)
+-> 0x1 = male, 0x2 = female
+
+call -> call map_scriptType_dataLocation
+-> args; map_scriptType_dataLocation = identifier, in format eg. LittlerootTown_EventScript_14D6D6
+-> calls script, returns afterwards
+
+compare -> compare VAR_NAME, i
+-> args; VAR_NAME = identier, i = int
+-> compares value of var with int, stores result for next operation, eg. call_if_(comparision)
+
+call_if_eq -> call_if_eq map_scriptType_dataLocation
+-> args; map_scriptType_dataLocation = identifier, in format eg. LittlerootTown_EventScript_14D6D6
+-> if equal than proceeds to next line, otherwise skips next line

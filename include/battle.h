@@ -47,6 +47,10 @@
 #define TYPE_IS_PHYSICAL(type) ((type) < TYPE_MYSTERY)
 #define TYPE_IS_SPECIAL(type) ((type) > TYPE_MYSTERY)
 
+// physical/special moves
+#define MOVE_IS_PHYSICAL(move) (gBattleMoves[move].isPhysical == 1)
+#define MOVE_IS_SPECIAL(move) (gBattleMoves[move].isPhysical == 0)
+
 enum
 {
     BATTLE_TERRAIN_GRASS,
@@ -641,6 +645,9 @@ extern struct Struct20238C8 gUnknown_020238C8;
 #define MOVE_EFFECT_NOTHING_3E          0x3E
 #define MOVE_EFFECT_NOTHING_3F          0x3F
 #define MOVE_EFFECT_AFFECTS_USER        0x40
+// later gens
+// new abilities
+// rest
 #define MOVE_EFFECT_CERTAIN             0x80
 
 #define GET_STAT_BUFF_ID(n)((n & 0xF))              // first four bits 0x1, 0x2, 0x4, 0x8

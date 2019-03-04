@@ -840,6 +840,7 @@ const u8 BattleText_Psychic[] = _("eine PSYCHO-Att.");
 const u8 BattleText_Ice[] = _("eine EIS-Att.");
 const u8 BattleText_Dragon[] = _("eine DRACHEN-Att.");
 const u8 BattleText_Dark[] = _("eine UNLICHT-Att.");
+const u8 BattleText_Fairy[] = _("eine FAIRY-Att.");
 
 const u8 *const gUnknown_08400F58[] =
 {
@@ -1366,12 +1367,12 @@ const u16 gFirstTurnOfTwoStringIds[] =
 
 const u16 gWrappedStringIds[] =
 {
-    BATTLE_TEXT_SqueezedBind, 
-    BATTLE_TEXT_Wrapped, 
-    BATTLE_TEXT_TrappedVortex, 
-    BATTLE_TEXT_Clamped, 
-    BATTLE_TEXT_TrappedVortex, 
-    BATTLE_TEXT_SandTombTrapped, 
+    BATTLE_TEXT_SqueezedBind,
+    BATTLE_TEXT_Wrapped,
+    BATTLE_TEXT_TrappedVortex,
+    BATTLE_TEXT_Clamped,
+    BATTLE_TEXT_TrappedVortex,
+    BATTLE_TEXT_SandTombTrapped,
 };
 
 const u16 gMistUsedStringIds[] =
@@ -1499,10 +1500,10 @@ const u16 gWeatherContinuesStringIds[] =
 
 const u16 gInobedientStringIds[] =
 {
-    BATTLE_TEXT_LoafingAround, 
-    BATTLE_TEXT_WontObey, 
-    BATTLE_TEXT_TurnedAway, 
-    BATTLE_TEXT_NotNotice, 
+    BATTLE_TEXT_LoafingAround,
+    BATTLE_TEXT_WontObey,
+    BATTLE_TEXT_TurnedAway,
+    BATTLE_TEXT_NotNotice,
 };
 
 const u16 gSafariGetNearStringIds[] =
@@ -1609,4 +1610,5 @@ const u8 *const gUnknown_08401674[] =
     BattleText_Ice,
     BattleText_Dragon,
     BattleText_Dark,
+    BattleText_Fairy,
 };

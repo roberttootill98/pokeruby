@@ -1175,7 +1175,7 @@ void sub_806BB3C(s16 a, u16 b)
                 if (a + j >= 0)
                 {
                     gBGTilemapBuffers[2][var1 + (i * 32) + (a + j)] = 0;
-                }                
+                }
             }
         }
     }
@@ -1266,7 +1266,7 @@ void sub_806BCE8()
         {
             DrawMonDescriptorStatus(i, 0x46);
         }
-    }    
+    }
 }
 
 u8 sub_806BD58(u8 taskId, u8 b)
@@ -1452,7 +1452,7 @@ u16 HandleBattleTowerPartyMenuInput(u8 taskId)
         break;
     case DPAD_RIGHT:
         menuDirectionPressed = 0x2;
-        break;   
+        break;
     }
 
     if (menuDirectionPressed == 0)
@@ -1520,7 +1520,7 @@ void ChangePartyMenuSelection(u8 taskId, s8 directionPressed)
     u8 menuIndex = gSprites[spriteId].data[0];
 
     UpdateMonIconFrame_806DA44(taskId, menuIndex, 0);
-    
+
     isLinkDoubleBattle = IsLinkDoubleBattle();
     if (isLinkDoubleBattle == 1)
     {
@@ -1751,10 +1751,10 @@ void ChangeLinkDoubleBattlePartyMenuSelection(u8 spriteId, u8 menuIndex, s8 dire
                         return;
                     }
                 }
-    
+
                 gSprites[spriteId].data[0] = 7;
             }
-    
+
             gSprites[spriteId].data[1] = 0;
             break;
         case 1: // moving up
@@ -1767,7 +1767,7 @@ void ChangeLinkDoubleBattlePartyMenuSelection(u8 spriteId, u8 menuIndex, s8 dire
                     return;
                 }
             }
-    
+
             gSprites[spriteId].data[0] = 7;
             gSprites[spriteId].data[1] = 0;
             break;
@@ -1808,7 +1808,7 @@ void ChangeLinkDoubleBattlePartyMenuSelection(u8 spriteId, u8 menuIndex, s8 dire
                     gSprites[spriteId].data[1] = menuIndex;
                 }
             }
-    
+
             break;
     }
 }
@@ -2116,7 +2116,7 @@ void ChangeBattleTowerPartyMenuSelection(u8 taskId, s8 directionPressed)
         }
         break;
     }
-    
+
     gSprites[spriteId].pos1.x = gUnknown_083768B8[PARTY_MENU_LAYOUT_STANDARD][gSprites[spriteId].data[0]].x;
     gSprites[spriteId].pos1.y = gUnknown_083768B8[PARTY_MENU_LAYOUT_STANDARD][gSprites[spriteId].data[0]].y;
 
@@ -3095,7 +3095,7 @@ u8 GetMonIconSpriteId(u8 taskId, u8 monIndex)
     switch (monIndex)
     {
     case 1:
-        return gTasks[taskId].data[0]; 
+        return gTasks[taskId].data[0];
         break;
     case 2:
         return gTasks[taskId].data[1] >> 8;
@@ -3153,7 +3153,7 @@ void SetHeldItemIconVisibility(u8 taskId, u8 monIndex)
 {
     u8 spriteId;
     u16 heldItem;
-    
+
     spriteId = GetMonHeldItemIconSpriteId(taskId, monIndex);
     if (!GetMonData(&gPlayerParty[monIndex], MON_DATA_HELD_ITEM))
     {
@@ -3892,8 +3892,6 @@ void Task_TeamMonTMMove2(u8 taskId)
     StringExpandPlaceholders(gStringVar4, gOtherText_LearnedMove);
     sub_806E834(gStringVar4, 1);
     AdjustFriendship(ewram1C000.pokemon, FRIENDSHIP_EVENT_LEARN_TMHM);
-    if (ewram1B000.unk282 == 0 && ewram1C000.secondarySelectedIndex < ITEM_HM01_CUT)
-        RemoveBagItem(ewram1C000.secondarySelectedIndex, 1);
     gTasks[taskId].func = Task_TeamMonTMMove3;
 }
 

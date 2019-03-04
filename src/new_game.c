@@ -71,6 +71,7 @@ void copy_word_to_mem(u8 *copyTo, u8 *copyFrom)
     s32 i;
     for (i = 0; i < 4; i++)
         copyTo[i] = copyFrom[i];
+        // test comment for commit
 }
 
 void InitPlayerTrainerId(void)

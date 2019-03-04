@@ -1,0 +1,27 @@
+DONE-----------------------------------------------
+physical/special split
+new moves
+run inside
+egg hatch at lvl 1
+fairy type -> with todo
+reusable tms, remove option to hold and amount of tm
+
+TODO-----------------------------------------------
+smarter ai, includes physical/special
+new bag pockets -> item_data_constants.inc
+bw repel system
+animated sprites
+expanded tilesets and palettes for tiles
+expanded palettes for sprites
+region map, edit - if not more detailed -> eg. https://sites.psu.edu/ist446/files/2016/01/pokemon_glazed_world_map__by_redriders180-d5qwhae.png
+read time off system clock
+updated stats/abilities
+hidden abilities
+trading (and from boxes)
+new pokeballs
+forms
+bigger pokedex
+vs seeker
+following pokemon
+seasons
+gender differences

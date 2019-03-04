@@ -117,7 +117,8 @@
 #define TYPE_ICE      0x0f
 #define TYPE_DRAGON   0x10
 #define TYPE_DARK     0x11
-#define NUMBER_OF_MON_TYPES     0x12
+#define TYPE_FAIRY    0x12
+#define NUMBER_OF_MON_TYPES     0x13
 
 #define FRIENDSHIP_EVENT_GROW_LEVEL           0x0
 #define FRIENDSHIP_EVENT_VITAMIN              0x1 // unused
@@ -439,6 +440,7 @@ struct BattleMove
     u8 target;
     s8 priority;
     u8 flags;
+    u8 isPhysical;
 };
 
 struct PokemonStorage
@@ -497,6 +499,9 @@ enum {
 #define EVO_LEVEL_NINJASK    0x000d // Pokémon reaches the specified level (special value for Ninjask)
 #define EVO_LEVEL_SHEDINJA   0x000e // Pokémon reaches the specified level (special value for Shedinja)
 #define EVO_BEAUTY           0x000f // Pokémon levels up with beauty ≥ specified value
+#define EVO_MOVE             0x0010 // Pokémon levels up with specified move
+#define EVO_ITEM_DAY         0x0011 // Pokémon levels up with item at day
+#define EVO_ITEM_NIGHT       0x0012 // Pokémon levels up with item at night
 
 struct Evolution
 {

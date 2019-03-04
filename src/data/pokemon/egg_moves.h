@@ -1314,5 +1314,47 @@ const u16 gEggMoves[] = {
               MOVE_HYPNOSIS,
               MOVE_DREAM_EATER),
 
+    // later gens
+    egg_moves(BUIZEL,
+              MOVE_BATON_PASS,
+              MOVE_DOUBLE_SLAP,
+              MOVE_FURY_CUTTER,
+              MOVE_FURY_SWIPES,
+              MOVE_HEADBUTT,
+              MOVE_HELPING_HAND,
+              MOVE_MUD_SLAP,
+              MOVE_ODOR_SLEUTH,
+              MOVE_SLASH),
+
+    egg_moves(SKORUPI,
+              MOVE_AGILITY,
+              MOVE_CONFUSE_RAY,
+              MOVE_FAINT_ATTACK,
+              MOVE_IRON_TAIL,
+              MOVE_PURSUIT,
+              MOVE_SAND_ATTACK,
+              MOVE_SCREECH,
+              MOVE_SLASH,
+              MOVE_TWINEEDLE,
+              MOVE_WHIRLWIND),
+
+    egg_moves(SKORUPI,
+              MOVE_ENDURE,
+              MOVE_FORESIGHT,
+              MOVE_HARDEN,
+              MOVE_MORNING_SUN,
+              MOVE_STRING_SHOT),
+
+    // fakemon
+    egg_moves(SLEETH,
+              MOVE_LIGHT_SCREEN,
+              MOVE_SKULL_BASH,
+              MOVE_SAFEGUARD,
+              MOVE_CHARM,
+              MOVE_PETAL_DANCE,
+              MOVE_MAGICAL_LEAF,
+              MOVE_GRASS_WHISTLE,
+              MOVE_CURSE),
+
     0xFFFF
 };

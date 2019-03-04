@@ -54,6 +54,10 @@ const u8 gItemEffect_FireStone[]    = {0x00, 0x00, 0x00, 0x00, 0x80, 0x00};
 const u8 gItemEffect_ThunderStone[] = {0x00, 0x00, 0x00, 0x00, 0x80, 0x00};
 const u8 gItemEffect_WaterStone[]   = {0x00, 0x00, 0x00, 0x00, 0x80, 0x00};
 const u8 gItemEffect_LeafStone[]    = {0x00, 0x00, 0x00, 0x00, 0x80, 0x00};
+
+// items to be treated as stones
+const u8 gItemEffect_MetalCoat[]    = {0x00, 0x00, 0x00, 0x00, 0x80, 0x00};
+
 const u8 gItemEffect_CheriBerry[]   = {0x00, 0x00, 0x00, 0x02, 0x00, 0x00};
 const u8 gItemEffect_ChestoBerry[]  = {0x00, 0x00, 0x00, 0x20, 0x00, 0x00};
 const u8 gItemEffect_PechaBerry[]   = {0x00, 0x00, 0x00, 0x10, 0x00, 0x00};
@@ -67,7 +71,7 @@ const u8 gItemEffect_SitrusBerry[]  = {0x00, 0x00, 0x00, 0x00, 0x04, 0x00, 30};
 
 const u8 *const gItemEffectTable[] =
 {
-    gItemEffect_Potion,
+    gItemEffect_Potion,                 // 13
     gItemEffect_Antidote,
     gItemEffect_BurnHeal,
     gItemEffect_IceHeal,
@@ -95,7 +99,7 @@ const u8 *const gItemEffectTable[] =
     gItemEffect_LavaCookie,
     gItemEffect_BlueFlute,
     gItemEffect_YellowFlute,
-    gItemEffect_RedFlute,
+    gItemEffect_RedFlute,             // 41
     NULL,
     NULL,
     gItemEffect_BerryJuice,
@@ -147,13 +151,13 @@ const u8 *const gItemEffectTable[] =
     NULL,
     NULL,
     NULL,
-    gItemEffect_SunStone,
+    gItemEffect_SunStone,     // 93
     gItemEffect_MoonStone,
     gItemEffect_FireStone,
     gItemEffect_ThunderStone,
     gItemEffect_WaterStone,
-    gItemEffect_LeafStone,
-    NULL,
+    gItemEffect_LeafStone,    // 98
+    gItemEffect_MetalCoat,
     NULL,
     NULL,
     NULL,
@@ -229,7 +233,7 @@ const u8 *const gItemEffectTable[] =
     NULL,
     NULL,
     NULL,
-    NULL
+    NULL // 176
 };
 
 #endif //GUARD_ITEM_EFFECTS_H

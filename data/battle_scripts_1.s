@@ -224,6 +224,10 @@ gBattleScriptsForMoveEffects:: @ 81D6BBC
 	.4byte BattleScript_EffectCalmMind
 	.4byte BattleScript_EffectDragonDance
 	.4byte BattleScript_EffectCamouflage
+	// later gens
+	.4byte BattleScript_EffectDoubleIfHit
+	.4byte BattleScript_EffectDefenseDownSpecialDefenseDown
+	// new effects
 
 BattleScript_EffectHit: @ 81D6F14
 BattleScript_EffectAccuracyDown2: @ 81D6F14
@@ -3192,7 +3196,7 @@ BattleScript_Pausex20:: @ 81D8EEF
 
 BattleScript_LevelUp:: @ 81D8EF3
 	fanfare MUS_FANFA1
-	printstring BATTLE_TEXT_GrewLevel 
+	printstring BATTLE_TEXT_GrewLevel
 	setbyte sLVLBOX_STATE, 0
 	drawlvlupbox
 	handlelearnnewmove BattleScript_LearnedNewMove, BattleScript_LearnMoveReturn, 1
@@ -4471,3 +4475,25 @@ BattleScript_ActionSelectionItemsCantBeUsed:: @ 81D9B29
 gUnknown_081D9B2D:: @ 81D9B2D
 	printstring BATTLE_TEXT_Terminator2
 	return
+
+// later gens
+BattleScript_EffectDoubleIfHit:: @ effect_double_if_hit
+	// check if hit
+	jumpifbyte NO_COMMON_BITS, gMoveResultFlags, MOVE_RESULT_SUPER_EFFECTIVE, BattleScript_EffectHit
+	jumpifbyte NO_COMMON_BITS, gMoveResultFlags, MOVE_RESULT_NOT_VERY_EFFECTIVE, BattleScript_EffectHit
+	setbyte sDMG_MULTIPLIER, 10
+	goto BattleScript_EffectHit
+	end2
+
+BattleScript_EffectSpecialAttackUpHit:: @ effect_special_attack_up_hit
+	setmoveeffect EFFECT_SP_ATK_PLUS_1 | AFFECTS_USER | CERTAIN
+	goto BattleScript_EffectHit
+	end2
+
+BattleScript_EffectDefenseDownSpecialDefenseDown:: @ effect_defense_down_special_defense_down
+	setmoveeffect EFFECT_DEF_MINUS_1 | AFFECTS_USER | CERTAIN
+	setmoveeffect EFFECT_SP_DEF_MINUS_1 | AFFECTS_USER | CERTAIN
+	goto BattleScript_EffectHit
+	end2
+
+// new effects
