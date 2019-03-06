@@ -1,64 +1,88 @@
 -1
 -> Starter
--> Master Rank Contest
+-> Master rank contest
 -> Beautiful scenery
+---> Waterfall
+---> Trees in bloom
 
 -2
 -> Boat house
 ->
 
 -3
--> Gym 1
+-> Gym 1 ===> on pier
 -> Commercial pier
 -> Sweet shop
--> Beaches
+-> Beach
+---> Chairs
+---> Parasol
+---> Wind breaks
 ---> Surfers
+-> Wind flags
 
 -4
 -> Small dock
 -> Gardening shop
 ---> Berries
 ---> Mulch
--> Normal Rank Contest
+-> Normal rank contest
 
 -5
--> Gym 2
+-> Gym 2 ===> metro station
 -> Metro System
+---> Station
+---> Fountain
 -> Construction site
 ---> Becomes battle facility
--> Sewage problems
+-> Sewage system
+---> Explorable
+---> Manholes
+---> Sewage problems
+-> Billboard
+-> Skyscraper
 
 -6
 -> Train to 11
 -> Sewage producing factory
 -> Aqueduct
+-> Water wheel
 
 -7
--> Gym 3
+-> Gym 3 ===> outdoor in reef
 -> Fishing piers
 -> Coral reef
 
 -8
 -> Market
+---> Indoor, hub
 -> Industrial Dock
 ---> At convergence of lakes
+---> Loading equipment
+---> Unloaded stock
+---> Shipping containers
+-----> Seen in other cities
+-> Street lamps
 
 -9
--> Gym 4
+-> Gym 4 ===>
 -> Incense shop
 -> Plantation
+---> Windmill
 -> Day care
 
 -10
--> Gym 5
+-> Gym 5 ===>
 -> Tundra
 -> Post office
 -> Protective clothing
+-> Hot spring
 -> Super Rank Contest
 
 -11
--> Gym 6
+-> Gym 6 ===>
 -> Desert
+---> Cactus
+-> Gated
 -> Train to 6
 -> Fake power plant
 -> Valuables collectors
@@ -68,18 +92,22 @@
 -> Nature Reserve
 
 -13
--> Gym 7
+-> Gym 7 ===>
 -> Department Store
 -> Waterfall park
+-> Exposed cliff faces
+---> Explorable
 
 -14
--> Hyper Rank Contest
+-> Hyper rank contest
 -> Wind Farms
+-> Professor's lab
 -> Museum
 
 -15
--> Gym 8
+-> Gym 8 ===>
 
 -16
 -> Pokémon league
 ---> Tournament style
+---> Themed areanas
