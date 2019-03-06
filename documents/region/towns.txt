@@ -10,7 +10,8 @@
 ->
 
 -3
--> Gym 1 ===> on pier
+-> Gym 1
+---> On pier
 -> Commercial pier
 -> Sweet shop
 -> Beach
@@ -28,7 +29,8 @@
 -> Normal rank contest
 
 -5
--> Gym 2 ===> metro station
+-> Gym 2
+---> Metro station
 -> Metro System
 ---> Station
 ---> Fountain
@@ -48,7 +50,8 @@
 -> Water wheel
 
 -7
--> Gym 3 ===> outdoor in reef
+-> Gym 3
+---> Outdoor in reef
 -> Fishing piers
 -> Coral reef
 
@@ -64,14 +67,16 @@
 -> Street lamps
 
 -9
--> Gym 4 ===>
+-> Gym 4
+--->
 -> Incense shop
 -> Plantation
 ---> Windmill
 -> Day care
 
 -10
--> Gym 5 ===>
+-> Gym 5
+---> Post office operator
 -> Tundra
 -> Post office
 -> Protective clothing
@@ -79,7 +84,8 @@
 -> Super Rank Contest
 
 -11
--> Gym 6 ===>
+-> Gym 6
+--->
 -> Desert
 ---> Cactus
 -> Gated
@@ -92,7 +98,8 @@
 -> Nature Reserve
 
 -13
--> Gym 7 ===>
+-> Gym 7
+--->
 -> Department Store
 -> Waterfall park
 -> Exposed cliff faces
@@ -105,7 +112,8 @@
 -> Museum
 
 -15
--> Gym 8 ===>
+-> Gym 8
+--->
 
 -16
 -> Pokémon league
