@@ -99,11 +99,12 @@
 
 -13
 -> Gym 7
---->
+---> In cliff caves
 -> Department Store
 -> Waterfall park
 -> Exposed cliff faces
 ---> Explorable
+---> Shell bell quest
 
 -14
 -> Hyper rank contest
@@ -114,6 +115,8 @@
 -15
 -> Gym 8
 --->
+-> Temple
+---> Modernized
 
 -16
 -> Pokémon league

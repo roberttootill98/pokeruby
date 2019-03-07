@@ -1,0 +1,132 @@
+===============================================================
+                            Routes
+===============================================================
+
+-Route 1
+-> Grassland
+
+-Route 2
+-> Grassland
+
+-Route 3
+-> Ocean
+
+-Route 4
+-> Ocean
+
+-Route 5
+-> Meadow
+
+-Route 6
+->
+
+-Route 7
+-> Marsh
+
+-Route 8
+-> Marsh
+
+-Route 9
+->
+
+-Route 10
+->
+
+-Route 11
+-> Valley
+
+-Route 12
+-> Valley
+
+-Route 13
+-> Valley
+
+-Route 14
+->
+
+-Route 15
+-> Coral reef
+
+-Route 16
+-> Coral reef
+
+-Route 17
+-> Ice flow
+
+-Route 18
+-> Polluted ocean
+
+-Route 19
+-> Ocean
+
+-Route 20
+-> Polluted ocean
+
+-Route 21
+-> Rapids
+
+-Route 22
+-> Rapids
+
+-Route 23
+-> Valley
+
+-Route 24
+-> Valley
+
+-Route 25
+-> Grassland
+
+-Route 26
+-> Ocean
+
+===============================================================
+                            Caves
+===============================================================
+
+-Upward pass
+-> Lower areas are water logged
+
+-Dusty cave
+->
+
+-Lucent Cavern
+-> Exposed minerals and crystals
+-> Electromagnetic field
+
+-Mountain
+-> River through
+-> Volcanic core
+
+-Ice Cave
+-> Ice puzzle
+
+-Victory road
+-> Vegetation/jungle throughout cave
+-> Outside sections
+
+===============================================================
+                            Others
+===============================================================
+
+-Heath way
+-> Meadow
+
+-Forest
+-> Berries
+-> Shrine
+
+-Jungle
+-> Temple
+---> Overgrown
+-> Lake
+-> Tropical trees
+
+-Tundra
+-> Temple
+---> Frozen
+---> Ice puzzles
+
+-Desert
+-> Cactus and shrubs
+-> Temple

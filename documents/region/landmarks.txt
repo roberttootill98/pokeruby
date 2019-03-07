@@ -1,0 +1,19 @@
+===Buildings and structures not in cities
+
+-Shuckle refinery
+-> South of 4
+
+-Pollution thing
+-> Outskirts of 6
+
+-Island
+-> Off coast of 7
+
+-Desert Temple
+-> Sunken into sand
+
+-Bridge
+-> Between route 11 and 8
+
+-Train line
+-> Between 6 and 11
