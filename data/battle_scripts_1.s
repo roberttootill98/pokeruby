@@ -4477,6 +4477,7 @@ gUnknown_081D9B2D:: @ 81D9B2D
 	return
 
 // later gens
+
 BattleScript_EffectDoubleIfHit:: @ effect_double_if_hit
 	// check if hit
 	jumpifbyte NO_COMMON_BITS, gMoveResultFlags, MOVE_RESULT_SUPER_EFFECTIVE, BattleScript_EffectHit
@@ -4485,15 +4486,39 @@ BattleScript_EffectDoubleIfHit:: @ effect_double_if_hit
 	goto BattleScript_EffectHit
 	end2
 
-BattleScript_EffectSpecialAttackUpHit:: @ effect_special_attack_up_hit
-	setmoveeffect EFFECT_SP_ATK_PLUS_1 | AFFECTS_USER | CERTAIN
-	goto BattleScript_EffectHit
-	end2
+// charge beam
+BattleScript_EffectSpecialAttackUpHit:
+	attackcanceler
+	attackstring
+	ppreduce
+	jumpifstat USER, LESS_THAN, ATTACK, 0xC, BattleScript_AttackSpAttackUpDoMoveAnim
+	jumpifstat USER, EQUAL, SP_ATTACK, 0xC, BattleScript_CantRaiseMultipleStats
 
-BattleScript_EffectDefenseDownSpecialDefenseDown:: @ effect_defense_down_special_defense_down
-	setmoveeffect EFFECT_DEF_MINUS_1 | AFFECTS_USER | CERTAIN
-	setmoveeffect EFFECT_SP_DEF_MINUS_1 | AFFECTS_USER | CERTAIN
+BattleScript_AttackSpAttackUpDoMoveAnim:
+	attackanimation
+	waitanimation
+	setbyte sFIELD_1B, 0
+	playstatchangeanimation USER, 48, 0
+	setstatchanger SP_ATTACK, 1, FALSE
+	statbuffchange AFFECTS_USER | 0x1, BattleScript_AttackSpAttackUpTrySpAtk
+	jumpifbyte EQUAL, cMULTISTRING_CHOOSER, 0x2, BattleScript_AttackSpAttackUpTrySpAtk
+	printfromtable gStatUpStringIds
+	waitmessage 40
+
+BattleScript_AttackSpAttackUpTrySpAtk:
+	//goto BattleScript_EffectSpecialAttackUp
+	setstatchanger SP_ATTACK, 1, FALSE
+	statbuffchange AFFECTS_USER | 0x1, BattleScript_AttackSpAttackUpEnd
+	jumpifbyte EQUAL, cMULTISTRING_CHOOSER, 0x2, BattleScript_AttackSpAttackUpEnd
+	printfromtable gStatUpStringIds
+	waitmessage 40
+
+BattleScript_AttackSpAttackUpEnd:
+	goto BattleScript_MoveEnd
+
+// close combat
+BattleScript_EffectDefenseDownSpecialDefenseDown:
+	setmoveeffect EFFECT_DEF_SPDEF_DOWN | AFFECTS_USER | CERTAIN
 	goto BattleScript_EffectHit
-	end2
 
 // new effects
