@@ -63,6 +63,8 @@ extern const u8 gMonBackPic_Bulbasaur[];
 extern const u8 gMonShinyPalette_Bulbasaur[];
 extern const u8 gMonIcon_Bulbasaur[];
 extern const u8 gMonFootprint_Bulbasaur[];
+extern const u8 gMonOverworldIcon_Bulbasaur[];
+extern const u8 gMonOverworldPal_Bulbasaur[];
 extern const u8 gMonFrontPic_Ivysaur[];
 extern const u8 gMonPalette_Ivysaur[];
 extern const u8 gMonBackPic_Ivysaur[];

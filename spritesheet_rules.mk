@@ -1,5 +1,6 @@
 EVENTOBJGFXDIR := graphics/event_objects/pics
 FIELDEFFGFXDIR := graphics/field_effect_objects/pics
+POKEMON := graphics/pokemon
 
 $(EVENTOBJGFXDIR)/berry_trees/aguav.4bpp: %.4bpp: %.png
 	$(GBAGFX) $< $@ -mwidth 2 -mheight 4
@@ -575,4 +576,8 @@ $(FIELDEFFGFXDIR)/unknown_20.4bpp: %.4bpp: %.png
 	$(GBAGFX) $< $@ -mwidth 2 -mheight 2
 
 $(FIELDEFFGFXDIR)/unused_grass.4bpp: %.4bpp: %.png
+	$(GBAGFX) $< $@ -mwidth 2 -mheight 2
+
+# overworlds
+$(POKEMON)/abra/overworldIcon.4bpp: %.4bpp: %.png
 	$(GBAGFX) $< $@ -mwidth 2 -mheight 2

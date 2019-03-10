@@ -1212,6 +1212,7 @@ static void DoCB1_Overworld(u16 newKeys, u16 heldKeys)
         else
         {
             player_step(fieldInput.dpadDirection, newKeys, heldKeys);
+            //follow_step(fieldInput.dpadDirection, newKeys, heldKeys);
         }
     }
 }

@@ -11161,14 +11161,28 @@ Move_FEINT: @ move_feint
 	end
 
 Move_FIRE_FANG: @ move_fire_fang
+	loadspritegfx ANIM_TAG_SHARP_TEETH
+	loadspritegfx ANIM_TAG_SMALL_EMBER
 	loadspritegfx ANIM_TAG_IMPACT
-	monbg ANIM_BATTLER_TARGET
+	monbg ANIM_BATTLER_DEF_PARTNER
 	setalpha 12, 8
-	playsewithpan SE_W003, SOUND_PAN_TARGET
-	createsprite gBasicHitSplatSpriteTemplate, ANIM_BATTLER_ATTACKER, 2, 0, 0, 1, 2
-	createvisualtask AnimTask_ShakeMon, 2, ANIM_BATTLER_TARGET, 3, 0, 6, 1
+	createvisualtask sub_80E2A38, 10, 4, 2, 0, 9, 31
+	createsprite gBattleAnimSpriteTemplate_83D9478, ANIM_BATTLER_TARGET, 1, 0
+	createsprite gBattleAnimSpriteTemplate_83D9478, ANIM_BATTLER_TARGET, 1, 64
+	createsprite gBattleAnimSpriteTemplate_83D9478, ANIM_BATTLER_TARGET, 1, 128
+	createsprite gBattleAnimSpriteTemplate_83D9478, ANIM_BATTLER_TARGET, 1, 196
+	playsewithpan SE_W172, SOUND_PAN_TARGET
 	waitforvisualfinish
-	clearmonbg ANIM_BATTLER_TARGET
+	createsprite gFistFootSpriteTemplate, ANIM_BATTLER_TARGET, 3, 0, 0, 8, 1, 0
+	createsprite gBasicHitSplatSpriteTemplate, ANIM_BATTLER_TARGET, 2, 0, 0, 1, 1
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BATTLER_TARGET, 0, 3, 15, 1
+	call _81D11A2
+	delay 4
+	playsewithpan SE_W007, SOUND_PAN_TARGET
+	waitforvisualfinish
+	createvisualtask sub_80E2A38, 10, 4, 0, 9, 0, 31
+	waitforvisualfinish
+	clearmonbg ANIM_BATTLER_DEF_PARTNER
 	blendoff
 	end
 
