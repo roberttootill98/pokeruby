@@ -421,4 +421,6 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_VOLCARONA] = _("VOLCARONA"),
     // fakemon
     [SPECIES_SLEETH] = _("SLEETH"),
+    [SPECIES_INSLEAF] = _("INSLEAF"),
+    [SPECIES_TWIGSECT] = _("TWIGSECT"),
 };

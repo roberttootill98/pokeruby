@@ -193,6 +193,7 @@ struct Evolution gEvolutionTable[NUM_SPECIES][5] =
     [SPECIES_SKORUPI]    = {{EVO_LEVEL, 40, SPECIES_DRAPION}},
     [SPECIES_LARVESTA]   = {{EVO_LEVEL, 59, SPECIES_VOLCARONA}},
     // fakemon
+    [SPECIES_INSLEAF]    = {{EVO_LEVEL, 25, SPECIES_TWIGSECT}},
 };
 
 #endif //POKERUBY_EVOLUTION_H

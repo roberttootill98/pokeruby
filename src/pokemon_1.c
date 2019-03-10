@@ -447,7 +447,9 @@ const u16 gSpeciesToHoennPokedexNum[] = // Assigns all species to the Hoenn Dex 
 	HOENN_DEX_LARVESTA,	  			// SPECIES_LARVESTA
 	HOENN_DEX_VOLCARONA,  			// SPECIES_VOLCARONA
 	// fakemon
-	HOENN_DEX_SLEETH    				// SPECIES_SLEETH
+	HOENN_DEX_SLEETH,    				// SPECIES_SLEETH
+	HOENN_DEX_INSLEAF,  				// SPECIES_INSLEAF
+	HOENN_DEX_TWIGSECT   				// SPECIES_TWIGSECT
 };
 
 const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the National Dex Index (Summary No. for National Dex)
@@ -873,7 +875,9 @@ const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the Nationa
 	NATIONAL_DEX_LARVESTA,	  			// SPECIES_LARVESTA
 	NATIONAL_DEX_VOLCARONA,  				// SPECIES_VOLCARONA
 	// fakemon
-	NATIONAL_DEX_SLEETH       			// SPECIES_SLEETH
+	NATIONAL_DEX_SLEETH,       			// SPECIES_SLEETH
+	NATIONAL_DEX_INSLEAF,      			// SPECIES_INSLEAF
+	NATIONAL_DEX_TWIGSECT       		// SPECIES_TWIGSECT
 };
 
 const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using National Dex Index)
@@ -1275,6 +1279,8 @@ const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using Nationa
 	NATIONAL_DEX_VOLCARONA,  	// HOENN_DEX_VOLCARONA
 	// fakemon
 	NATIONAL_DEX_SLEETH,      // HOENN_DEX_SLEETH
+	NATIONAL_DEX_INSLEAF,     // HOENN_DEX_INSLEAF
+	NATIONAL_DEX_TWIGSECT,    // HOENN_DEX_TWIGSECT
 	// rest
 	NATIONAL_DEX_OLD_UNOWN_B,  	// HOENN_DEX_OLD_UNOWN_B
 	NATIONAL_DEX_OLD_UNOWN_C,  	// HOENN_DEX_OLD_UNOWN_C

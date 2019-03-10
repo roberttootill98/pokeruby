@@ -169,6 +169,7 @@ static const u16 gPokedexOrder_Alphabetical[] =
     NATIONAL_DEX_HYPNO,
     NATIONAL_DEX_IGGLYBUFF,
     NATIONAL_DEX_ILLUMISE,
+    NATIONAL_DEX_INSLEAF,
     NATIONAL_DEX_IVYSAUR,
     NATIONAL_DEX_JIGGLYPUFF,
     NATIONAL_DEX_JIRACHI,
@@ -381,6 +382,7 @@ static const u16 gPokedexOrder_Alphabetical[] =
     NATIONAL_DEX_TRAPINCH,
     NATIONAL_DEX_TREECKO,
     NATIONAL_DEX_TROPIUS,
+    NATIONAL_DEX_TWIGSECT,
     NATIONAL_DEX_TYPHLOSION,
     NATIONAL_DEX_TYRANITAR,
     NATIONAL_DEX_TYROGUE,
@@ -568,6 +570,7 @@ static const u16 gPokedexOrder_Alphabetical[] = {
     NATIONAL_DEX_CROBAT, // Iksbat
     NATIONAL_DEX_ILLUMISE, // Illumise
     NATIONAL_DEX_FERALIGATR, // Impergator
+    NATIONAL_DEX_INSLEAF, // Insleaf
     NATIONAL_DEX_WYNAUT, // Isso
     NATIONAL_DEX_JIRACHI, // Jirachi
     NATIONAL_DEX_DEWGONG, // Jugong
@@ -809,6 +812,7 @@ static const u16 gPokedexOrder_Alphabetical[] = {
     NATIONAL_DEX_TROPIUS, // Tropius
     NATIONAL_DEX_BLASTOISE, // Turtok
     NATIONAL_DEX_CACNEA, // Tuska
+    NATIONAL_DEX_TWIGSECT, // Twigsect
     NATIONAL_DEX_CROCONAW, // Tyracroc
     NATIONAL_DEX_WEEPINBELL, // Ultrigaria
     NATIONAL_DEX_URSARING, // Ursaring
@@ -1241,6 +1245,8 @@ static const u16 gPokedexOrder_Weight[] =
     NATIONAL_DEX_LARVESTA,
     NATIONAL_DEX_VOLCARONA,
     NATIONAL_DEX_SLEETH,
+    NATIONAL_DEX_INSLEAF,
+    NATIONAL_DEX_TWIGSECT,
 };
 static const u16 gPokedexOrder_Height[] =
 {
@@ -1638,4 +1644,6 @@ static const u16 gPokedexOrder_Height[] =
     NATIONAL_DEX_LARVESTA,
     NATIONAL_DEX_VOLCARONA,
     NATIONAL_DEX_SLEETH,
+    NATIONAL_DEX_INSLEAF,
+    NATIONAL_DEX_TWIGSECT,
 };

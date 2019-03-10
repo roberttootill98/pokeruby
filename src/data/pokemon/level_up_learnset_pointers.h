@@ -427,7 +427,9 @@ const u16 *gLevelUpLearnsets[] = {
     gLarvestaLevelUpLearnset,
     gVolcaronaLevelUpLearnset,
     // fakemon
-    gSleethLevelUpLearnset
+    gSleethLevelUpLearnset,
+    gInsleafLevelUpLearnset,
+    gTwigsectLevelUpLearnset
 };
 
 #endif //POKERUBY_LEVEL_UP_LEARNSET_POINTERS_H

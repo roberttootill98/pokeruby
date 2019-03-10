@@ -5462,6 +5462,22 @@ static const u8 DexDescription_Sleeth_2[] = _(
     "Daraus entstand DEOXYS. \n"
     "Das kristallartige Organ auf der Brust\n"
     "dieses POKéMON ist sein Gehirn.");
+static const u8 DexDescription_Insleaf_1[] = _(
+    "Die DNS eines Weltraumvirus hat eine\n"
+    "spontane Mutation erfahren, da sie\n"
+    "einem Laserstrahl ausgesetzt wurde.");
+static const u8 DexDescription_Insleaf_2[] = _(
+    "Daraus entstand DEOXYS. \n"
+    "Das kristallartige Organ auf der Brust\n"
+    "dieses POKéMON ist sein Gehirn.");
+static const u8 DexDescription_Twigsect_1[] = _(
+    "Die DNS eines Weltraumvirus hat eine\n"
+    "spontane Mutation erfahren, da sie\n"
+    "einem Laserstrahl ausgesetzt wurde.");
+static const u8 DexDescription_Twigsect_2[] = _(
+    "Daraus entstand DEOXYS. \n"
+    "Das kristallartige Organ auf der Brust\n"
+    "dieses POKéMON ist sein Gehirn.");
 
 const struct PokedexEntry gPokedexEntries[] =
 {
@@ -9815,6 +9831,30 @@ const struct PokedexEntry gPokedexEntries[] =
       .weight = 608,
       .descriptionPage1 = DexDescription_Sleeth_1,
       .descriptionPage2 = DexDescription_Sleeth_2,
+      .pokemonScale = 256,
+      .pokemonOffset = 0,
+      .trainerScale = 290,
+      .trainerOffset = 2,
+    },
+    {
+      // Insleaf
+      .categoryName = _("STICK INSECT"),
+      .height = 17,
+      .weight = 608,
+      .descriptionPage1 = DexDescription_Insleaf_1,
+      .descriptionPage2 = DexDescription_Insleaf_2,
+      .pokemonScale = 256,
+      .pokemonOffset = 0,
+      .trainerScale = 290,
+      .trainerOffset = 2,
+    },
+    {
+      // Twigsect
+      .categoryName = _("STICK INSECT"),
+      .height = 17,
+      .weight = 608,
+      .descriptionPage1 = DexDescription_Twigsect_1,
+      .descriptionPage2 = DexDescription_Twigsect_2,
       .pokemonScale = 256,
       .pokemonOffset = 0,
       .trainerScale = 290,

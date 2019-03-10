@@ -2435,6 +2435,18 @@ extern const u8 gMonBackPic_Sleeth[];
 extern const u8 gMonShinyPalette_Sleeth[];
 extern const u8 gMonIcon_Sleeth[];
 extern const u8 gMonFootprint_Sleeth[];
+extern const u8 gMonFrontPic_Insleaf[];
+extern const u8 gMonPalette_Insleaf[];
+extern const u8 gMonBackPic_Insleaf[];
+extern const u8 gMonShinyPalette_Insleaf[];
+extern const u8 gMonIcon_Insleaf[];
+extern const u8 gMonFootprint_Insleaf[];
+extern const u8 gMonFrontPic_Twigsect[];
+extern const u8 gMonPalette_Twigsect[];
+extern const u8 gMonBackPic_Twigsect[];
+extern const u8 gMonShinyPalette_Twigsect[];
+extern const u8 gMonIcon_Twigsect[];
+extern const u8 gMonFootprint_Twigsect[];
 // rest
 extern const u8 gMonPic_Egg[];
 extern const u8 gMonPalette_Egg[];

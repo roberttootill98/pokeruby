@@ -423,6 +423,8 @@ gMonBackPicCoords:: @ 81E9114
 	.byte 136,  0, 0, 0 // volcarona
 	// fakemon
 	.byte 136,  0, 0, 0 // sleeth
+	.byte 136,  0, 0, 0 // insleaf
+	.byte 136,  0, 0, 0 // twigsect
 	// rest
 	.byte  86,  9, 0, 0
 	.byte 103,  6, 0, 0

@@ -422,6 +422,8 @@ gMonPaletteTable:: @ 81EA5B4
 	obj_pal gMonPalette_Volcarona, SPECIES_VOLCARONA
 	// fakemon
 	obj_tiles gMonPalette_Sleeth, 0x800, SPECIES_SLEETH
+	obj_tiles gMonPalette_Insleaf, 0x800, SPECIES_INSLEAF
+	obj_tiles gMonPalette_Twigsect, 0x800, SPECIES_TWIGSECT
 	// rest
 	obj_pal gMonPalette_Egg, SPECIES_EGG
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_B

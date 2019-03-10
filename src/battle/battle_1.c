@@ -461,6 +461,8 @@ const u8 gEnemyMonElevation[] = {
     [SPECIES_VOLCARONA] = 0,
     // fakemon
     [SPECIES_SLEETH] = 0,
+    [SPECIES_INSLEAF] = 0,
+    [SPECIES_TWIGSECT] = 0,
 };
 
 #include "../data/trainer_parties.h"

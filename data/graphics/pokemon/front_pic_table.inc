@@ -422,6 +422,8 @@ gMonFrontPicTable:: @ 81E8354
 	obj_tiles gMonFrontPic_Volcarona, 0x800, SPECIES_VOLCARONA
 	// fakemon
 	obj_tiles gMonFrontPic_Sleeth, 0x800, SPECIES_SLEETH
+	obj_tiles gMonFrontPic_Insleaf, 0x800, SPECIES_INSLEAF
+	obj_tiles gMonFrontPic_Twigsect, 0x800, SPECIES_TWIGSECT
 	// rest
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonFrontPic_UnownB, 0x800, SPECIES_UNOWN_B

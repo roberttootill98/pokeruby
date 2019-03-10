@@ -1356,5 +1356,24 @@ const u16 gEggMoves[] = {
               MOVE_GRASS_WHISTLE,
               MOVE_CURSE),
 
+    egg_moves(INSLEAF,
+              MOVE_LIGHT_SCREEN,
+              MOVE_SKULL_BASH,
+              MOVE_SAFEGUARD,
+              MOVE_CHARM,
+              MOVE_PETAL_DANCE,
+              MOVE_MAGICAL_LEAF,
+              MOVE_GRASS_WHISTLE,
+              MOVE_CURSE),
+    egg_moves(TWIGSECT,
+              MOVE_LIGHT_SCREEN,
+              MOVE_SKULL_BASH,
+              MOVE_SAFEGUARD,
+              MOVE_CHARM,
+              MOVE_PETAL_DANCE,
+              MOVE_MAGICAL_LEAF,
+              MOVE_GRASS_WHISTLE,
+              MOVE_CURSE),
+
     0xFFFF
 };

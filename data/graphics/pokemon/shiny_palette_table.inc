@@ -424,6 +424,8 @@ gMonShinyPaletteTable:: @ 81EB374
 	obj_pal gMonShinyPalette_Volcarona, PAL_ID_SHINY + SPECIES_VOLCARONA
 	// fakemon
 	obj_pal gMonShinyPalette_Sleeth, PAL_ID_SHINY + SPECIES_SLEETH
+	obj_pal gMonShinyPalette_Insleaf, PAL_ID_SHINY + SPECIES_INSLEAF
+	obj_pal gMonShinyPalette_Twigsect, PAL_ID_SHINY + SPECIES_TWIGSECT
 	// rest
 	obj_pal gMonPalette_Egg, PAL_ID_SHINY + SPECIES_EGG
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_B

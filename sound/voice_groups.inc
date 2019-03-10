@@ -12532,6 +12532,8 @@ gCryTable:: @ 8452590
 	cry Cry_Volcarona
 	// fakemon
 	cry Cry_Sleeth
+	cry Cry_Insleaf
+	cry Cry_Twigsect
 
 	.align 2
 gCryTable2:: @ 84537C0
@@ -12933,6 +12935,8 @@ gCryTable2:: @ 84537C0
 	cry2 Cry_Volcarona
 	// fakemon
 	cry2 Cry_Sleeth
+	cry2 Cry_Insleaf
+	cry2 Cry_Twigsect
 
 	.align 2
 voicegroup112:: @ 84549F0

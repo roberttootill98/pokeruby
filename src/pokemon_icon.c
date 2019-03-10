@@ -440,6 +440,8 @@ const u8 * const gMonIconTable[] =
     gMonIcon_Volcarona,
     // fakemon
     gMonIcon_Sleeth,
+    gMonIcon_Insleaf,
+    gMonIcon_Twigsect,
     // rest
     gMonIcon_Egg,
     gMonIcon_UnownB,
@@ -892,9 +894,11 @@ const u8 gMonIconPaletteIndices[] =
     2, // Drapion
     2, // Gliscor
     0, // Larvesta
-    0, // Volcarona 
+    0, // Volcarona
     // fakemon
     2, // Sleeth
+    0, // Insleaf
+    1, // Twigsect
     // rest
     1, // Egg
     0, // Unown B

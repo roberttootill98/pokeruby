@@ -1848,6 +1848,14 @@ Cry_volcarona:: @ 8638E88
 Cry_Sleeth:: @ 8638E88
 	.incbin "sound/direct_sound_samples/cries/cry_sleeth.bin"
 
+	.align 2
+Cry_Insleaf:: @ 8638E88
+	.incbin "sound/direct_sound_samples/cries/cry_insleaf.bin"
+
+	.align 2
+Cry_Twigsect:: @ 8638E88
+	.incbin "sound/direct_sound_samples/cries/cry_twigsect.bin"
+
 // rest
 	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898

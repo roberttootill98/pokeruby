@@ -422,7 +422,9 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte 136,  0, 0, 0 // larvesta
 	.byte 136,  0, 0, 0 // volcarona
 	// fakemon
-	.byte   0,32,32,32 // sleeth
+	.byte 0,		32,32,32 // sleeth
+	.byte 0,		32,32,32 // insleaf
+	.byte 0,		32,32,32 // twigsect
 	// rest
 	.byte  52, 16, 0, 0 // UNOWN B
 	.byte  68, 16, 0, 0 // UNOWN C

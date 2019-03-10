@@ -928,6 +928,8 @@ static const u8 *const sMonFootprintTable[] =
     gMonFootprint_Volcarona,
     // fakemon
     gMonFootprint_Sleeth,
+    gMonFootprint_Insleaf,
+    gMonFootprint_Twigsect,
 };
 static const u8 gUnknown_083B5558[] = _("{CLEAR_TO 0}");
 const u8 gUnknown_083B555C[] = INCBIN_U8("graphics/unknown/unknown_3B555C.bin");

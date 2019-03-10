@@ -1563,8 +1563,8 @@ const struct WildPokemonInfo SkyPillar_5F_LandMonsInfo = {10, SkyPillar_5F_LandM
 const struct WildPokemon Route101_LandMons [] =
 {
     {100, 100, SPECIES_CHANSEY},
-    {100, 100, SPECIES_SWELLOW},
-    {100, 100, SPECIES_LARVESTA},
+    {100, 100, SPECIES_TWIGSECT},
+    {100, 100, SPECIES_INSLEAF},
     {100, 100, SPECIES_SLEETH},
     {100, 100, SPECIES_VOLCARONA},
     {3, 3, SPECIES_VOLCARONA},

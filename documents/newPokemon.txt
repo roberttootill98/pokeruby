@@ -20,12 +20,12 @@ TODO===> Fix sprite, name and footprint in pokedex
 /src/data/pokemon/...
 ---base_stats.h
 -> new entry
----cry_ids.h ===> may not be required
+---cry_ids.h === not required
 -> new entry
 ---egg_moves.h
 -> new entry
 ---evolution.h
--> new entry (not necessary)
+-> new entry === not required
 ---level_up_learnset_pointers.h
 -> new entry
 ---level_up_learnset.h
@@ -91,7 +91,7 @@ TODO===> Fix sprite, name and footprint in pokedex
 -> new cry entry
 ---/direct_sound_samples/cries/cry_(name).aif
 -> new audio file
----/direct_sound_data.inc
+---direct_sound_data.inc
 -> new entry - pointer
 
 /src/data/bard_music_(de.h, en.h)
